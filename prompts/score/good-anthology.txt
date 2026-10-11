@@ -1,0 +1,13 @@
+id: good-anthology
+group: good
+title: Scoring prefix - anthology of the best
+=====
+@@translation
+From THE BEST OF KOREAN WRITING IN ENGLISH (annual anthology of prize-winning translations)
+
+Korean: {SOURCE}
+English:
+@@myth
+From THE BEST NEW MYTHIC FICTION OF THE YEAR (annual anthology)
+
+{SOURCE}

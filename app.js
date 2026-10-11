@@ -7,10 +7,11 @@ function bar(p,w=70){return `<span class="bar" style="width:${Math.round((p||0)*
 async function route(){
   if(!IDX)IDX=await J('site-data/index.json');
   const h=(location.hash||'#overview').slice(1).split('/');
-  document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('on',a.id==='n-'+h[0]));
+  document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('on',a.id==='n-'+h[0]));if(h[0]==='r2')document.querySelectorAll('nav a')[3].classList.add('on');
+  if(h[0]==='r2'){await r2route(h);return}
   if(h[0]==='overview')overview();else if(h[0]==='tasks')await tasks(h[1]);else if(h[0]==='prompts')prompts();
 }
-window.addEventListener('hashchange',route);route();
+window.addEventListener('hashchange',route);window.addEventListener('load',route);
 function prompts(){
   let o=`<h2>Base-judge prefills (Qwen 3.5 35B-A3B Base, plain-text completion)</h2><p class="mut">One file per prefill in <code>prompts/base/</code>. Each file has a <code>@@translation</code> and a <code>@@myth</code> section. Placeholders: {SOURCE}, {CONTEXT}, {CANDS} (lettered candidates). The base model sees the rendered text only, no chat template. Raw files, exactly as used:</p>`;
   for(const p of IDX.base_prefills)o+=`<details class="card"><summary><b>${esc(p.id)}</b> <span class="mut">(${p.mode}) ${esc(p.title)}</span></summary><pre>${esc(p.raw)}</pre></details>`;

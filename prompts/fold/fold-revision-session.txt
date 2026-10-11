@@ -1,0 +1,26 @@
+id: fold-revision-session
+title: R2 Folding: revision-session "merged version the group agreed"
+mode: generate
+max_tokens_translation: 110
+max_tokens_myth: 300
+=====
+@@translation
+REVISION SESSION - transcript excerpt
+
+Moderator: Four hands, one Korean line. We keep the strongest wording from each draft and agree on one merged text. The Korean is: {SOURCE} ({CONTEXT}). The drafts:
+
+{CANDS}
+
+Moderator: Okay, let's merge. Read it back to me once we have it.
+
+The merged version, as read back:
+@@myth
+REVISION SESSION - transcript excerpt
+
+Moderator: Several drafts, one opening line. We keep the strongest passages from each and agree on one merged text. The opening is: {SOURCE} The drafts:
+
+{CANDS}
+
+Moderator: Okay, let's merge. Read it back to me once we have it.
+
+The merged continuation, as read back:

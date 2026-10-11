@@ -1,0 +1,13 @@
+id: bad-rejected
+group: bad
+title: Scoring prefix - first draft rejected by the editor
+=====
+@@translation
+FIRST DRAFT - REJECTED BY THE EDITOR (needs a full rewrite)
+
+Korean: {SOURCE}
+English:
+@@myth
+FIRST DRAFT - REJECTED BY THE EDITOR (needs a full rewrite)
+
+{SOURCE}

@@ -1,0 +1,21 @@
+id: reading-group
+title: R2 Korean-to-English reading-group notes (slot)
+mode: slot
+notes: Round 2. Informal reading-group minutes; the group names a favorite.
+=====
+@@translation
+KOREAN-TO-ENGLISH READING GROUP - notes from our meeting
+
+We read several English renderings of one line without knowing who made which. The Korean: {SOURCE} (from: {CONTEXT}).
+
+{CANDS}
+
+After some discussion, the group's favorite was version
+@@myth
+CREATION-MYTH READING GROUP - notes from our meeting
+
+We read several continuations of one opening line without knowing who wrote which. The opening: {SOURCE}
+
+{CANDS}
+
+After some discussion, the group's favorite was version

@@ -1,0 +1,13 @@
+id: good-prize
+group: good
+title: Scoring prefix - prize-winning entry
+=====
+@@translation
+THE HAN RIVER TRANSLATION PRIZE - WINNING ENTRY
+
+Korean: {SOURCE}
+English:
+@@myth
+THE LANTERN PRIZE FOR SHORT FICTION - WINNING ENTRY
+
+{SOURCE}

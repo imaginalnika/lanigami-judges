@@ -1,0 +1,13 @@
+id: good-published
+group: good
+title: Scoring prefix - the published version
+=====
+@@translation
+THE PUBLISHED ENGLISH EDITION
+
+Korean: {SOURCE}
+English:
+@@myth
+THE PUBLISHED EDITION
+
+{SOURCE}

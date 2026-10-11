@@ -1,0 +1,10 @@
+{
+ "round2_tinker_sampling_est_usd": 1.64,
+ "round2_tinker_scoring_est_usd": 0.11,
+ "round2_tinker_note": "Sampling estimated from ledger tokens at $0.54/M in, $1.335/M out. Scoring (SDK compute_logprobs, ~0.2M tokens, not in the ledger) estimated.",
+ "round2_openrouter_usd": 2.44,
+ "round2_total_est_usd": 4.19,
+ "project2_total_est_usd": 7.81,
+ "openrouter_key_usage_total_usd": 4.57,
+ "cap_usd": 30
+}

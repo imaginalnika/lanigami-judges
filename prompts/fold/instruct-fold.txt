@@ -1,0 +1,21 @@
+id: instruct-fold
+title: R2 Folding, instruct models (Opus 5.5, GPT-6.1 Sol): plain request to combine
+mode: instruct
+=====
+@@translation
+Here is a line from a Korean game script, with several English translations.
+
+Korean: {SOURCE}
+Where it appears: {CONTEXT}
+
+{CANDS}
+
+Combine the best of these into one final English version. Output only the final text.
+@@myth
+Here are several continuations of the same creation-myth opening.
+
+Opening: {SOURCE}
+
+{CANDS}
+
+Combine the best of these into one final continuation of the opening. Output only the continuation text.

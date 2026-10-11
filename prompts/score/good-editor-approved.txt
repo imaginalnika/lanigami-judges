@@ -1,0 +1,13 @@
+id: good-editor-approved
+group: good
+title: Scoring prefix - editor-approved final copy
+=====
+@@translation
+EDITOR-APPROVED FINAL COPY (proofread, cleared for print)
+
+Korean: {SOURCE}
+English:
+@@myth
+EDITOR-APPROVED FINAL COPY (proofread, cleared for print)
+
+{SOURCE}
