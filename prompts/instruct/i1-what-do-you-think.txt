@@ -1,0 +1,22 @@
+id: i1-what-do-you-think
+title: Plain "What do you think?"
+kind: plain
+notes: Open reaction. A short format line is appended only so the preferred letter can be read off.
+=====
+@@translation
+Here is a line from a Korean game script, with several English translations.
+
+Korean: {SOURCE}
+Where it appears: {CONTEXT}
+
+{CANDS}
+
+What do you think? Keep it under 100 words, and end with a final line in the form "Preferred: <letter>".
+@@myth
+Here are several continuations of the same creation-myth opening.
+
+Opening: {SOURCE}
+
+{CANDS}
+
+What do you think? Keep it under 100 words, and end with a final line in the form "Preferred: <letter>".

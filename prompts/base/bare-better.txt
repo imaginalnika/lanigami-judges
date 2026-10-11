@@ -1,0 +1,24 @@
+id: bare-better
+title: Bare "The better one is" prefix
+mode: slot
+notes: Minimal. No framing, no persona, no examples. The verdict is read from the next-token distribution over the labels.
+=====
+@@translation
+Korean original: {SOURCE}
+Where it appears: {CONTEXT}
+
+Candidate English translations:
+
+{CANDS}
+
+Which translation is better?
+The better one is
+@@myth
+Opening: {SOURCE}
+
+Candidate continuations:
+
+{CANDS}
+
+Which continuation is better?
+The better one is

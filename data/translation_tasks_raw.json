@@ -1,0 +1,518 @@
+[
+ {
+  "id": "tr-DH-0009",
+  "type": "translation",
+  "source": "아무래도 선생님들은 열어줄 것 같지 않다.",
+  "context": "하단 나레이션",
+  "candidates": [
+   {
+    "text": "The teachers probably won't let me through.",
+    "origins": [
+     "Qwen 3.5 35B-A3B Base (direct)"
+    ],
+    "kinds": [
+     "base"
+    ]
+   },
+   {
+    "text": "The teachers probably aren't going to let me through.",
+    "origins": [
+     "Opus 4.6 (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "I doubt the teachers are going to let me up there.",
+    "origins": [
+     "Opus 5.5 (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "I don't think the teachers will let me through.",
+    "origins": [
+     "GPT-4o (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "I doubt the teachers will let me in.",
+    "origins": [
+     "Opus 5.5 draft -> Qwen base refine"
+    ],
+    "kinds": [
+     "base-refine"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tr-DH-0043",
+  "type": "translation",
+  "source": "어제 데스해머를 빼앗겼다. 교장 ==**비즈니스킴**==이 복도 기물 파손 혐의로 압수해갔다.",
+  "context": "수첩",
+  "candidates": [
+   {
+    "text": "My Deathhammer got taken yesterday. Principal ==**Bikim**== confiscated it for damaging things in the hallway.",
+    "origins": [
+     "Qwen 3.5 35B-A3B Base (direct)"
+    ],
+    "kinds": [
+     "base"
+    ]
+   },
+   {
+    "text": "Yesterday my Deathhammer was taken from me. Principal ==**Bikim**== confiscated it, claiming I damaged property in the hallway.",
+    "origins": [
+     "Opus 4.6 (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "Yesterday my Deathhammer got taken. Principal ==**Bikim**== confiscated it for damaging school property in the hallway.",
+    "origins": [
+     "Opus 5.5 (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "Yesterday, Bikim, the principal, confiscated MY Deathhammer, citing hallway vandalism.",
+    "origins": [
+     "GPT-4o (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "I lost my Deathhammer yesterday. Principal ==**Bikim**== confiscated it for damaging school property in the hallway.",
+    "origins": [
+     "Opus 5.5 draft -> Qwen base refine"
+    ],
+    "kinds": [
+     "base-refine"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tr-DH-0074",
+  "type": "translation",
+  "source": "5층이라면 데스해머가 있지 않을까? 소피아와 거래를 해서 ==**5층으로 가는 길을 안내**==받는 대신 ==**안경**==을 찾아주기로 했다.",
+  "context": "수첩",
+  "candidates": [
+   {
+    "text": "If it's the 5th floor, there should be Deathhammer. I made a deal with sopia to get her to ==**guide me to the 5th floor**== in exchange for finding her ==**glasses**==.",
+    "origins": [
+     "Qwen 3.5 35B-A3B Base (direct)"
+    ],
+    "kinds": [
+     "base"
+    ]
+   },
+   {
+    "text": "If there's a 5th floor, maybe that's where Deathhammer is? I made a deal with sopia—he'd ==**show me the way to the 5th floor**== in exchange for me finding his ==**glasses**==.",
+    "origins": [
+     "Opus 4.6 (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "Maybe the Deathhammer is on 5F? I made a deal with sopia: I'll find his ==**glasses**==, and in return he'll ==**show me the way to 5F**==.",
+    "origins": [
+     "Opus 5.5 (direct)",
+     "Opus 5.5 draft -> Qwen base refine"
+    ],
+    "kinds": [
+     "base-refine",
+     "instruct"
+    ]
+   },
+   {
+    "text": "Could the Deathhammer be on the 5th floor? I made a deal with sopia: He'll ==**guide me to the 5th floor**== if I find his ==**glasses**==.",
+    "origins": [
+     "GPT-4o (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tr-DH-0159",
+  "type": "translation",
+  "source": "애기단답'... 이 네 글자의 위력을 우습게 보지 말지어다.",
+  "context": "혜디스패치 게시글",
+  "candidates": [
+   {
+    "text": "Don't underestimate the power of those four words: 'Baby Dandap'...",
+    "origins": [
+     "Qwen 3.5 35B-A3B Base (direct)"
+    ],
+    "kinds": [
+     "base"
+    ]
+   },
+   {
+    "text": "'Baby Dandap'... Do NOT underestimate the sheer power of those two words.",
+    "origins": [
+     "Opus 4.6 (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "'Baby Dandap'... never underestimate the power of these two little words.",
+    "origins": [
+     "Opus 5.5 (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "Don't underestimate the two-word power of 'Baby Dandap.'",
+    "origins": [
+     "GPT-4o (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "Baby Dandap... never underestimate the power of these two little words.",
+    "origins": [
+     "Opus 5.5 draft -> Qwen base refine"
+    ],
+    "kinds": [
+     "base-refine"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tr-DH-0174",
+  "type": "translation",
+  "source": "단 한 단어 '해루석'을 듣는 순간, 본 기자도 보지 못한 그녀의 얼굴이 드러났다.",
+  "context": "혜디스패치 게시글",
+  "candidates": [
+   {
+    "text": "At the single word 'Rusuk', even the reporter couldn't hide her face.",
+    "origins": [
+     "Qwen 3.5 35B-A3B Base (direct)"
+    ],
+    "kinds": [
+     "base"
+    ]
+   },
+   {
+    "text": "The instant she heard the single word 'Rusuk,' this reporter witnessed an expression on her face she had never seen before.",
+    "origins": [
+     "Opus 4.6 (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "The moment she heard a single word, 'Rusuk,' she showed a face even this reporter had never seen before.",
+    "origins": [
+     "Opus 5.5 (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "The moment Secretto heard 'Rusuk,' she showed an expression the reporter had never seen.",
+    "origins": [
+     "GPT-4o (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "The moment she heard one word, 'Rusuk,' she showed a face even this reporter had never seen before.",
+    "origins": [
+     "Opus 5.5 draft -> Qwen base refine"
+    ],
+    "kinds": [
+     "base-refine"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tr-DH-0349",
+  "type": "translation",
+  "source": "후후, 쵸로키가 내 일을 도와줬으니까 열어주는 거야!",
+  "context": "캐릭터 말풍선",
+  "candidates": [
+   {
+    "text": "Hehe, I'm opening it because you helped me, loky!",
+    "origins": [
+     "Qwen 3.5 35B-A3B Base (direct)"
+    ],
+    "kinds": [
+     "base"
+    ]
+   },
+   {
+    "text": "Well, chouloky helped me with my work, so I'm opening it up for you!",
+    "origins": [
+     "Opus 4.6 (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "Well, chouloky, you helped me with my work, so I'm letting you through!",
+    "origins": [
+     "Opus 5.5 (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "Well, since chouloky helped me, I'm letting you in!",
+    "origins": [
+     "GPT-4o (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "Hehe, chouloky helped me out, so I'm letting you through!",
+    "origins": [
+     "Opus 5.5 draft -> Qwen base refine"
+    ],
+    "kinds": [
+     "base-refine"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tr-DH-0351",
+  "type": "translation",
+  "source": "사실 교장실은 보통 잠겨 있어서, 들어갈 수 있을지는 나도 모르겠어.",
+  "context": "캐릭터 말풍선",
+  "candidates": [
+   {
+    "text": "The Principal's Office is usually locked. I'm not sure we can get in.",
+    "origins": [
+     "Qwen 3.5 35B-A3B Base (direct)"
+    ],
+    "kinds": [
+     "base"
+    ]
+   },
+   {
+    "text": "The Principal's Office is usually locked, so honestly I'm not sure we can even get in.",
+    "origins": [
+     "Opus 4.6 (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "Thing is, the Principal's Office is usually locked, so I'm not sure we'll even be able to get in.",
+    "origins": [
+     "Opus 5.5 (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "To be honest, the Principal's Office is usually locked, so I don't know if we can get in.",
+    "origins": [
+     "GPT-4o (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "The Principal's Office is usually locked, so I'm not sure we'll even be able to get in.",
+    "origins": [
+     "Opus 5.5 draft -> Qwen base refine"
+    ],
+    "kinds": [
+     "base-refine"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tr-DH-0474",
+  "type": "translation",
+  "source": "이걸 쓰면 다른 사람들 생각이 보이잖아~ 대신 그 사람을 어느 정도 알고 있어야 제대로 보인다잉~?",
+  "context": "하단 나레이션",
+  "candidates": [
+   {
+    "text": "Use this and you'll see what other people are thinking, but only if you know them a bit.",
+    "origins": [
+     "Qwen 3.5 35B-A3B Base (direct)"
+    ],
+    "kinds": [
+     "base"
+    ]
+   },
+   {
+    "text": "use it and you can see what other people are thinking. but it only works right if you already know the person to some degree",
+    "origins": [
+     "Opus 4.6 (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "with this you can see what other people are thinking. but you gotta know the person a bit first for it to work right",
+    "origins": [
+     "Opus 5.5 (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "This lets you see others' thoughts but it works only if you know them somewhat",
+    "origins": [
+     "GPT-4o (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "this lets you see what other people are thinking. but you gotta know them a bit first for it to work right",
+    "origins": [
+     "Opus 5.5 draft -> Qwen base refine"
+    ],
+    "kinds": [
+     "base-refine"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tr-DH-0671",
+  "type": "translation",
+  "source": "아~, 아니에용 선생님! 자긴 안잤는데... 음... 근데 자긴 했나? 아 그게 아니라 제가 시험지 보다가용, 갑자기 창밖에 비둘기가 한 마리 앉아있는거에용? 근데 걔가 왜 자꾸 고개를 까딱까딱 하나 생각하다가... 아 맞다 시험이지! 하구 다시 풀었는데...",
+  "context": "다자 대화 말풍선",
+  "candidates": [
+   {
+    "text": "oh, not you, teacher! you didn't sleep either... hmm... but did you sleep? no, that's not it. i was looking at the test paper, and suddenly a pigeon was sitting outside the window? but why was it nodding its head like that? then i remembered... oh right, the test! and i went back to solving it...",
+    "origins": [
+     "Qwen 3.5 35B-A3B Base (direct)"
+    ],
+    "kinds": [
+     "base"
+    ]
+   },
+   {
+    "text": "a, no ma'am! I wasn't sleeping... um... wait, was I? no no that's not it, so like I was looking at the test paper, right, and then suddenly there's this pigeon sitting outside the window? and I started wondering why it kept bobbing its head like that... oh right, the test! so I went back to it, but...",
+    "origins": [
+     "Opus 4.6 (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "Ah, no no, Miss! I wasn't sleeping... um... wait, was I? No, that's not it, I was looking at my test, right? And suddenly there's this pigeon sitting outside the window? And I was wondering why it kept bobbing its head like that... and then, oh right, the test! So I went back to solving it, but...",
+    "origins": [
+     "Opus 5.5 (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "Ah, no, teacher! I wasn't asleep but... um... did I? Oh no, I was just looking at the test paper and then suddenly a pigeon sat outside the window? But then I started wondering why it kept bobbing its head... Ah, right, the test! So I started solving it again but...",
+    "origins": [
+     "GPT-4o (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "oh, no, Miss! I wasn't sleeping... um... wait, was I? No, that's not it, I was looking at my test, right? And suddenly there's this pigeon sitting outside the window? And I was wondering why it kept bobbing its head like that... and then, oh right, the test! So I went back to solving it, but...",
+    "origins": [
+     "Opus 5.5 draft -> Qwen base refine"
+    ],
+    "kinds": [
+     "base-refine"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tr-DH-1453",
+  "type": "translation",
+  "source": "사이다 거품으로 시야 가린 뒤 의자 등받이 잡고 다리로 목 휘감아 넘기는 의자 활용 관절기!!! >:3",
+  "context": "전투 텍스트",
+  "candidates": [
+   {
+    "text": "blinds you with soda foam, grabs a chair back, wraps their legs around your neck and throws you",
+    "origins": [
+     "Qwen 3.5 35B-A3B Base (direct)"
+    ],
+    "kinds": [
+     "base"
+    ]
+   },
+   {
+    "text": "blinds you with soda foam, grabs the back of a chair, wraps her legs around your neck, and flips you over",
+    "origins": [
+     "Opus 4.6 (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   },
+   {
+    "text": "blinds you with soda foam, grabs a chair back, wraps her legs around your neck, and throws you",
+    "origins": [
+     "Opus 5.5 (direct)",
+     "Opus 5.5 draft -> Qwen base refine"
+    ],
+    "kinds": [
+     "base-refine",
+     "instruct"
+    ]
+   },
+   {
+    "text": "Blinds you with soda foam, grabs a chair back, wraps legs around your neck, and throws you over",
+    "origins": [
+     "GPT-4o (direct)"
+    ],
+    "kinds": [
+     "instruct"
+    ]
+   }
+  ]
+ }
+]

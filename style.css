@@ -1,0 +1,16 @@
+:root{--bg:#fafaf7;--fg:#1d1d1b;--mut:#6b6b66;--card:#fff;--line:#e2e1da;--base:#2f6f4f;--inst:#8a4b2a;--ref:#46567a}
+*{box-sizing:border-box}body{margin:0;font:16px/1.5 -apple-system,system-ui,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--fg)}
+header{padding:14px 16px;border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:5}
+header h1{font-size:18px;margin:0 0 6px}nav a{margin-right:14px;color:var(--ref);text-decoration:none;font-weight:600;font-size:15px}nav a.on{border-bottom:2px solid var(--ref)}
+main{padding:14px 16px;max-width:1000px;margin:auto}h2{font-size:20px;margin:22px 0 8px}h3{font-size:16px;margin:16px 0 6px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin:8px 0}
+.mut{color:var(--mut);font-size:13px}.tag{display:inline-block;font-size:12px;padding:1px 7px;border-radius:10px;color:#fff;margin-right:4px}
+.tag.base{background:var(--base)}.tag.instruct{background:var(--inst)}.tag.base-refine{background:#7a8f2f}
+pre{white-space:pre-wrap;word-break:break-word;background:#f3f2ec;border:1px solid var(--line);border-radius:6px;padding:8px;font:13px/1.45 ui-monospace,Menlo,Consolas,monospace;max-height:420px;overflow:auto;margin:6px 0}
+table{border-collapse:collapse;width:100%;font-size:13px}th,td{border-bottom:1px solid var(--line);padding:4px 6px;text-align:left;vertical-align:top}
+.scroll{overflow-x:auto}td.num{text-align:right;font-variant-numeric:tabular-nums}
+.bar{display:inline-block;height:10px;background:var(--ref);border-radius:2px;vertical-align:middle}
+.cell{white-space:nowrap}details{margin:4px 0}summary{cursor:pointer}select{font-size:16px;padding:6px;max-width:100%}
+.cand{border-left:4px solid var(--line);padding:4px 10px;margin:6px 0;background:#fff}.cand.base{border-color:var(--base)}.cand.instruct{border-color:var(--inst)}.cand.base-refine{border-color:#7a8f2f}
+.warn{background:#fff6dd;border:1px solid #ecd68a;border-radius:6px;padding:8px 10px;font-size:14px}
+button.small{font-size:13px;padding:3px 8px}

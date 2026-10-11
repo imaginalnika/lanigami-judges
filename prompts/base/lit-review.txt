@@ -1,0 +1,21 @@
+id: lit-review
+title: Literary-quarterly review excerpt
+mode: slot
+notes: A published-review voice that compares unnamed versions. Ends at "version".
+=====
+@@translation
+From the "Translation Notes" column of a literary quarterly:
+
+We asked several translators to render one line from a game script, and set the results side by side without names. The Korean reads: "{SOURCE}" (it appears as: {CONTEXT}).
+
+{CANDS}
+
+Read aloud, only one of these holds together as English that a person might actually say or write. The one we would print is version
+@@myth
+From the "Fiction Notes" column of a literary quarterly:
+
+We gave several writers one opening sentence and asked for the rest of a creation myth, then set the results side by side without names. The opening reads: "{SOURCE}"
+
+{CANDS}
+
+Read aloud, only one of these holds together as the work of a storyteller rather than an assembler of effects. The one we would print is version

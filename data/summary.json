@@ -1,0 +1,3451 @@
+{
+ "origin_share": {
+  "qwen35b-base|myth": {
+   "Opus 4.6": 0.3354416365948609,
+   "Qwen base": 0.21464349950043812,
+   "Opus 5.5": 0.5145441475794608,
+   "GPT-4o": 0.19179271623564906,
+   "GPT-6.1 Sol": 0.528934500589153
+  },
+  "qwen35b-base|translation": {
+   "Qwen base": 0.15566312499048116,
+   "Opus 5.5": 0.21763408455965771,
+   "Opus 5.5 -> Qwen base refine": 0.23072062144544586,
+   "GPT-4o": 0.17763343348246058,
+   "Opus 4.6": 0.21834873552195466
+  },
+  "gpt4o|myth": {
+   "Opus 5.5": 0.5,
+   "Opus 4.6": 0.5555555555555556,
+   "Qwen base": 0.0,
+   "GPT-6.1 Sol": 0.7222222222222222,
+   "GPT-4o": 0.2222222222222222
+  },
+  "gpt4o|translation": {
+   "Opus 4.6": 0.3,
+   "Opus 5.5 -> Qwen base refine": 0.18333333333333332,
+   "Qwen base": 0.1,
+   "Opus 5.5": 0.21666666666666667,
+   "GPT-4o": 0.2
+  },
+  "sol61|myth": {
+   "Opus 5.5": 0.3888888888888889,
+   "Opus 4.6": 0.6111111111111112,
+   "Qwen base": 0.0,
+   "GPT-6.1 Sol": 1.0,
+   "GPT-4o": 0.0
+  },
+  "sol61|translation": {
+   "Opus 5.5 -> Qwen base refine": 0.25,
+   "Qwen base": 0.05,
+   "Opus 4.6": 0.21666666666666667,
+   "Opus 5.5": 0.38333333333333336,
+   "GPT-4o": 0.1
+  },
+  "opus46|myth": {
+   "Opus 4.6": 0.8888888888888888,
+   "Opus 5.5": 0.4444444444444444,
+   "Qwen base": 0.0,
+   "GPT-6.1 Sol": 0.6666666666666666,
+   "GPT-4o": 0.0
+  },
+  "opus46|translation": {
+   "GPT-4o": 0.15,
+   "Qwen base": 0.06666666666666667,
+   "Opus 4.6": 0.35,
+   "Opus 5.5": 0.3,
+   "Opus 5.5 -> Qwen base refine": 0.13333333333333333
+  },
+  "opus55|myth": {
+   "Opus 4.6": 0.7222222222222222,
+   "Qwen base": 0.0,
+   "Opus 5.5": 0.3333333333333333,
+   "GPT-6.1 Sol": 0.9444444444444444,
+   "GPT-4o": 0.0
+  },
+  "opus55|translation": {
+   "Opus 4.6": 0.2,
+   "Qwen base": 0.03333333333333333,
+   "Opus 5.5": 0.45,
+   "GPT-4o": 0.15,
+   "Opus 5.5 -> Qwen base refine": 0.16666666666666666
+  }
+ },
+ "origin_feats": {
+  "translation": {
+   "Qwen base": {
+    "n": 10,
+    "words": 18.9,
+    "ornate_rank": 0.453125,
+    "long_word_ratio": 0.04937049509630155,
+    "punct_per100": 6.937660010240656
+   },
+   "Opus 4.6": {
+    "n": 10,
+    "words": 22.5,
+    "ornate_rank": 0.5395833333333333,
+    "long_word_ratio": 0.050745602577499126,
+    "punct_per100": 6.324140418968005
+   },
+   "Opus 5.5": {
+    "n": 10,
+    "words": 21.4,
+    "ornate_rank": 0.5229166666666667,
+    "long_word_ratio": 0.04495460679671206,
+    "punct_per100": 8.375168690958164
+   },
+   "GPT-4o": {
+    "n": 10,
+    "words": 17.8,
+    "ornate_rank": 0.5125,
+    "long_word_ratio": 0.07802916038210156,
+    "punct_per100": 12.031674208144796
+   },
+   "Opus 5.5 -> Qwen base refine": {
+    "n": 10,
+    "words": 20.2,
+    "ornate_rank": 0.48854166666666665,
+    "long_word_ratio": 0.04560513016395369,
+    "punct_per100": 7.683907166105309
+   }
+  },
+  "myth": {
+   "Qwen base": {
+    "n": 12,
+    "words": 180.75,
+    "ornate_rank": 0.4930555555555555,
+    "long_word_ratio": 0.03358123175989528,
+    "punct_per100": 8.294289170861024
+   },
+   "Opus 4.6": {
+    "n": 3,
+    "words": 170.66666666666666,
+    "ornate_rank": 0.611111111111111,
+    "long_word_ratio": 0.035113791816938196,
+    "punct_per100": 9.881078224101481
+   },
+   "Opus 5.5": {
+    "n": 3,
+    "words": 158.66666666666666,
+    "ornate_rank": 0.49999999999999994,
+    "long_word_ratio": 0.02728086935753523,
+    "punct_per100": 8.809244221532257
+   },
+   "GPT-6.1 Sol": {
+    "n": 3,
+    "words": 152.33333333333334,
+    "ornate_rank": 0.41666666666666663,
+    "long_word_ratio": 0.026491644123918853,
+    "punct_per100": 8.262665410018526
+   },
+   "GPT-4o": {
+    "n": 3,
+    "words": 150.33333333333334,
+    "ornate_rank": 0.5,
+    "long_word_ratio": 0.06424835621124853,
+    "punct_per100": 9.788217209753537
+   }
+  }
+ },
+ "rows": [
+  {
+   "judge": "gpt4o",
+   "prompt": "i1-what-do-you-think",
+   "type": "instruct",
+   "translation": {
+    "n_tasks": 10,
+    "p_longest": 0.2,
+    "chance_longest": 0.23500000000000001,
+    "mean_ornate_rank_of_pick": 0.5203125,
+    "p_base_origin": 0.15,
+    "chance_base_origin": 0.21000000000000002
+   },
+   "myth": {
+    "n_tasks": 6,
+    "p_longest": 0.08333333333333333,
+    "chance_longest": 0.25,
+    "mean_ornate_rank_of_pick": 0.5138888888888888,
+    "p_base_origin": 0,
+    "chance_base_origin": 0.5
+   },
+   "all": {
+    "n_tasks": 16,
+    "p_longest": 0.15625,
+    "chance_longest": 0.240625,
+    "mean_ornate_rank_of_pick": 0.5179036458333333,
+    "p_base_origin": 0.09375,
+    "chance_base_origin": 0.31875
+   }
+  },
+  {
+   "judge": "gpt4o",
+   "prompt": "i2-which-do-you-prefer",
+   "type": "instruct",
+   "translation": {
+    "n_tasks": 10,
+    "p_longest": 0.35,
+    "chance_longest": 0.23500000000000001,
+    "mean_ornate_rank_of_pick": 0.5119791666666667,
+    "p_base_origin": 0.05,
+    "chance_base_origin": 0.21000000000000002
+   },
+   "myth": {
+    "n_tasks": 6,
+    "p_longest": 0,
+    "chance_longest": 0.25,
+    "mean_ornate_rank_of_pick": 0.47916666666666663,
+    "p_base_origin": 0,
+    "chance_base_origin": 0.5
+   },
+   "all": {
+    "n_tasks": 16,
+    "p_longest": 0.21875,
+    "chance_longest": 0.240625,
+    "mean_ornate_rank_of_pick": 0.49967447916666663,
+    "p_base_origin": 0.03125,
+    "chance_base_origin": 0.31875
+   }
+  },
+  {
+   "judge": "gpt4o",
+   "prompt": "i3-texture-feel",
+   "type": "instruct",
+   "translation": {
+    "n_tasks": 10,
+    "p_longest": 0.4,
+    "chance_longest": 0.23500000000000001,
+    "mean_ornate_rank_of_pick": 0.5125,
+    "p_base_origin": 0.1,
+    "chance_base_origin": 0.21000000000000002
+   },
+   "myth": {
+    "n_tasks": 6,
+    "p_longest": 0.08333333333333333,
+    "chance_longest": 0.25,
+    "mean_ornate_rank_of_pick": 0.49999999999999994,
+    "p_base_origin": 0,
+    "chance_base_origin": 0.5
+   },
+   "all": {
+    "n_tasks": 16,
+    "p_longest": 0.28125,
+    "chance_longest": 0.240625,
+    "mean_ornate_rank_of_pick": 0.5078125,
+    "p_base_origin": 0.0625,
+    "chance_base_origin": 0.31875
+   }
+  },
+  {
+   "judge": "opus46",
+   "prompt": "i1-what-do-you-think",
+   "type": "instruct",
+   "translation": {
+    "n_tasks": 10,
+    "p_longest": 0.35,
+    "chance_longest": 0.23500000000000001,
+    "mean_ornate_rank_of_pick": 0.49166666666666664,
+    "p_base_origin": 0.05,
+    "chance_base_origin": 0.21000000000000002
+   },
+   "myth": {
+    "n_tasks": 6,
+    "p_longest": 0.16666666666666666,
+    "chance_longest": 0.25,
+    "mean_ornate_rank_of_pick": 0.5694444444444444,
+    "p_base_origin": 0,
+    "chance_base_origin": 0.5
+   },
+   "all": {
+    "n_tasks": 16,
+    "p_longest": 0.28125,
+    "chance_longest": 0.240625,
+    "mean_ornate_rank_of_pick": 0.5208333333333334,
+    "p_base_origin": 0.03125,
+    "chance_base_origin": 0.31875
+   }
+  },
+  {
+   "judge": "opus46",
+   "prompt": "i2-which-do-you-prefer",
+   "type": "instruct",
+   "translation": {
+    "n_tasks": 10,
+    "p_longest": 0.5,
+    "chance_longest": 0.23500000000000001,
+    "mean_ornate_rank_of_pick": 0.5078125,
+    "p_base_origin": 0.1,
+    "chance_base_origin": 0.21000000000000002
+   },
+   "myth": {
+    "n_tasks": 6,
+    "p_longest": 0.16666666666666666,
+    "chance_longest": 0.25,
+    "mean_ornate_rank_of_pick": 0.5694444444444444,
+    "p_base_origin": 0,
+    "chance_base_origin": 0.5
+   },
+   "all": {
+    "n_tasks": 16,
+    "p_longest": 0.375,
+    "chance_longest": 0.240625,
+    "mean_ornate_rank_of_pick": 0.5309244791666666,
+    "p_base_origin": 0.0625,
+    "chance_base_origin": 0.31875
+   }
+  },
+  {
+   "judge": "opus46",
+   "prompt": "i3-texture-feel",
+   "type": "instruct",
+   "translation": {
+    "n_tasks": 10,
+    "p_longest": 0.5,
+    "chance_longest": 0.23500000000000001,
+    "mean_ornate_rank_of_pick": 0.4864583333333333,
+    "p_base_origin": 0.05,
+    "chance_base_origin": 0.21000000000000002
+   },
+   "myth": {
+    "n_tasks": 6,
+    "p_longest": 0.16666666666666666,
+    "chance_longest": 0.25,
+    "mean_ornate_rank_of_pick": 0.5694444444444444,
+    "p_base_origin": 0,
+    "chance_base_origin": 0.5
+   },
+   "all": {
+    "n_tasks": 16,
+    "p_longest": 0.375,
+    "chance_longest": 0.240625,
+    "mean_ornate_rank_of_pick": 0.517578125,
+    "p_base_origin": 0.03125,
+    "chance_base_origin": 0.31875
+   }
+  },
+  {
+   "judge": "opus55",
+   "prompt": "i1-what-do-you-think",
+   "type": "instruct",
+   "translation": {
+    "n_tasks": 10,
+    "p_longest": 0.25,
+    "chance_longest": 0.23500000000000001,
+    "mean_ornate_rank_of_pick": 0.4848958333333333,
+    "p_base_origin": 0.1,
+    "chance_base_origin": 0.21000000000000002
+   },
+   "myth": {
+    "n_tasks": 6,
+    "p_longest": 0.08333333333333333,
+    "chance_longest": 0.25,
+    "mean_ornate_rank_of_pick": 0.5347222222222222,
+    "p_base_origin": 0,
+    "chance_base_origin": 0.5
+   },
+   "all": {
+    "n_tasks": 16,
+    "p_longest": 0.1875,
+    "chance_longest": 0.240625,
+    "mean_ornate_rank_of_pick": 0.5035807291666666,
+    "p_base_origin": 0.0625,
+    "chance_base_origin": 0.31875
+   }
+  },
+  {
+   "judge": "opus55",
+   "prompt": "i2-which-do-you-prefer",
+   "type": "instruct",
+   "translation": {
+    "n_tasks": 10,
+    "p_longest": 0.2,
+    "chance_longest": 0.23500000000000001,
+    "mean_ornate_rank_of_pick": 0.5161458333333333,
+    "p_base_origin": 0,
+    "chance_base_origin": 0.21000000000000002
+   },
+   "myth": {
+    "n_tasks": 6,
+    "p_longest": 0,
+    "chance_longest": 0.25,
+    "mean_ornate_rank_of_pick": 0.5,
+    "p_base_origin": 0,
+    "chance_base_origin": 0.5
+   },
+   "all": {
+    "n_tasks": 16,
+    "p_longest": 0.125,
+    "chance_longest": 0.240625,
+    "mean_ornate_rank_of_pick": 0.5100911458333334,
+    "p_base_origin": 0,
+    "chance_base_origin": 0.31875
+   }
+  },
+  {
+   "judge": "opus55",
+   "prompt": "i3-texture-feel",
+   "type": "instruct",
+   "translation": {
+    "n_tasks": 10,
+    "p_longest": 0.35,
+    "chance_longest": 0.23500000000000001,
+    "mean_ornate_rank_of_pick": 0.5046875,
+    "p_base_origin": 0,
+    "chance_base_origin": 0.21000000000000002
+   },
+   "myth": {
+    "n_tasks": 6,
+    "p_longest": 0,
+    "chance_longest": 0.25,
+    "mean_ornate_rank_of_pick": 0.5,
+    "p_base_origin": 0,
+    "chance_base_origin": 0.5
+   },
+   "all": {
+    "n_tasks": 16,
+    "p_longest": 0.21875,
+    "chance_longest": 0.240625,
+    "mean_ornate_rank_of_pick": 0.5029296875,
+    "p_base_origin": 0,
+    "chance_base_origin": 0.31875
+   }
+  },
+  {
+   "judge": "qwen35b-base",
+   "prompt": "bare-better",
+   "type": "base",
+   "mode": "slot",
+   "translation": {
+    "n_tasks": 10,
+    "p_longest": 0.23784310218497784,
+    "chance_longest": 0.23500000000000001,
+    "mean_ornate_rank_of_pick": 0.5087408046209985,
+    "p_base_origin": 0.14402664698580153,
+    "chance_base_origin": 0.21000000000000002
+   },
+   "myth": {
+    "n_tasks": 6,
+    "p_longest": 0.1701309537045693,
+    "chance_longest": 0.25,
+    "mean_ornate_rank_of_pick": 0.47152024669496617,
+    "p_base_origin": 0.34575608902918575,
+    "chance_base_origin": 0.5
+   },
+   "all": {
+    "n_tasks": 16,
+    "p_longest": 0.21245104650482463,
+    "chance_longest": 0.240625,
+    "mean_ornate_rank_of_pick": 0.49478309539873633,
+    "p_base_origin": 0.2196751877520706,
+    "chance_base_origin": 0.31875
+   }
+  },
+  {
+   "judge": "qwen35b-base",
+   "prompt": "editor-zero",
+   "type": "base",
+   "mode": "slot",
+   "translation": {
+    "n_tasks": 10,
+    "p_longest": 0.22808471039204628,
+    "chance_longest": 0.23500000000000001,
+    "mean_ornate_rank_of_pick": 0.5068860031211812,
+    "p_base_origin": 0.13838571883756337,
+    "chance_base_origin": 0.21000000000000002
+   },
+   "myth": {
+    "n_tasks": 6,
+    "p_longest": 0.16606619813846193,
+    "chance_longest": 0.25,
+    "mean_ornate_rank_of_pick": 0.48500139689560956,
+    "p_base_origin": 0.3436284443911597,
+    "chance_base_origin": 0.5
+   },
+   "all": {
+    "n_tasks": 16,
+    "p_longest": 0.20482776829695215,
+    "chance_longest": 0.240625,
+    "mean_ornate_rank_of_pick": 0.4986792757865918,
+    "p_base_origin": 0.215351740920162,
+    "chance_base_origin": 0.31875
+   }
+  },
+  {
+   "judge": "qwen35b-base",
+   "prompt": "forum",
+   "type": "base",
+   "mode": "slot",
+   "translation": {
+    "n_tasks": 10,
+    "p_longest": 0.2668924126100023,
+    "chance_longest": 0.23500000000000001,
+    "mean_ornate_rank_of_pick": 0.5030191223768246,
+    "p_base_origin": 0.17404987626040383,
+    "chance_base_origin": 0.21000000000000002
+   },
+   "myth": {
+    "n_tasks": 6,
+    "p_longest": 0.1439182137341163,
+    "chance_longest": 0.25,
+    "mean_ornate_rank_of_pick": 0.5344343602542735,
+    "p_base_origin": 0.11500485746404274,
+    "chance_base_origin": 0.5
+   },
+   "all": {
+    "n_tasks": 16,
+    "p_longest": 0.22077708803154505,
+    "chance_longest": 0.240625,
+    "mean_ornate_rank_of_pick": 0.5147998365808679,
+    "p_base_origin": 0.15190799421176843,
+    "chance_base_origin": 0.31875
+   }
+  },
+  {
+   "judge": "qwen35b-base",
+   "prompt": "kex-middle-cot",
+   "type": "base",
+   "mode": "sample",
+   "translation": {
+    "n_tasks": 10,
+    "p_longest": 0.20228181319234106,
+    "chance_longest": 0.23500000000000001,
+    "mean_ornate_rank_of_pick": 0.49990154453753666,
+    "p_base_origin": 0.1828603827018962,
+    "chance_base_origin": 0.21000000000000002
+   },
+   "myth": {
+    "n_tasks": 6,
+    "p_longest": 0.03668876918937434,
+    "chance_longest": 0.25,
+    "mean_ornate_rank_of_pick": 0.4997826640109004,
+    "p_base_origin": 0.014637810895266489,
+    "chance_base_origin": 0.5
+   },
+   "all": {
+    "n_tasks": 16,
+    "p_longest": 0.14018442169122855,
+    "chance_longest": 0.240625,
+    "mean_ornate_rank_of_pick": 0.49985696434004806,
+    "p_base_origin": 0.11977691827441006,
+    "chance_base_origin": 0.31875
+   }
+  },
+  {
+   "judge": "qwen35b-base",
+   "prompt": "kex-middle-label",
+   "type": "base",
+   "mode": "slot",
+   "translation": {
+    "n_tasks": 10,
+    "p_longest": 0.24035307939072287,
+    "chance_longest": 0.23500000000000001,
+    "mean_ornate_rank_of_pick": 0.5056437612558726,
+    "p_base_origin": 0.17222985523268405,
+    "chance_base_origin": 0.21000000000000002
+   },
+   "myth": {
+    "n_tasks": 6,
+    "p_longest": 0.16137379894920836,
+    "chance_longest": 0.25,
+    "mean_ornate_rank_of_pick": 0.5280494522337332,
+    "p_base_origin": 0.23285802390791713,
+    "chance_base_origin": 0.5
+   },
+   "all": {
+    "n_tasks": 16,
+    "p_longest": 0.21073584922515493,
+    "chance_longest": 0.240625,
+    "mean_ornate_rank_of_pick": 0.5140458953725704,
+    "p_base_origin": 0.19496541848589646,
+    "chance_base_origin": 0.31875
+   }
+  },
+  {
+   "judge": "qwen35b-base",
+   "prompt": "kex-ornate-cot",
+   "type": "base",
+   "mode": "sample",
+   "translation": {
+    "n_tasks": 10,
+    "p_longest": 0.26959317229141616,
+    "chance_longest": 0.23500000000000001,
+    "mean_ornate_rank_of_pick": 0.5046919417045839,
+    "p_base_origin": 0.11557938399753419,
+    "chance_base_origin": 0.21000000000000002
+   },
+   "myth": {
+    "n_tasks": 6,
+    "p_longest": 0.027885125647744265,
+    "chance_longest": 0.25,
+    "mean_ornate_rank_of_pick": 0.49321546922650283,
+    "p_base_origin": 0.04385628707363087,
+    "chance_base_origin": 0.5
+   },
+   "all": {
+    "n_tasks": 16,
+    "p_longest": 0.17895265480003922,
+    "chance_longest": 0.240625,
+    "mean_ornate_rank_of_pick": 0.5003882645253035,
+    "p_base_origin": 0.08868322265107044,
+    "chance_base_origin": 0.31875
+   }
+  },
+  {
+   "judge": "qwen35b-base",
+   "prompt": "kex-plain-cot",
+   "type": "base",
+   "mode": "sample",
+   "translation": {
+    "n_tasks": 10,
+    "p_longest": 0.18715922856715286,
+    "chance_longest": 0.23500000000000001,
+    "mean_ornate_rank_of_pick": 0.5018677569823424,
+    "p_base_origin": 0.11001247366513234,
+    "chance_base_origin": 0.21000000000000002
+   },
+   "myth": {
+    "n_tasks": 6,
+    "p_longest": 0.024733104166576685,
+    "chance_longest": 0.25,
+    "mean_ornate_rank_of_pick": 0.5132836520753593,
+    "p_base_origin": 0.03264936798112336,
+    "chance_base_origin": 0.5
+   },
+   "all": {
+    "n_tasks": 16,
+    "p_longest": 0.1262494319169368,
+    "chance_longest": 0.240625,
+    "mean_ornate_rank_of_pick": 0.5061487176422238,
+    "p_base_origin": 0.08100130903362897,
+    "chance_base_origin": 0.31875
+   }
+  },
+  {
+   "judge": "qwen35b-base",
+   "prompt": "lit-review",
+   "type": "base",
+   "mode": "slot",
+   "translation": {
+    "n_tasks": 10,
+    "p_longest": 0.24599464103616053,
+    "chance_longest": 0.23500000000000001,
+    "mean_ornate_rank_of_pick": 0.5022908742980282,
+    "p_base_origin": 0.15175078544439785,
+    "chance_base_origin": 0.21000000000000002
+   },
+   "myth": {
+    "n_tasks": 6,
+    "p_longest": 0.11965991769342574,
+    "chance_longest": 0.25,
+    "mean_ornate_rank_of_pick": 0.4797741769788264,
+    "p_base_origin": 0.28018442933525023,
+    "chance_base_origin": 0.5
+   },
+   "all": {
+    "n_tasks": 16,
+    "p_longest": 0.198619119782635,
+    "chance_longest": 0.240625,
+    "mean_ornate_rank_of_pick": 0.49384711280332755,
+    "p_base_origin": 0.19991340190346749,
+    "chance_base_origin": 0.31875
+   }
+  },
+  {
+   "judge": "qwen35b-base",
+   "prompt": "ornate-primed",
+   "type": "base",
+   "mode": "slot",
+   "translation": {
+    "n_tasks": 10,
+    "p_longest": 0.27689863432303197,
+    "chance_longest": 0.23500000000000001,
+    "mean_ornate_rank_of_pick": 0.507083762087986,
+    "p_base_origin": 0.15158936033226583,
+    "chance_base_origin": 0.21000000000000002
+   },
+   "myth": {
+    "n_tasks": 6,
+    "p_longest": 0.15603521201668563,
+    "chance_longest": 0.25,
+    "mean_ornate_rank_of_pick": 0.48581699995678684,
+    "p_base_origin": 0.35952231867379086,
+    "chance_base_origin": 0.5
+   },
+   "all": {
+    "n_tasks": 16,
+    "p_longest": 0.2315748509581521,
+    "chance_longest": 0.240625,
+    "mean_ornate_rank_of_pick": 0.49910872628878633,
+    "p_base_origin": 0.22956421971033772,
+    "chance_base_origin": 0.31875
+   }
+  },
+  {
+   "judge": "qwen35b-base",
+   "prompt": "texture-primed",
+   "type": "base",
+   "mode": "slot",
+   "translation": {
+    "n_tasks": 10,
+    "p_longest": 0.24635548576025892,
+    "chance_longest": 0.23500000000000001,
+    "mean_ornate_rank_of_pick": 0.5064259709982575,
+    "p_base_origin": 0.18964740359418553,
+    "chance_base_origin": 0.21000000000000002
+   },
+   "myth": {
+    "n_tasks": 6,
+    "p_longest": 0.11629905090616245,
+    "chance_longest": 0.25,
+    "mean_ornate_rank_of_pick": 0.4968019628753785,
+    "p_base_origin": 0.22353964237802637,
+    "chance_base_origin": 0.5
+   },
+   "all": {
+    "n_tasks": 16,
+    "p_longest": 0.19758432268997275,
+    "chance_longest": 0.240625,
+    "mean_ornate_rank_of_pick": 0.5028169679521779,
+    "p_base_origin": 0.20235699313812583,
+    "chance_base_origin": 0.31875
+   }
+  },
+  {
+   "judge": "qwen35b-base",
+   "prompt": "workshop",
+   "type": "base",
+   "mode": "slot",
+   "translation": {
+    "n_tasks": 10,
+    "p_longest": 0.23569027819888796,
+    "chance_longest": 0.23500000000000001,
+    "mean_ornate_rank_of_pick": 0.504987923597961,
+    "p_base_origin": 0.18216248784342826,
+    "chance_base_origin": 0.21000000000000002
+   },
+   "myth": {
+    "n_tasks": 6,
+    "p_longest": 0.20060472442068422,
+    "chance_longest": 0.25,
+    "mean_ornate_rank_of_pick": 0.4928030200157685,
+    "p_base_origin": 0.3694412233754256,
+    "chance_base_origin": 0.5
+   },
+   "all": {
+    "n_tasks": 16,
+    "p_longest": 0.22253319553206158,
+    "chance_longest": 0.240625,
+    "mean_ornate_rank_of_pick": 0.5004185847546387,
+    "p_base_origin": 0.25239201366792724,
+    "chance_base_origin": 0.31875
+   }
+  },
+  {
+   "judge": "sol61",
+   "prompt": "i1-what-do-you-think",
+   "type": "instruct",
+   "translation": {
+    "n_tasks": 10,
+    "p_longest": 0.3,
+    "chance_longest": 0.23500000000000001,
+    "mean_ornate_rank_of_pick": 0.48854166666666665,
+    "p_base_origin": 0.05,
+    "chance_base_origin": 0.21000000000000002
+   },
+   "myth": {
+    "n_tasks": 6,
+    "p_longest": 0,
+    "chance_longest": 0.25,
+    "mean_ornate_rank_of_pick": 0.5,
+    "p_base_origin": 0,
+    "chance_base_origin": 0.5
+   },
+   "all": {
+    "n_tasks": 16,
+    "p_longest": 0.1875,
+    "chance_longest": 0.240625,
+    "mean_ornate_rank_of_pick": 0.49283854166666663,
+    "p_base_origin": 0.03125,
+    "chance_base_origin": 0.31875
+   }
+  },
+  {
+   "judge": "sol61",
+   "prompt": "i2-which-do-you-prefer",
+   "type": "instruct",
+   "translation": {
+    "n_tasks": 10,
+    "p_longest": 0.3,
+    "chance_longest": 0.23500000000000001,
+    "mean_ornate_rank_of_pick": 0.46822916666666664,
+    "p_base_origin": 0.05,
+    "chance_base_origin": 0.21000000000000002
+   },
+   "myth": {
+    "n_tasks": 6,
+    "p_longest": 0,
+    "chance_longest": 0.25,
+    "mean_ornate_rank_of_pick": 0.5,
+    "p_base_origin": 0,
+    "chance_base_origin": 0.5
+   },
+   "all": {
+    "n_tasks": 16,
+    "p_longest": 0.1875,
+    "chance_longest": 0.240625,
+    "mean_ornate_rank_of_pick": 0.48014322916666663,
+    "p_base_origin": 0.03125,
+    "chance_base_origin": 0.31875
+   }
+  },
+  {
+   "judge": "sol61",
+   "prompt": "i3-texture-feel",
+   "type": "instruct",
+   "translation": {
+    "n_tasks": 10,
+    "p_longest": 0.35,
+    "chance_longest": 0.23500000000000001,
+    "mean_ornate_rank_of_pick": 0.471875,
+    "p_base_origin": 0.05,
+    "chance_base_origin": 0.21000000000000002
+   },
+   "myth": {
+    "n_tasks": 6,
+    "p_longest": 0,
+    "chance_longest": 0.25,
+    "mean_ornate_rank_of_pick": 0.5,
+    "p_base_origin": 0,
+    "chance_base_origin": 0.5
+   },
+   "all": {
+    "n_tasks": 16,
+    "p_longest": 0.21875,
+    "chance_longest": 0.240625,
+    "mean_ornate_rank_of_pick": 0.482421875,
+    "p_base_origin": 0.03125,
+    "chance_base_origin": 0.31875
+   }
+  }
+ ],
+ "agree": {
+  "gpt4o|i1-what-do-you-think||gpt4o|i1-what-do-you-think": {
+   "agree": 1.0,
+   "n": 3
+  },
+  "gpt4o|i1-what-do-you-think||gpt4o|i2-which-do-you-prefer": {
+   "agree": 1.0,
+   "n": 2
+  },
+  "gpt4o|i1-what-do-you-think||gpt4o|i3-texture-feel": {
+   "agree": 1.0,
+   "n": 1
+  },
+  "gpt4o|i1-what-do-you-think||opus46|i1-what-do-you-think": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "gpt4o|i1-what-do-you-think||opus46|i2-which-do-you-prefer": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "gpt4o|i1-what-do-you-think||opus46|i3-texture-feel": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "gpt4o|i1-what-do-you-think||opus55|i1-what-do-you-think": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "gpt4o|i1-what-do-you-think||opus55|i2-which-do-you-prefer": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "gpt4o|i1-what-do-you-think||opus55|i3-texture-feel": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "gpt4o|i1-what-do-you-think||qwen35b-base|bare-better": {
+   "agree": 0.0,
+   "n": 3
+  },
+  "gpt4o|i1-what-do-you-think||qwen35b-base|editor-zero": {
+   "agree": 0.3333333333333333,
+   "n": 3
+  },
+  "gpt4o|i1-what-do-you-think||qwen35b-base|forum": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "gpt4o|i1-what-do-you-think||qwen35b-base|kex-middle-cot": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "gpt4o|i1-what-do-you-think||qwen35b-base|kex-middle-label": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "gpt4o|i1-what-do-you-think||qwen35b-base|kex-ornate-cot": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "gpt4o|i1-what-do-you-think||qwen35b-base|kex-plain-cot": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "gpt4o|i1-what-do-you-think||qwen35b-base|lit-review": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "gpt4o|i1-what-do-you-think||qwen35b-base|ornate-primed": {
+   "agree": 0.3333333333333333,
+   "n": 3
+  },
+  "gpt4o|i1-what-do-you-think||qwen35b-base|texture-primed": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "gpt4o|i1-what-do-you-think||qwen35b-base|workshop": {
+   "agree": 0.3333333333333333,
+   "n": 3
+  },
+  "gpt4o|i1-what-do-you-think||sol61|i1-what-do-you-think": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "gpt4o|i1-what-do-you-think||sol61|i2-which-do-you-prefer": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "gpt4o|i1-what-do-you-think||sol61|i3-texture-feel": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "gpt4o|i2-which-do-you-prefer||gpt4o|i1-what-do-you-think": {
+   "agree": 1.0,
+   "n": 2
+  },
+  "gpt4o|i2-which-do-you-prefer||gpt4o|i2-which-do-you-prefer": {
+   "agree": 1.0,
+   "n": 9
+  },
+  "gpt4o|i2-which-do-you-prefer||gpt4o|i3-texture-feel": {
+   "agree": 1.0,
+   "n": 4
+  },
+  "gpt4o|i2-which-do-you-prefer||opus46|i1-what-do-you-think": {
+   "agree": 0.7142857142857143,
+   "n": 7
+  },
+  "gpt4o|i2-which-do-you-prefer||opus46|i2-which-do-you-prefer": {
+   "agree": 0.8,
+   "n": 5
+  },
+  "gpt4o|i2-which-do-you-prefer||opus46|i3-texture-feel": {
+   "agree": 0.6666666666666666,
+   "n": 6
+  },
+  "gpt4o|i2-which-do-you-prefer||opus55|i1-what-do-you-think": {
+   "agree": 0.8333333333333334,
+   "n": 6
+  },
+  "gpt4o|i2-which-do-you-prefer||opus55|i2-which-do-you-prefer": {
+   "agree": 0.6666666666666666,
+   "n": 6
+  },
+  "gpt4o|i2-which-do-you-prefer||opus55|i3-texture-feel": {
+   "agree": 0.8571428571428571,
+   "n": 7
+  },
+  "gpt4o|i2-which-do-you-prefer||qwen35b-base|bare-better": {
+   "agree": 0.0,
+   "n": 9
+  },
+  "gpt4o|i2-which-do-you-prefer||qwen35b-base|editor-zero": {
+   "agree": 0.4444444444444444,
+   "n": 9
+  },
+  "gpt4o|i2-which-do-you-prefer||qwen35b-base|forum": {
+   "agree": 0.4444444444444444,
+   "n": 9
+  },
+  "gpt4o|i2-which-do-you-prefer||qwen35b-base|kex-middle-cot": {
+   "agree": 0.4444444444444444,
+   "n": 9
+  },
+  "gpt4o|i2-which-do-you-prefer||qwen35b-base|kex-middle-label": {
+   "agree": 0.4444444444444444,
+   "n": 9
+  },
+  "gpt4o|i2-which-do-you-prefer||qwen35b-base|kex-ornate-cot": {
+   "agree": 0.6666666666666666,
+   "n": 9
+  },
+  "gpt4o|i2-which-do-you-prefer||qwen35b-base|kex-plain-cot": {
+   "agree": 0.4444444444444444,
+   "n": 9
+  },
+  "gpt4o|i2-which-do-you-prefer||qwen35b-base|lit-review": {
+   "agree": 0.4444444444444444,
+   "n": 9
+  },
+  "gpt4o|i2-which-do-you-prefer||qwen35b-base|ornate-primed": {
+   "agree": 0.3333333333333333,
+   "n": 9
+  },
+  "gpt4o|i2-which-do-you-prefer||qwen35b-base|texture-primed": {
+   "agree": 0.5555555555555556,
+   "n": 9
+  },
+  "gpt4o|i2-which-do-you-prefer||qwen35b-base|workshop": {
+   "agree": 0.25,
+   "n": 8
+  },
+  "gpt4o|i2-which-do-you-prefer||sol61|i1-what-do-you-think": {
+   "agree": 0.8333333333333334,
+   "n": 6
+  },
+  "gpt4o|i2-which-do-you-prefer||sol61|i2-which-do-you-prefer": {
+   "agree": 0.8571428571428571,
+   "n": 7
+  },
+  "gpt4o|i2-which-do-you-prefer||sol61|i3-texture-feel": {
+   "agree": 0.8,
+   "n": 5
+  },
+  "gpt4o|i3-texture-feel||gpt4o|i1-what-do-you-think": {
+   "agree": 1.0,
+   "n": 1
+  },
+  "gpt4o|i3-texture-feel||gpt4o|i2-which-do-you-prefer": {
+   "agree": 1.0,
+   "n": 4
+  },
+  "gpt4o|i3-texture-feel||gpt4o|i3-texture-feel": {
+   "agree": 1.0,
+   "n": 5
+  },
+  "gpt4o|i3-texture-feel||opus46|i1-what-do-you-think": {
+   "agree": 0.5,
+   "n": 2
+  },
+  "gpt4o|i3-texture-feel||opus46|i2-which-do-you-prefer": {
+   "agree": 1.0,
+   "n": 1
+  },
+  "gpt4o|i3-texture-feel||opus46|i3-texture-feel": {
+   "agree": 0.5,
+   "n": 2
+  },
+  "gpt4o|i3-texture-feel||opus55|i1-what-do-you-think": {
+   "agree": 0.75,
+   "n": 4
+  },
+  "gpt4o|i3-texture-feel||opus55|i2-which-do-you-prefer": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "gpt4o|i3-texture-feel||opus55|i3-texture-feel": {
+   "agree": 0.75,
+   "n": 4
+  },
+  "gpt4o|i3-texture-feel||qwen35b-base|bare-better": {
+   "agree": 0.0,
+   "n": 5
+  },
+  "gpt4o|i3-texture-feel||qwen35b-base|editor-zero": {
+   "agree": 0.4,
+   "n": 5
+  },
+  "gpt4o|i3-texture-feel||qwen35b-base|forum": {
+   "agree": 0.2,
+   "n": 5
+  },
+  "gpt4o|i3-texture-feel||qwen35b-base|kex-middle-cot": {
+   "agree": 0.4,
+   "n": 5
+  },
+  "gpt4o|i3-texture-feel||qwen35b-base|kex-middle-label": {
+   "agree": 0.4,
+   "n": 5
+  },
+  "gpt4o|i3-texture-feel||qwen35b-base|kex-ornate-cot": {
+   "agree": 0.4,
+   "n": 5
+  },
+  "gpt4o|i3-texture-feel||qwen35b-base|kex-plain-cot": {
+   "agree": 0.2,
+   "n": 5
+  },
+  "gpt4o|i3-texture-feel||qwen35b-base|lit-review": {
+   "agree": 0.2,
+   "n": 5
+  },
+  "gpt4o|i3-texture-feel||qwen35b-base|ornate-primed": {
+   "agree": 0.4,
+   "n": 5
+  },
+  "gpt4o|i3-texture-feel||qwen35b-base|texture-primed": {
+   "agree": 0.4,
+   "n": 5
+  },
+  "gpt4o|i3-texture-feel||qwen35b-base|workshop": {
+   "agree": 0.25,
+   "n": 4
+  },
+  "gpt4o|i3-texture-feel||sol61|i1-what-do-you-think": {
+   "agree": 0.75,
+   "n": 4
+  },
+  "gpt4o|i3-texture-feel||sol61|i2-which-do-you-prefer": {
+   "agree": 0.6,
+   "n": 5
+  },
+  "gpt4o|i3-texture-feel||sol61|i3-texture-feel": {
+   "agree": 0.5,
+   "n": 2
+  },
+  "opus46|i1-what-do-you-think||gpt4o|i1-what-do-you-think": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "opus46|i1-what-do-you-think||gpt4o|i2-which-do-you-prefer": {
+   "agree": 0.7142857142857143,
+   "n": 7
+  },
+  "opus46|i1-what-do-you-think||gpt4o|i3-texture-feel": {
+   "agree": 0.5,
+   "n": 2
+  },
+  "opus46|i1-what-do-you-think||opus46|i1-what-do-you-think": {
+   "agree": 1.0,
+   "n": 10
+  },
+  "opus46|i1-what-do-you-think||opus46|i2-which-do-you-prefer": {
+   "agree": 1.0,
+   "n": 8
+  },
+  "opus46|i1-what-do-you-think||opus46|i3-texture-feel": {
+   "agree": 0.8888888888888888,
+   "n": 9
+  },
+  "opus46|i1-what-do-you-think||opus55|i1-what-do-you-think": {
+   "agree": 0.8571428571428571,
+   "n": 7
+  },
+  "opus46|i1-what-do-you-think||opus55|i2-which-do-you-prefer": {
+   "agree": 0.625,
+   "n": 8
+  },
+  "opus46|i1-what-do-you-think||opus55|i3-texture-feel": {
+   "agree": 0.75,
+   "n": 8
+  },
+  "opus46|i1-what-do-you-think||qwen35b-base|bare-better": {
+   "agree": 0.0,
+   "n": 10
+  },
+  "opus46|i1-what-do-you-think||qwen35b-base|editor-zero": {
+   "agree": 0.4,
+   "n": 10
+  },
+  "opus46|i1-what-do-you-think||qwen35b-base|forum": {
+   "agree": 0.7,
+   "n": 10
+  },
+  "opus46|i1-what-do-you-think||qwen35b-base|kex-middle-cot": {
+   "agree": 0.3,
+   "n": 10
+  },
+  "opus46|i1-what-do-you-think||qwen35b-base|kex-middle-label": {
+   "agree": 0.4,
+   "n": 10
+  },
+  "opus46|i1-what-do-you-think||qwen35b-base|kex-ornate-cot": {
+   "agree": 0.8,
+   "n": 10
+  },
+  "opus46|i1-what-do-you-think||qwen35b-base|kex-plain-cot": {
+   "agree": 0.5,
+   "n": 10
+  },
+  "opus46|i1-what-do-you-think||qwen35b-base|lit-review": {
+   "agree": 0.6,
+   "n": 10
+  },
+  "opus46|i1-what-do-you-think||qwen35b-base|ornate-primed": {
+   "agree": 0.4,
+   "n": 10
+  },
+  "opus46|i1-what-do-you-think||qwen35b-base|texture-primed": {
+   "agree": 0.4,
+   "n": 10
+  },
+  "opus46|i1-what-do-you-think||qwen35b-base|workshop": {
+   "agree": 0.3,
+   "n": 10
+  },
+  "opus46|i1-what-do-you-think||sol61|i1-what-do-you-think": {
+   "agree": 0.7142857142857143,
+   "n": 7
+  },
+  "opus46|i1-what-do-you-think||sol61|i2-which-do-you-prefer": {
+   "agree": 0.75,
+   "n": 8
+  },
+  "opus46|i1-what-do-you-think||sol61|i3-texture-feel": {
+   "agree": 0.75,
+   "n": 8
+  },
+  "opus46|i2-which-do-you-prefer||gpt4o|i1-what-do-you-think": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "opus46|i2-which-do-you-prefer||gpt4o|i2-which-do-you-prefer": {
+   "agree": 0.8,
+   "n": 5
+  },
+  "opus46|i2-which-do-you-prefer||gpt4o|i3-texture-feel": {
+   "agree": 1.0,
+   "n": 1
+  },
+  "opus46|i2-which-do-you-prefer||opus46|i1-what-do-you-think": {
+   "agree": 1.0,
+   "n": 8
+  },
+  "opus46|i2-which-do-you-prefer||opus46|i2-which-do-you-prefer": {
+   "agree": 1.0,
+   "n": 9
+  },
+  "opus46|i2-which-do-you-prefer||opus46|i3-texture-feel": {
+   "agree": 1.0,
+   "n": 8
+  },
+  "opus46|i2-which-do-you-prefer||opus55|i1-what-do-you-think": {
+   "agree": 1.0,
+   "n": 5
+  },
+  "opus46|i2-which-do-you-prefer||opus55|i2-which-do-you-prefer": {
+   "agree": 0.625,
+   "n": 8
+  },
+  "opus46|i2-which-do-you-prefer||opus55|i3-texture-feel": {
+   "agree": 0.8571428571428571,
+   "n": 7
+  },
+  "opus46|i2-which-do-you-prefer||qwen35b-base|bare-better": {
+   "agree": 0.0,
+   "n": 9
+  },
+  "opus46|i2-which-do-you-prefer||qwen35b-base|editor-zero": {
+   "agree": 0.4444444444444444,
+   "n": 9
+  },
+  "opus46|i2-which-do-you-prefer||qwen35b-base|forum": {
+   "agree": 0.6666666666666666,
+   "n": 9
+  },
+  "opus46|i2-which-do-you-prefer||qwen35b-base|kex-middle-cot": {
+   "agree": 0.3333333333333333,
+   "n": 9
+  },
+  "opus46|i2-which-do-you-prefer||qwen35b-base|kex-middle-label": {
+   "agree": 0.4444444444444444,
+   "n": 9
+  },
+  "opus46|i2-which-do-you-prefer||qwen35b-base|kex-ornate-cot": {
+   "agree": 0.6666666666666666,
+   "n": 9
+  },
+  "opus46|i2-which-do-you-prefer||qwen35b-base|kex-plain-cot": {
+   "agree": 0.4444444444444444,
+   "n": 9
+  },
+  "opus46|i2-which-do-you-prefer||qwen35b-base|lit-review": {
+   "agree": 0.5555555555555556,
+   "n": 9
+  },
+  "opus46|i2-which-do-you-prefer||qwen35b-base|ornate-primed": {
+   "agree": 0.4444444444444444,
+   "n": 9
+  },
+  "opus46|i2-which-do-you-prefer||qwen35b-base|texture-primed": {
+   "agree": 0.4444444444444444,
+   "n": 9
+  },
+  "opus46|i2-which-do-you-prefer||qwen35b-base|workshop": {
+   "agree": 0.3333333333333333,
+   "n": 9
+  },
+  "opus46|i2-which-do-you-prefer||sol61|i1-what-do-you-think": {
+   "agree": 0.7142857142857143,
+   "n": 7
+  },
+  "opus46|i2-which-do-you-prefer||sol61|i2-which-do-you-prefer": {
+   "agree": 0.8333333333333334,
+   "n": 6
+  },
+  "opus46|i2-which-do-you-prefer||sol61|i3-texture-feel": {
+   "agree": 0.6666666666666666,
+   "n": 9
+  },
+  "opus46|i3-texture-feel||gpt4o|i1-what-do-you-think": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "opus46|i3-texture-feel||gpt4o|i2-which-do-you-prefer": {
+   "agree": 0.6666666666666666,
+   "n": 6
+  },
+  "opus46|i3-texture-feel||gpt4o|i3-texture-feel": {
+   "agree": 0.5,
+   "n": 2
+  },
+  "opus46|i3-texture-feel||opus46|i1-what-do-you-think": {
+   "agree": 0.8888888888888888,
+   "n": 9
+  },
+  "opus46|i3-texture-feel||opus46|i2-which-do-you-prefer": {
+   "agree": 1.0,
+   "n": 8
+  },
+  "opus46|i3-texture-feel||opus46|i3-texture-feel": {
+   "agree": 1.0,
+   "n": 12
+  },
+  "opus46|i3-texture-feel||opus55|i1-what-do-you-think": {
+   "agree": 0.8571428571428571,
+   "n": 7
+  },
+  "opus46|i3-texture-feel||opus55|i2-which-do-you-prefer": {
+   "agree": 0.75,
+   "n": 8
+  },
+  "opus46|i3-texture-feel||opus55|i3-texture-feel": {
+   "agree": 0.8888888888888888,
+   "n": 9
+  },
+  "opus46|i3-texture-feel||qwen35b-base|bare-better": {
+   "agree": 0.16666666666666666,
+   "n": 12
+  },
+  "opus46|i3-texture-feel||qwen35b-base|editor-zero": {
+   "agree": 0.6666666666666666,
+   "n": 12
+  },
+  "opus46|i3-texture-feel||qwen35b-base|forum": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "opus46|i3-texture-feel||qwen35b-base|kex-middle-cot": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "opus46|i3-texture-feel||qwen35b-base|kex-middle-label": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "opus46|i3-texture-feel||qwen35b-base|kex-ornate-cot": {
+   "agree": 0.6666666666666666,
+   "n": 12
+  },
+  "opus46|i3-texture-feel||qwen35b-base|kex-plain-cot": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "opus46|i3-texture-feel||qwen35b-base|lit-review": {
+   "agree": 0.5833333333333334,
+   "n": 12
+  },
+  "opus46|i3-texture-feel||qwen35b-base|ornate-primed": {
+   "agree": 0.4166666666666667,
+   "n": 12
+  },
+  "opus46|i3-texture-feel||qwen35b-base|texture-primed": {
+   "agree": 0.4166666666666667,
+   "n": 12
+  },
+  "opus46|i3-texture-feel||qwen35b-base|workshop": {
+   "agree": 0.4166666666666667,
+   "n": 12
+  },
+  "opus46|i3-texture-feel||sol61|i1-what-do-you-think": {
+   "agree": 0.8571428571428571,
+   "n": 7
+  },
+  "opus46|i3-texture-feel||sol61|i2-which-do-you-prefer": {
+   "agree": 0.7777777777777778,
+   "n": 9
+  },
+  "opus46|i3-texture-feel||sol61|i3-texture-feel": {
+   "agree": 0.8181818181818182,
+   "n": 11
+  },
+  "opus55|i1-what-do-you-think||gpt4o|i1-what-do-you-think": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "opus55|i1-what-do-you-think||gpt4o|i2-which-do-you-prefer": {
+   "agree": 0.8333333333333334,
+   "n": 6
+  },
+  "opus55|i1-what-do-you-think||gpt4o|i3-texture-feel": {
+   "agree": 0.75,
+   "n": 4
+  },
+  "opus55|i1-what-do-you-think||opus46|i1-what-do-you-think": {
+   "agree": 0.8571428571428571,
+   "n": 7
+  },
+  "opus55|i1-what-do-you-think||opus46|i2-which-do-you-prefer": {
+   "agree": 1.0,
+   "n": 5
+  },
+  "opus55|i1-what-do-you-think||opus46|i3-texture-feel": {
+   "agree": 0.8571428571428571,
+   "n": 7
+  },
+  "opus55|i1-what-do-you-think||opus55|i1-what-do-you-think": {
+   "agree": 1.0,
+   "n": 10
+  },
+  "opus55|i1-what-do-you-think||opus55|i2-which-do-you-prefer": {
+   "agree": 1.0,
+   "n": 8
+  },
+  "opus55|i1-what-do-you-think||opus55|i3-texture-feel": {
+   "agree": 1.0,
+   "n": 9
+  },
+  "opus55|i1-what-do-you-think||qwen35b-base|bare-better": {
+   "agree": 0.2,
+   "n": 10
+  },
+  "opus55|i1-what-do-you-think||qwen35b-base|editor-zero": {
+   "agree": 0.4,
+   "n": 10
+  },
+  "opus55|i1-what-do-you-think||qwen35b-base|forum": {
+   "agree": 0.6,
+   "n": 10
+  },
+  "opus55|i1-what-do-you-think||qwen35b-base|kex-middle-cot": {
+   "agree": 0.3,
+   "n": 10
+  },
+  "opus55|i1-what-do-you-think||qwen35b-base|kex-middle-label": {
+   "agree": 0.6,
+   "n": 10
+  },
+  "opus55|i1-what-do-you-think||qwen35b-base|kex-ornate-cot": {
+   "agree": 0.6,
+   "n": 10
+  },
+  "opus55|i1-what-do-you-think||qwen35b-base|kex-plain-cot": {
+   "agree": 0.4,
+   "n": 10
+  },
+  "opus55|i1-what-do-you-think||qwen35b-base|lit-review": {
+   "agree": 0.4,
+   "n": 10
+  },
+  "opus55|i1-what-do-you-think||qwen35b-base|ornate-primed": {
+   "agree": 0.5,
+   "n": 10
+  },
+  "opus55|i1-what-do-you-think||qwen35b-base|texture-primed": {
+   "agree": 0.5,
+   "n": 10
+  },
+  "opus55|i1-what-do-you-think||qwen35b-base|workshop": {
+   "agree": 0.5555555555555556,
+   "n": 9
+  },
+  "opus55|i1-what-do-you-think||sol61|i1-what-do-you-think": {
+   "agree": 1.0,
+   "n": 8
+  },
+  "opus55|i1-what-do-you-think||sol61|i2-which-do-you-prefer": {
+   "agree": 1.0,
+   "n": 10
+  },
+  "opus55|i1-what-do-you-think||sol61|i3-texture-feel": {
+   "agree": 1.0,
+   "n": 6
+  },
+  "opus55|i2-which-do-you-prefer||gpt4o|i1-what-do-you-think": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "opus55|i2-which-do-you-prefer||gpt4o|i2-which-do-you-prefer": {
+   "agree": 0.6666666666666666,
+   "n": 6
+  },
+  "opus55|i2-which-do-you-prefer||gpt4o|i3-texture-feel": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "opus55|i2-which-do-you-prefer||opus46|i1-what-do-you-think": {
+   "agree": 0.625,
+   "n": 8
+  },
+  "opus55|i2-which-do-you-prefer||opus46|i2-which-do-you-prefer": {
+   "agree": 0.625,
+   "n": 8
+  },
+  "opus55|i2-which-do-you-prefer||opus46|i3-texture-feel": {
+   "agree": 0.75,
+   "n": 8
+  },
+  "opus55|i2-which-do-you-prefer||opus55|i1-what-do-you-think": {
+   "agree": 1.0,
+   "n": 8
+  },
+  "opus55|i2-which-do-you-prefer||opus55|i2-which-do-you-prefer": {
+   "agree": 1.0,
+   "n": 11
+  },
+  "opus55|i2-which-do-you-prefer||opus55|i3-texture-feel": {
+   "agree": 0.9,
+   "n": 10
+  },
+  "opus55|i2-which-do-you-prefer||qwen35b-base|bare-better": {
+   "agree": 0.18181818181818182,
+   "n": 11
+  },
+  "opus55|i2-which-do-you-prefer||qwen35b-base|editor-zero": {
+   "agree": 0.45454545454545453,
+   "n": 11
+  },
+  "opus55|i2-which-do-you-prefer||qwen35b-base|forum": {
+   "agree": 0.5454545454545454,
+   "n": 11
+  },
+  "opus55|i2-which-do-you-prefer||qwen35b-base|kex-middle-cot": {
+   "agree": 0.45454545454545453,
+   "n": 11
+  },
+  "opus55|i2-which-do-you-prefer||qwen35b-base|kex-middle-label": {
+   "agree": 0.5454545454545454,
+   "n": 11
+  },
+  "opus55|i2-which-do-you-prefer||qwen35b-base|kex-ornate-cot": {
+   "agree": 0.6363636363636364,
+   "n": 11
+  },
+  "opus55|i2-which-do-you-prefer||qwen35b-base|kex-plain-cot": {
+   "agree": 0.5454545454545454,
+   "n": 11
+  },
+  "opus55|i2-which-do-you-prefer||qwen35b-base|lit-review": {
+   "agree": 0.45454545454545453,
+   "n": 11
+  },
+  "opus55|i2-which-do-you-prefer||qwen35b-base|ornate-primed": {
+   "agree": 0.36363636363636365,
+   "n": 11
+  },
+  "opus55|i2-which-do-you-prefer||qwen35b-base|texture-primed": {
+   "agree": 0.45454545454545453,
+   "n": 11
+  },
+  "opus55|i2-which-do-you-prefer||qwen35b-base|workshop": {
+   "agree": 0.5454545454545454,
+   "n": 11
+  },
+  "opus55|i2-which-do-you-prefer||sol61|i1-what-do-you-think": {
+   "agree": 1.0,
+   "n": 9
+  },
+  "opus55|i2-which-do-you-prefer||sol61|i2-which-do-you-prefer": {
+   "agree": 1.0,
+   "n": 9
+  },
+  "opus55|i2-which-do-you-prefer||sol61|i3-texture-feel": {
+   "agree": 0.8888888888888888,
+   "n": 9
+  },
+  "opus55|i3-texture-feel||gpt4o|i1-what-do-you-think": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "opus55|i3-texture-feel||gpt4o|i2-which-do-you-prefer": {
+   "agree": 0.8571428571428571,
+   "n": 7
+  },
+  "opus55|i3-texture-feel||gpt4o|i3-texture-feel": {
+   "agree": 0.75,
+   "n": 4
+  },
+  "opus55|i3-texture-feel||opus46|i1-what-do-you-think": {
+   "agree": 0.75,
+   "n": 8
+  },
+  "opus55|i3-texture-feel||opus46|i2-which-do-you-prefer": {
+   "agree": 0.8571428571428571,
+   "n": 7
+  },
+  "opus55|i3-texture-feel||opus46|i3-texture-feel": {
+   "agree": 0.8888888888888888,
+   "n": 9
+  },
+  "opus55|i3-texture-feel||opus55|i1-what-do-you-think": {
+   "agree": 1.0,
+   "n": 9
+  },
+  "opus55|i3-texture-feel||opus55|i2-which-do-you-prefer": {
+   "agree": 0.9,
+   "n": 10
+  },
+  "opus55|i3-texture-feel||opus55|i3-texture-feel": {
+   "agree": 1.0,
+   "n": 12
+  },
+  "opus55|i3-texture-feel||qwen35b-base|bare-better": {
+   "agree": 0.16666666666666666,
+   "n": 12
+  },
+  "opus55|i3-texture-feel||qwen35b-base|editor-zero": {
+   "agree": 0.5833333333333334,
+   "n": 12
+  },
+  "opus55|i3-texture-feel||qwen35b-base|forum": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "opus55|i3-texture-feel||qwen35b-base|kex-middle-cot": {
+   "agree": 0.4166666666666667,
+   "n": 12
+  },
+  "opus55|i3-texture-feel||qwen35b-base|kex-middle-label": {
+   "agree": 0.5833333333333334,
+   "n": 12
+  },
+  "opus55|i3-texture-feel||qwen35b-base|kex-ornate-cot": {
+   "agree": 0.6666666666666666,
+   "n": 12
+  },
+  "opus55|i3-texture-feel||qwen35b-base|kex-plain-cot": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "opus55|i3-texture-feel||qwen35b-base|lit-review": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "opus55|i3-texture-feel||qwen35b-base|ornate-primed": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "opus55|i3-texture-feel||qwen35b-base|texture-primed": {
+   "agree": 0.5833333333333334,
+   "n": 12
+  },
+  "opus55|i3-texture-feel||qwen35b-base|workshop": {
+   "agree": 0.5454545454545454,
+   "n": 11
+  },
+  "opus55|i3-texture-feel||sol61|i1-what-do-you-think": {
+   "agree": 1.0,
+   "n": 10
+  },
+  "opus55|i3-texture-feel||sol61|i2-which-do-you-prefer": {
+   "agree": 1.0,
+   "n": 10
+  },
+  "opus55|i3-texture-feel||sol61|i3-texture-feel": {
+   "agree": 1.0,
+   "n": 9
+  },
+  "qwen35b-base|bare-better||gpt4o|i1-what-do-you-think": {
+   "agree": 0.0,
+   "n": 3
+  },
+  "qwen35b-base|bare-better||gpt4o|i2-which-do-you-prefer": {
+   "agree": 0.0,
+   "n": 9
+  },
+  "qwen35b-base|bare-better||gpt4o|i3-texture-feel": {
+   "agree": 0.0,
+   "n": 5
+  },
+  "qwen35b-base|bare-better||opus46|i1-what-do-you-think": {
+   "agree": 0.0,
+   "n": 10
+  },
+  "qwen35b-base|bare-better||opus46|i2-which-do-you-prefer": {
+   "agree": 0.0,
+   "n": 9
+  },
+  "qwen35b-base|bare-better||opus46|i3-texture-feel": {
+   "agree": 0.16666666666666666,
+   "n": 12
+  },
+  "qwen35b-base|bare-better||opus55|i1-what-do-you-think": {
+   "agree": 0.2,
+   "n": 10
+  },
+  "qwen35b-base|bare-better||opus55|i2-which-do-you-prefer": {
+   "agree": 0.18181818181818182,
+   "n": 11
+  },
+  "qwen35b-base|bare-better||opus55|i3-texture-feel": {
+   "agree": 0.16666666666666666,
+   "n": 12
+  },
+  "qwen35b-base|bare-better||qwen35b-base|bare-better": {
+   "agree": 1.0,
+   "n": 16
+  },
+  "qwen35b-base|bare-better||qwen35b-base|editor-zero": {
+   "agree": 0.375,
+   "n": 16
+  },
+  "qwen35b-base|bare-better||qwen35b-base|forum": {
+   "agree": 0.1875,
+   "n": 16
+  },
+  "qwen35b-base|bare-better||qwen35b-base|kex-middle-cot": {
+   "agree": 0.3125,
+   "n": 16
+  },
+  "qwen35b-base|bare-better||qwen35b-base|kex-middle-label": {
+   "agree": 0.3125,
+   "n": 16
+  },
+  "qwen35b-base|bare-better||qwen35b-base|kex-ornate-cot": {
+   "agree": 0.125,
+   "n": 16
+  },
+  "qwen35b-base|bare-better||qwen35b-base|kex-plain-cot": {
+   "agree": 0.1875,
+   "n": 16
+  },
+  "qwen35b-base|bare-better||qwen35b-base|lit-review": {
+   "agree": 0.1875,
+   "n": 16
+  },
+  "qwen35b-base|bare-better||qwen35b-base|ornate-primed": {
+   "agree": 0.3125,
+   "n": 16
+  },
+  "qwen35b-base|bare-better||qwen35b-base|texture-primed": {
+   "agree": 0.1875,
+   "n": 16
+  },
+  "qwen35b-base|bare-better||qwen35b-base|workshop": {
+   "agree": 0.6,
+   "n": 15
+  },
+  "qwen35b-base|bare-better||sol61|i1-what-do-you-think": {
+   "agree": 0.09090909090909091,
+   "n": 11
+  },
+  "qwen35b-base|bare-better||sol61|i2-which-do-you-prefer": {
+   "agree": 0.25,
+   "n": 12
+  },
+  "qwen35b-base|bare-better||sol61|i3-texture-feel": {
+   "agree": 0.16666666666666666,
+   "n": 12
+  },
+  "qwen35b-base|editor-zero||gpt4o|i1-what-do-you-think": {
+   "agree": 0.3333333333333333,
+   "n": 3
+  },
+  "qwen35b-base|editor-zero||gpt4o|i2-which-do-you-prefer": {
+   "agree": 0.4444444444444444,
+   "n": 9
+  },
+  "qwen35b-base|editor-zero||gpt4o|i3-texture-feel": {
+   "agree": 0.4,
+   "n": 5
+  },
+  "qwen35b-base|editor-zero||opus46|i1-what-do-you-think": {
+   "agree": 0.4,
+   "n": 10
+  },
+  "qwen35b-base|editor-zero||opus46|i2-which-do-you-prefer": {
+   "agree": 0.4444444444444444,
+   "n": 9
+  },
+  "qwen35b-base|editor-zero||opus46|i3-texture-feel": {
+   "agree": 0.6666666666666666,
+   "n": 12
+  },
+  "qwen35b-base|editor-zero||opus55|i1-what-do-you-think": {
+   "agree": 0.4,
+   "n": 10
+  },
+  "qwen35b-base|editor-zero||opus55|i2-which-do-you-prefer": {
+   "agree": 0.45454545454545453,
+   "n": 11
+  },
+  "qwen35b-base|editor-zero||opus55|i3-texture-feel": {
+   "agree": 0.5833333333333334,
+   "n": 12
+  },
+  "qwen35b-base|editor-zero||qwen35b-base|bare-better": {
+   "agree": 0.375,
+   "n": 16
+  },
+  "qwen35b-base|editor-zero||qwen35b-base|editor-zero": {
+   "agree": 1.0,
+   "n": 16
+  },
+  "qwen35b-base|editor-zero||qwen35b-base|forum": {
+   "agree": 0.375,
+   "n": 16
+  },
+  "qwen35b-base|editor-zero||qwen35b-base|kex-middle-cot": {
+   "agree": 0.625,
+   "n": 16
+  },
+  "qwen35b-base|editor-zero||qwen35b-base|kex-middle-label": {
+   "agree": 0.5,
+   "n": 16
+  },
+  "qwen35b-base|editor-zero||qwen35b-base|kex-ornate-cot": {
+   "agree": 0.5625,
+   "n": 16
+  },
+  "qwen35b-base|editor-zero||qwen35b-base|kex-plain-cot": {
+   "agree": 0.375,
+   "n": 16
+  },
+  "qwen35b-base|editor-zero||qwen35b-base|lit-review": {
+   "agree": 0.375,
+   "n": 16
+  },
+  "qwen35b-base|editor-zero||qwen35b-base|ornate-primed": {
+   "agree": 0.625,
+   "n": 16
+  },
+  "qwen35b-base|editor-zero||qwen35b-base|texture-primed": {
+   "agree": 0.5,
+   "n": 16
+  },
+  "qwen35b-base|editor-zero||qwen35b-base|workshop": {
+   "agree": 0.6666666666666666,
+   "n": 15
+  },
+  "qwen35b-base|editor-zero||sol61|i1-what-do-you-think": {
+   "agree": 0.45454545454545453,
+   "n": 11
+  },
+  "qwen35b-base|editor-zero||sol61|i2-which-do-you-prefer": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "qwen35b-base|editor-zero||sol61|i3-texture-feel": {
+   "agree": 0.6666666666666666,
+   "n": 12
+  },
+  "qwen35b-base|forum||gpt4o|i1-what-do-you-think": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "qwen35b-base|forum||gpt4o|i2-which-do-you-prefer": {
+   "agree": 0.4444444444444444,
+   "n": 9
+  },
+  "qwen35b-base|forum||gpt4o|i3-texture-feel": {
+   "agree": 0.2,
+   "n": 5
+  },
+  "qwen35b-base|forum||opus46|i1-what-do-you-think": {
+   "agree": 0.7,
+   "n": 10
+  },
+  "qwen35b-base|forum||opus46|i2-which-do-you-prefer": {
+   "agree": 0.6666666666666666,
+   "n": 9
+  },
+  "qwen35b-base|forum||opus46|i3-texture-feel": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "qwen35b-base|forum||opus55|i1-what-do-you-think": {
+   "agree": 0.6,
+   "n": 10
+  },
+  "qwen35b-base|forum||opus55|i2-which-do-you-prefer": {
+   "agree": 0.5454545454545454,
+   "n": 11
+  },
+  "qwen35b-base|forum||opus55|i3-texture-feel": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "qwen35b-base|forum||qwen35b-base|bare-better": {
+   "agree": 0.1875,
+   "n": 16
+  },
+  "qwen35b-base|forum||qwen35b-base|editor-zero": {
+   "agree": 0.375,
+   "n": 16
+  },
+  "qwen35b-base|forum||qwen35b-base|forum": {
+   "agree": 1.0,
+   "n": 16
+  },
+  "qwen35b-base|forum||qwen35b-base|kex-middle-cot": {
+   "agree": 0.375,
+   "n": 16
+  },
+  "qwen35b-base|forum||qwen35b-base|kex-middle-label": {
+   "agree": 0.375,
+   "n": 16
+  },
+  "qwen35b-base|forum||qwen35b-base|kex-ornate-cot": {
+   "agree": 0.5625,
+   "n": 16
+  },
+  "qwen35b-base|forum||qwen35b-base|kex-plain-cot": {
+   "agree": 0.5625,
+   "n": 16
+  },
+  "qwen35b-base|forum||qwen35b-base|lit-review": {
+   "agree": 0.625,
+   "n": 16
+  },
+  "qwen35b-base|forum||qwen35b-base|ornate-primed": {
+   "agree": 0.5,
+   "n": 16
+  },
+  "qwen35b-base|forum||qwen35b-base|texture-primed": {
+   "agree": 0.5,
+   "n": 16
+  },
+  "qwen35b-base|forum||qwen35b-base|workshop": {
+   "agree": 0.4666666666666667,
+   "n": 15
+  },
+  "qwen35b-base|forum||sol61|i1-what-do-you-think": {
+   "agree": 0.5454545454545454,
+   "n": 11
+  },
+  "qwen35b-base|forum||sol61|i2-which-do-you-prefer": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "qwen35b-base|forum||sol61|i3-texture-feel": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "qwen35b-base|kex-middle-cot||gpt4o|i1-what-do-you-think": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "qwen35b-base|kex-middle-cot||gpt4o|i2-which-do-you-prefer": {
+   "agree": 0.4444444444444444,
+   "n": 9
+  },
+  "qwen35b-base|kex-middle-cot||gpt4o|i3-texture-feel": {
+   "agree": 0.4,
+   "n": 5
+  },
+  "qwen35b-base|kex-middle-cot||opus46|i1-what-do-you-think": {
+   "agree": 0.3,
+   "n": 10
+  },
+  "qwen35b-base|kex-middle-cot||opus46|i2-which-do-you-prefer": {
+   "agree": 0.3333333333333333,
+   "n": 9
+  },
+  "qwen35b-base|kex-middle-cot||opus46|i3-texture-feel": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "qwen35b-base|kex-middle-cot||opus55|i1-what-do-you-think": {
+   "agree": 0.3,
+   "n": 10
+  },
+  "qwen35b-base|kex-middle-cot||opus55|i2-which-do-you-prefer": {
+   "agree": 0.45454545454545453,
+   "n": 11
+  },
+  "qwen35b-base|kex-middle-cot||opus55|i3-texture-feel": {
+   "agree": 0.4166666666666667,
+   "n": 12
+  },
+  "qwen35b-base|kex-middle-cot||qwen35b-base|bare-better": {
+   "agree": 0.3125,
+   "n": 16
+  },
+  "qwen35b-base|kex-middle-cot||qwen35b-base|editor-zero": {
+   "agree": 0.625,
+   "n": 16
+  },
+  "qwen35b-base|kex-middle-cot||qwen35b-base|forum": {
+   "agree": 0.375,
+   "n": 16
+  },
+  "qwen35b-base|kex-middle-cot||qwen35b-base|kex-middle-cot": {
+   "agree": 1.0,
+   "n": 16
+  },
+  "qwen35b-base|kex-middle-cot||qwen35b-base|kex-middle-label": {
+   "agree": 0.625,
+   "n": 16
+  },
+  "qwen35b-base|kex-middle-cot||qwen35b-base|kex-ornate-cot": {
+   "agree": 0.625,
+   "n": 16
+  },
+  "qwen35b-base|kex-middle-cot||qwen35b-base|kex-plain-cot": {
+   "agree": 0.6875,
+   "n": 16
+  },
+  "qwen35b-base|kex-middle-cot||qwen35b-base|lit-review": {
+   "agree": 0.5625,
+   "n": 16
+  },
+  "qwen35b-base|kex-middle-cot||qwen35b-base|ornate-primed": {
+   "agree": 0.3125,
+   "n": 16
+  },
+  "qwen35b-base|kex-middle-cot||qwen35b-base|texture-primed": {
+   "agree": 0.625,
+   "n": 16
+  },
+  "qwen35b-base|kex-middle-cot||qwen35b-base|workshop": {
+   "agree": 0.4666666666666667,
+   "n": 15
+  },
+  "qwen35b-base|kex-middle-cot||sol61|i1-what-do-you-think": {
+   "agree": 0.5454545454545454,
+   "n": 11
+  },
+  "qwen35b-base|kex-middle-cot||sol61|i2-which-do-you-prefer": {
+   "agree": 0.4166666666666667,
+   "n": 12
+  },
+  "qwen35b-base|kex-middle-cot||sol61|i3-texture-feel": {
+   "agree": 0.5833333333333334,
+   "n": 12
+  },
+  "qwen35b-base|kex-middle-label||gpt4o|i1-what-do-you-think": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "qwen35b-base|kex-middle-label||gpt4o|i2-which-do-you-prefer": {
+   "agree": 0.4444444444444444,
+   "n": 9
+  },
+  "qwen35b-base|kex-middle-label||gpt4o|i3-texture-feel": {
+   "agree": 0.4,
+   "n": 5
+  },
+  "qwen35b-base|kex-middle-label||opus46|i1-what-do-you-think": {
+   "agree": 0.4,
+   "n": 10
+  },
+  "qwen35b-base|kex-middle-label||opus46|i2-which-do-you-prefer": {
+   "agree": 0.4444444444444444,
+   "n": 9
+  },
+  "qwen35b-base|kex-middle-label||opus46|i3-texture-feel": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "qwen35b-base|kex-middle-label||opus55|i1-what-do-you-think": {
+   "agree": 0.6,
+   "n": 10
+  },
+  "qwen35b-base|kex-middle-label||opus55|i2-which-do-you-prefer": {
+   "agree": 0.5454545454545454,
+   "n": 11
+  },
+  "qwen35b-base|kex-middle-label||opus55|i3-texture-feel": {
+   "agree": 0.5833333333333334,
+   "n": 12
+  },
+  "qwen35b-base|kex-middle-label||qwen35b-base|bare-better": {
+   "agree": 0.3125,
+   "n": 16
+  },
+  "qwen35b-base|kex-middle-label||qwen35b-base|editor-zero": {
+   "agree": 0.5,
+   "n": 16
+  },
+  "qwen35b-base|kex-middle-label||qwen35b-base|forum": {
+   "agree": 0.375,
+   "n": 16
+  },
+  "qwen35b-base|kex-middle-label||qwen35b-base|kex-middle-cot": {
+   "agree": 0.625,
+   "n": 16
+  },
+  "qwen35b-base|kex-middle-label||qwen35b-base|kex-middle-label": {
+   "agree": 1.0,
+   "n": 16
+  },
+  "qwen35b-base|kex-middle-label||qwen35b-base|kex-ornate-cot": {
+   "agree": 0.5,
+   "n": 16
+  },
+  "qwen35b-base|kex-middle-label||qwen35b-base|kex-plain-cot": {
+   "agree": 0.5625,
+   "n": 16
+  },
+  "qwen35b-base|kex-middle-label||qwen35b-base|lit-review": {
+   "agree": 0.4375,
+   "n": 16
+  },
+  "qwen35b-base|kex-middle-label||qwen35b-base|ornate-primed": {
+   "agree": 0.5625,
+   "n": 16
+  },
+  "qwen35b-base|kex-middle-label||qwen35b-base|texture-primed": {
+   "agree": 0.75,
+   "n": 16
+  },
+  "qwen35b-base|kex-middle-label||qwen35b-base|workshop": {
+   "agree": 0.6,
+   "n": 15
+  },
+  "qwen35b-base|kex-middle-label||sol61|i1-what-do-you-think": {
+   "agree": 0.6363636363636364,
+   "n": 11
+  },
+  "qwen35b-base|kex-middle-label||sol61|i2-which-do-you-prefer": {
+   "agree": 0.6666666666666666,
+   "n": 12
+  },
+  "qwen35b-base|kex-middle-label||sol61|i3-texture-feel": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "qwen35b-base|kex-ornate-cot||gpt4o|i1-what-do-you-think": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "qwen35b-base|kex-ornate-cot||gpt4o|i2-which-do-you-prefer": {
+   "agree": 0.6666666666666666,
+   "n": 9
+  },
+  "qwen35b-base|kex-ornate-cot||gpt4o|i3-texture-feel": {
+   "agree": 0.4,
+   "n": 5
+  },
+  "qwen35b-base|kex-ornate-cot||opus46|i1-what-do-you-think": {
+   "agree": 0.8,
+   "n": 10
+  },
+  "qwen35b-base|kex-ornate-cot||opus46|i2-which-do-you-prefer": {
+   "agree": 0.6666666666666666,
+   "n": 9
+  },
+  "qwen35b-base|kex-ornate-cot||opus46|i3-texture-feel": {
+   "agree": 0.6666666666666666,
+   "n": 12
+  },
+  "qwen35b-base|kex-ornate-cot||opus55|i1-what-do-you-think": {
+   "agree": 0.6,
+   "n": 10
+  },
+  "qwen35b-base|kex-ornate-cot||opus55|i2-which-do-you-prefer": {
+   "agree": 0.6363636363636364,
+   "n": 11
+  },
+  "qwen35b-base|kex-ornate-cot||opus55|i3-texture-feel": {
+   "agree": 0.6666666666666666,
+   "n": 12
+  },
+  "qwen35b-base|kex-ornate-cot||qwen35b-base|bare-better": {
+   "agree": 0.125,
+   "n": 16
+  },
+  "qwen35b-base|kex-ornate-cot||qwen35b-base|editor-zero": {
+   "agree": 0.5625,
+   "n": 16
+  },
+  "qwen35b-base|kex-ornate-cot||qwen35b-base|forum": {
+   "agree": 0.5625,
+   "n": 16
+  },
+  "qwen35b-base|kex-ornate-cot||qwen35b-base|kex-middle-cot": {
+   "agree": 0.625,
+   "n": 16
+  },
+  "qwen35b-base|kex-ornate-cot||qwen35b-base|kex-middle-label": {
+   "agree": 0.5,
+   "n": 16
+  },
+  "qwen35b-base|kex-ornate-cot||qwen35b-base|kex-ornate-cot": {
+   "agree": 1.0,
+   "n": 16
+  },
+  "qwen35b-base|kex-ornate-cot||qwen35b-base|kex-plain-cot": {
+   "agree": 0.5625,
+   "n": 16
+  },
+  "qwen35b-base|kex-ornate-cot||qwen35b-base|lit-review": {
+   "agree": 0.5625,
+   "n": 16
+  },
+  "qwen35b-base|kex-ornate-cot||qwen35b-base|ornate-primed": {
+   "agree": 0.3125,
+   "n": 16
+  },
+  "qwen35b-base|kex-ornate-cot||qwen35b-base|texture-primed": {
+   "agree": 0.4375,
+   "n": 16
+  },
+  "qwen35b-base|kex-ornate-cot||qwen35b-base|workshop": {
+   "agree": 0.4,
+   "n": 15
+  },
+  "qwen35b-base|kex-ornate-cot||sol61|i1-what-do-you-think": {
+   "agree": 0.7272727272727273,
+   "n": 11
+  },
+  "qwen35b-base|kex-ornate-cot||sol61|i2-which-do-you-prefer": {
+   "agree": 0.6666666666666666,
+   "n": 12
+  },
+  "qwen35b-base|kex-ornate-cot||sol61|i3-texture-feel": {
+   "agree": 0.8333333333333334,
+   "n": 12
+  },
+  "qwen35b-base|kex-plain-cot||gpt4o|i1-what-do-you-think": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "qwen35b-base|kex-plain-cot||gpt4o|i2-which-do-you-prefer": {
+   "agree": 0.4444444444444444,
+   "n": 9
+  },
+  "qwen35b-base|kex-plain-cot||gpt4o|i3-texture-feel": {
+   "agree": 0.2,
+   "n": 5
+  },
+  "qwen35b-base|kex-plain-cot||opus46|i1-what-do-you-think": {
+   "agree": 0.5,
+   "n": 10
+  },
+  "qwen35b-base|kex-plain-cot||opus46|i2-which-do-you-prefer": {
+   "agree": 0.4444444444444444,
+   "n": 9
+  },
+  "qwen35b-base|kex-plain-cot||opus46|i3-texture-feel": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "qwen35b-base|kex-plain-cot||opus55|i1-what-do-you-think": {
+   "agree": 0.4,
+   "n": 10
+  },
+  "qwen35b-base|kex-plain-cot||opus55|i2-which-do-you-prefer": {
+   "agree": 0.5454545454545454,
+   "n": 11
+  },
+  "qwen35b-base|kex-plain-cot||opus55|i3-texture-feel": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "qwen35b-base|kex-plain-cot||qwen35b-base|bare-better": {
+   "agree": 0.1875,
+   "n": 16
+  },
+  "qwen35b-base|kex-plain-cot||qwen35b-base|editor-zero": {
+   "agree": 0.375,
+   "n": 16
+  },
+  "qwen35b-base|kex-plain-cot||qwen35b-base|forum": {
+   "agree": 0.5625,
+   "n": 16
+  },
+  "qwen35b-base|kex-plain-cot||qwen35b-base|kex-middle-cot": {
+   "agree": 0.6875,
+   "n": 16
+  },
+  "qwen35b-base|kex-plain-cot||qwen35b-base|kex-middle-label": {
+   "agree": 0.5625,
+   "n": 16
+  },
+  "qwen35b-base|kex-plain-cot||qwen35b-base|kex-ornate-cot": {
+   "agree": 0.5625,
+   "n": 16
+  },
+  "qwen35b-base|kex-plain-cot||qwen35b-base|kex-plain-cot": {
+   "agree": 1.0,
+   "n": 16
+  },
+  "qwen35b-base|kex-plain-cot||qwen35b-base|lit-review": {
+   "agree": 0.875,
+   "n": 16
+  },
+  "qwen35b-base|kex-plain-cot||qwen35b-base|ornate-primed": {
+   "agree": 0.375,
+   "n": 16
+  },
+  "qwen35b-base|kex-plain-cot||qwen35b-base|texture-primed": {
+   "agree": 0.625,
+   "n": 16
+  },
+  "qwen35b-base|kex-plain-cot||qwen35b-base|workshop": {
+   "agree": 0.4,
+   "n": 15
+  },
+  "qwen35b-base|kex-plain-cot||sol61|i1-what-do-you-think": {
+   "agree": 0.6363636363636364,
+   "n": 11
+  },
+  "qwen35b-base|kex-plain-cot||sol61|i2-which-do-you-prefer": {
+   "agree": 0.4166666666666667,
+   "n": 12
+  },
+  "qwen35b-base|kex-plain-cot||sol61|i3-texture-feel": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "qwen35b-base|lit-review||gpt4o|i1-what-do-you-think": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "qwen35b-base|lit-review||gpt4o|i2-which-do-you-prefer": {
+   "agree": 0.4444444444444444,
+   "n": 9
+  },
+  "qwen35b-base|lit-review||gpt4o|i3-texture-feel": {
+   "agree": 0.2,
+   "n": 5
+  },
+  "qwen35b-base|lit-review||opus46|i1-what-do-you-think": {
+   "agree": 0.6,
+   "n": 10
+  },
+  "qwen35b-base|lit-review||opus46|i2-which-do-you-prefer": {
+   "agree": 0.5555555555555556,
+   "n": 9
+  },
+  "qwen35b-base|lit-review||opus46|i3-texture-feel": {
+   "agree": 0.5833333333333334,
+   "n": 12
+  },
+  "qwen35b-base|lit-review||opus55|i1-what-do-you-think": {
+   "agree": 0.4,
+   "n": 10
+  },
+  "qwen35b-base|lit-review||opus55|i2-which-do-you-prefer": {
+   "agree": 0.45454545454545453,
+   "n": 11
+  },
+  "qwen35b-base|lit-review||opus55|i3-texture-feel": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "qwen35b-base|lit-review||qwen35b-base|bare-better": {
+   "agree": 0.1875,
+   "n": 16
+  },
+  "qwen35b-base|lit-review||qwen35b-base|editor-zero": {
+   "agree": 0.375,
+   "n": 16
+  },
+  "qwen35b-base|lit-review||qwen35b-base|forum": {
+   "agree": 0.625,
+   "n": 16
+  },
+  "qwen35b-base|lit-review||qwen35b-base|kex-middle-cot": {
+   "agree": 0.5625,
+   "n": 16
+  },
+  "qwen35b-base|lit-review||qwen35b-base|kex-middle-label": {
+   "agree": 0.4375,
+   "n": 16
+  },
+  "qwen35b-base|lit-review||qwen35b-base|kex-ornate-cot": {
+   "agree": 0.5625,
+   "n": 16
+  },
+  "qwen35b-base|lit-review||qwen35b-base|kex-plain-cot": {
+   "agree": 0.875,
+   "n": 16
+  },
+  "qwen35b-base|lit-review||qwen35b-base|lit-review": {
+   "agree": 1.0,
+   "n": 16
+  },
+  "qwen35b-base|lit-review||qwen35b-base|ornate-primed": {
+   "agree": 0.5,
+   "n": 16
+  },
+  "qwen35b-base|lit-review||qwen35b-base|texture-primed": {
+   "agree": 0.625,
+   "n": 16
+  },
+  "qwen35b-base|lit-review||qwen35b-base|workshop": {
+   "agree": 0.26666666666666666,
+   "n": 15
+  },
+  "qwen35b-base|lit-review||sol61|i1-what-do-you-think": {
+   "agree": 0.5454545454545454,
+   "n": 11
+  },
+  "qwen35b-base|lit-review||sol61|i2-which-do-you-prefer": {
+   "agree": 0.3333333333333333,
+   "n": 12
+  },
+  "qwen35b-base|lit-review||sol61|i3-texture-feel": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "qwen35b-base|ornate-primed||gpt4o|i1-what-do-you-think": {
+   "agree": 0.3333333333333333,
+   "n": 3
+  },
+  "qwen35b-base|ornate-primed||gpt4o|i2-which-do-you-prefer": {
+   "agree": 0.3333333333333333,
+   "n": 9
+  },
+  "qwen35b-base|ornate-primed||gpt4o|i3-texture-feel": {
+   "agree": 0.4,
+   "n": 5
+  },
+  "qwen35b-base|ornate-primed||opus46|i1-what-do-you-think": {
+   "agree": 0.4,
+   "n": 10
+  },
+  "qwen35b-base|ornate-primed||opus46|i2-which-do-you-prefer": {
+   "agree": 0.4444444444444444,
+   "n": 9
+  },
+  "qwen35b-base|ornate-primed||opus46|i3-texture-feel": {
+   "agree": 0.4166666666666667,
+   "n": 12
+  },
+  "qwen35b-base|ornate-primed||opus55|i1-what-do-you-think": {
+   "agree": 0.5,
+   "n": 10
+  },
+  "qwen35b-base|ornate-primed||opus55|i2-which-do-you-prefer": {
+   "agree": 0.36363636363636365,
+   "n": 11
+  },
+  "qwen35b-base|ornate-primed||opus55|i3-texture-feel": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "qwen35b-base|ornate-primed||qwen35b-base|bare-better": {
+   "agree": 0.3125,
+   "n": 16
+  },
+  "qwen35b-base|ornate-primed||qwen35b-base|editor-zero": {
+   "agree": 0.625,
+   "n": 16
+  },
+  "qwen35b-base|ornate-primed||qwen35b-base|forum": {
+   "agree": 0.5,
+   "n": 16
+  },
+  "qwen35b-base|ornate-primed||qwen35b-base|kex-middle-cot": {
+   "agree": 0.3125,
+   "n": 16
+  },
+  "qwen35b-base|ornate-primed||qwen35b-base|kex-middle-label": {
+   "agree": 0.5625,
+   "n": 16
+  },
+  "qwen35b-base|ornate-primed||qwen35b-base|kex-ornate-cot": {
+   "agree": 0.3125,
+   "n": 16
+  },
+  "qwen35b-base|ornate-primed||qwen35b-base|kex-plain-cot": {
+   "agree": 0.375,
+   "n": 16
+  },
+  "qwen35b-base|ornate-primed||qwen35b-base|lit-review": {
+   "agree": 0.5,
+   "n": 16
+  },
+  "qwen35b-base|ornate-primed||qwen35b-base|ornate-primed": {
+   "agree": 1.0,
+   "n": 16
+  },
+  "qwen35b-base|ornate-primed||qwen35b-base|texture-primed": {
+   "agree": 0.6875,
+   "n": 16
+  },
+  "qwen35b-base|ornate-primed||qwen35b-base|workshop": {
+   "agree": 0.5333333333333333,
+   "n": 15
+  },
+  "qwen35b-base|ornate-primed||sol61|i1-what-do-you-think": {
+   "agree": 0.45454545454545453,
+   "n": 11
+  },
+  "qwen35b-base|ornate-primed||sol61|i2-which-do-you-prefer": {
+   "agree": 0.4166666666666667,
+   "n": 12
+  },
+  "qwen35b-base|ornate-primed||sol61|i3-texture-feel": {
+   "agree": 0.3333333333333333,
+   "n": 12
+  },
+  "qwen35b-base|texture-primed||gpt4o|i1-what-do-you-think": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "qwen35b-base|texture-primed||gpt4o|i2-which-do-you-prefer": {
+   "agree": 0.5555555555555556,
+   "n": 9
+  },
+  "qwen35b-base|texture-primed||gpt4o|i3-texture-feel": {
+   "agree": 0.4,
+   "n": 5
+  },
+  "qwen35b-base|texture-primed||opus46|i1-what-do-you-think": {
+   "agree": 0.4,
+   "n": 10
+  },
+  "qwen35b-base|texture-primed||opus46|i2-which-do-you-prefer": {
+   "agree": 0.4444444444444444,
+   "n": 9
+  },
+  "qwen35b-base|texture-primed||opus46|i3-texture-feel": {
+   "agree": 0.4166666666666667,
+   "n": 12
+  },
+  "qwen35b-base|texture-primed||opus55|i1-what-do-you-think": {
+   "agree": 0.5,
+   "n": 10
+  },
+  "qwen35b-base|texture-primed||opus55|i2-which-do-you-prefer": {
+   "agree": 0.45454545454545453,
+   "n": 11
+  },
+  "qwen35b-base|texture-primed||opus55|i3-texture-feel": {
+   "agree": 0.5833333333333334,
+   "n": 12
+  },
+  "qwen35b-base|texture-primed||qwen35b-base|bare-better": {
+   "agree": 0.1875,
+   "n": 16
+  },
+  "qwen35b-base|texture-primed||qwen35b-base|editor-zero": {
+   "agree": 0.5,
+   "n": 16
+  },
+  "qwen35b-base|texture-primed||qwen35b-base|forum": {
+   "agree": 0.5,
+   "n": 16
+  },
+  "qwen35b-base|texture-primed||qwen35b-base|kex-middle-cot": {
+   "agree": 0.625,
+   "n": 16
+  },
+  "qwen35b-base|texture-primed||qwen35b-base|kex-middle-label": {
+   "agree": 0.75,
+   "n": 16
+  },
+  "qwen35b-base|texture-primed||qwen35b-base|kex-ornate-cot": {
+   "agree": 0.4375,
+   "n": 16
+  },
+  "qwen35b-base|texture-primed||qwen35b-base|kex-plain-cot": {
+   "agree": 0.625,
+   "n": 16
+  },
+  "qwen35b-base|texture-primed||qwen35b-base|lit-review": {
+   "agree": 0.625,
+   "n": 16
+  },
+  "qwen35b-base|texture-primed||qwen35b-base|ornate-primed": {
+   "agree": 0.6875,
+   "n": 16
+  },
+  "qwen35b-base|texture-primed||qwen35b-base|texture-primed": {
+   "agree": 1.0,
+   "n": 16
+  },
+  "qwen35b-base|texture-primed||qwen35b-base|workshop": {
+   "agree": 0.4666666666666667,
+   "n": 15
+  },
+  "qwen35b-base|texture-primed||sol61|i1-what-do-you-think": {
+   "agree": 0.5454545454545454,
+   "n": 11
+  },
+  "qwen35b-base|texture-primed||sol61|i2-which-do-you-prefer": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "qwen35b-base|texture-primed||sol61|i3-texture-feel": {
+   "agree": 0.4166666666666667,
+   "n": 12
+  },
+  "qwen35b-base|workshop||gpt4o|i1-what-do-you-think": {
+   "agree": 0.3333333333333333,
+   "n": 3
+  },
+  "qwen35b-base|workshop||gpt4o|i2-which-do-you-prefer": {
+   "agree": 0.25,
+   "n": 8
+  },
+  "qwen35b-base|workshop||gpt4o|i3-texture-feel": {
+   "agree": 0.25,
+   "n": 4
+  },
+  "qwen35b-base|workshop||opus46|i1-what-do-you-think": {
+   "agree": 0.3,
+   "n": 10
+  },
+  "qwen35b-base|workshop||opus46|i2-which-do-you-prefer": {
+   "agree": 0.3333333333333333,
+   "n": 9
+  },
+  "qwen35b-base|workshop||opus46|i3-texture-feel": {
+   "agree": 0.4166666666666667,
+   "n": 12
+  },
+  "qwen35b-base|workshop||opus55|i1-what-do-you-think": {
+   "agree": 0.5555555555555556,
+   "n": 9
+  },
+  "qwen35b-base|workshop||opus55|i2-which-do-you-prefer": {
+   "agree": 0.5454545454545454,
+   "n": 11
+  },
+  "qwen35b-base|workshop||opus55|i3-texture-feel": {
+   "agree": 0.5454545454545454,
+   "n": 11
+  },
+  "qwen35b-base|workshop||qwen35b-base|bare-better": {
+   "agree": 0.6,
+   "n": 15
+  },
+  "qwen35b-base|workshop||qwen35b-base|editor-zero": {
+   "agree": 0.6666666666666666,
+   "n": 15
+  },
+  "qwen35b-base|workshop||qwen35b-base|forum": {
+   "agree": 0.4666666666666667,
+   "n": 15
+  },
+  "qwen35b-base|workshop||qwen35b-base|kex-middle-cot": {
+   "agree": 0.4666666666666667,
+   "n": 15
+  },
+  "qwen35b-base|workshop||qwen35b-base|kex-middle-label": {
+   "agree": 0.6,
+   "n": 15
+  },
+  "qwen35b-base|workshop||qwen35b-base|kex-ornate-cot": {
+   "agree": 0.4,
+   "n": 15
+  },
+  "qwen35b-base|workshop||qwen35b-base|kex-plain-cot": {
+   "agree": 0.4,
+   "n": 15
+  },
+  "qwen35b-base|workshop||qwen35b-base|lit-review": {
+   "agree": 0.26666666666666666,
+   "n": 15
+  },
+  "qwen35b-base|workshop||qwen35b-base|ornate-primed": {
+   "agree": 0.5333333333333333,
+   "n": 15
+  },
+  "qwen35b-base|workshop||qwen35b-base|texture-primed": {
+   "agree": 0.4666666666666667,
+   "n": 15
+  },
+  "qwen35b-base|workshop||qwen35b-base|workshop": {
+   "agree": 1.0,
+   "n": 15
+  },
+  "qwen35b-base|workshop||sol61|i1-what-do-you-think": {
+   "agree": 0.5,
+   "n": 10
+  },
+  "qwen35b-base|workshop||sol61|i2-which-do-you-prefer": {
+   "agree": 0.6363636363636364,
+   "n": 11
+  },
+  "qwen35b-base|workshop||sol61|i3-texture-feel": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "sol61|i1-what-do-you-think||gpt4o|i1-what-do-you-think": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "sol61|i1-what-do-you-think||gpt4o|i2-which-do-you-prefer": {
+   "agree": 0.8333333333333334,
+   "n": 6
+  },
+  "sol61|i1-what-do-you-think||gpt4o|i3-texture-feel": {
+   "agree": 0.75,
+   "n": 4
+  },
+  "sol61|i1-what-do-you-think||opus46|i1-what-do-you-think": {
+   "agree": 0.7142857142857143,
+   "n": 7
+  },
+  "sol61|i1-what-do-you-think||opus46|i2-which-do-you-prefer": {
+   "agree": 0.7142857142857143,
+   "n": 7
+  },
+  "sol61|i1-what-do-you-think||opus46|i3-texture-feel": {
+   "agree": 0.8571428571428571,
+   "n": 7
+  },
+  "sol61|i1-what-do-you-think||opus55|i1-what-do-you-think": {
+   "agree": 1.0,
+   "n": 8
+  },
+  "sol61|i1-what-do-you-think||opus55|i2-which-do-you-prefer": {
+   "agree": 1.0,
+   "n": 9
+  },
+  "sol61|i1-what-do-you-think||opus55|i3-texture-feel": {
+   "agree": 1.0,
+   "n": 10
+  },
+  "sol61|i1-what-do-you-think||qwen35b-base|bare-better": {
+   "agree": 0.09090909090909091,
+   "n": 11
+  },
+  "sol61|i1-what-do-you-think||qwen35b-base|editor-zero": {
+   "agree": 0.45454545454545453,
+   "n": 11
+  },
+  "sol61|i1-what-do-you-think||qwen35b-base|forum": {
+   "agree": 0.5454545454545454,
+   "n": 11
+  },
+  "sol61|i1-what-do-you-think||qwen35b-base|kex-middle-cot": {
+   "agree": 0.5454545454545454,
+   "n": 11
+  },
+  "sol61|i1-what-do-you-think||qwen35b-base|kex-middle-label": {
+   "agree": 0.6363636363636364,
+   "n": 11
+  },
+  "sol61|i1-what-do-you-think||qwen35b-base|kex-ornate-cot": {
+   "agree": 0.7272727272727273,
+   "n": 11
+  },
+  "sol61|i1-what-do-you-think||qwen35b-base|kex-plain-cot": {
+   "agree": 0.6363636363636364,
+   "n": 11
+  },
+  "sol61|i1-what-do-you-think||qwen35b-base|lit-review": {
+   "agree": 0.5454545454545454,
+   "n": 11
+  },
+  "sol61|i1-what-do-you-think||qwen35b-base|ornate-primed": {
+   "agree": 0.45454545454545453,
+   "n": 11
+  },
+  "sol61|i1-what-do-you-think||qwen35b-base|texture-primed": {
+   "agree": 0.5454545454545454,
+   "n": 11
+  },
+  "sol61|i1-what-do-you-think||qwen35b-base|workshop": {
+   "agree": 0.5,
+   "n": 10
+  },
+  "sol61|i1-what-do-you-think||sol61|i1-what-do-you-think": {
+   "agree": 1.0,
+   "n": 11
+  },
+  "sol61|i1-what-do-you-think||sol61|i2-which-do-you-prefer": {
+   "agree": 1.0,
+   "n": 9
+  },
+  "sol61|i1-what-do-you-think||sol61|i3-texture-feel": {
+   "agree": 1.0,
+   "n": 8
+  },
+  "sol61|i2-which-do-you-prefer||gpt4o|i1-what-do-you-think": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "sol61|i2-which-do-you-prefer||gpt4o|i2-which-do-you-prefer": {
+   "agree": 0.8571428571428571,
+   "n": 7
+  },
+  "sol61|i2-which-do-you-prefer||gpt4o|i3-texture-feel": {
+   "agree": 0.6,
+   "n": 5
+  },
+  "sol61|i2-which-do-you-prefer||opus46|i1-what-do-you-think": {
+   "agree": 0.75,
+   "n": 8
+  },
+  "sol61|i2-which-do-you-prefer||opus46|i2-which-do-you-prefer": {
+   "agree": 0.8333333333333334,
+   "n": 6
+  },
+  "sol61|i2-which-do-you-prefer||opus46|i3-texture-feel": {
+   "agree": 0.7777777777777778,
+   "n": 9
+  },
+  "sol61|i2-which-do-you-prefer||opus55|i1-what-do-you-think": {
+   "agree": 1.0,
+   "n": 10
+  },
+  "sol61|i2-which-do-you-prefer||opus55|i2-which-do-you-prefer": {
+   "agree": 1.0,
+   "n": 9
+  },
+  "sol61|i2-which-do-you-prefer||opus55|i3-texture-feel": {
+   "agree": 1.0,
+   "n": 10
+  },
+  "sol61|i2-which-do-you-prefer||qwen35b-base|bare-better": {
+   "agree": 0.25,
+   "n": 12
+  },
+  "sol61|i2-which-do-you-prefer||qwen35b-base|editor-zero": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "sol61|i2-which-do-you-prefer||qwen35b-base|forum": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "sol61|i2-which-do-you-prefer||qwen35b-base|kex-middle-cot": {
+   "agree": 0.4166666666666667,
+   "n": 12
+  },
+  "sol61|i2-which-do-you-prefer||qwen35b-base|kex-middle-label": {
+   "agree": 0.6666666666666666,
+   "n": 12
+  },
+  "sol61|i2-which-do-you-prefer||qwen35b-base|kex-ornate-cot": {
+   "agree": 0.6666666666666666,
+   "n": 12
+  },
+  "sol61|i2-which-do-you-prefer||qwen35b-base|kex-plain-cot": {
+   "agree": 0.4166666666666667,
+   "n": 12
+  },
+  "sol61|i2-which-do-you-prefer||qwen35b-base|lit-review": {
+   "agree": 0.3333333333333333,
+   "n": 12
+  },
+  "sol61|i2-which-do-you-prefer||qwen35b-base|ornate-primed": {
+   "agree": 0.4166666666666667,
+   "n": 12
+  },
+  "sol61|i2-which-do-you-prefer||qwen35b-base|texture-primed": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "sol61|i2-which-do-you-prefer||qwen35b-base|workshop": {
+   "agree": 0.6363636363636364,
+   "n": 11
+  },
+  "sol61|i2-which-do-you-prefer||sol61|i1-what-do-you-think": {
+   "agree": 1.0,
+   "n": 9
+  },
+  "sol61|i2-which-do-you-prefer||sol61|i2-which-do-you-prefer": {
+   "agree": 1.0,
+   "n": 12
+  },
+  "sol61|i2-which-do-you-prefer||sol61|i3-texture-feel": {
+   "agree": 1.0,
+   "n": 8
+  },
+  "sol61|i3-texture-feel||gpt4o|i1-what-do-you-think": {
+   "agree": 0.6666666666666666,
+   "n": 3
+  },
+  "sol61|i3-texture-feel||gpt4o|i2-which-do-you-prefer": {
+   "agree": 0.8,
+   "n": 5
+  },
+  "sol61|i3-texture-feel||gpt4o|i3-texture-feel": {
+   "agree": 0.5,
+   "n": 2
+  },
+  "sol61|i3-texture-feel||opus46|i1-what-do-you-think": {
+   "agree": 0.75,
+   "n": 8
+  },
+  "sol61|i3-texture-feel||opus46|i2-which-do-you-prefer": {
+   "agree": 0.6666666666666666,
+   "n": 9
+  },
+  "sol61|i3-texture-feel||opus46|i3-texture-feel": {
+   "agree": 0.8181818181818182,
+   "n": 11
+  },
+  "sol61|i3-texture-feel||opus55|i1-what-do-you-think": {
+   "agree": 1.0,
+   "n": 6
+  },
+  "sol61|i3-texture-feel||opus55|i2-which-do-you-prefer": {
+   "agree": 0.8888888888888888,
+   "n": 9
+  },
+  "sol61|i3-texture-feel||opus55|i3-texture-feel": {
+   "agree": 1.0,
+   "n": 9
+  },
+  "sol61|i3-texture-feel||qwen35b-base|bare-better": {
+   "agree": 0.16666666666666666,
+   "n": 12
+  },
+  "sol61|i3-texture-feel||qwen35b-base|editor-zero": {
+   "agree": 0.6666666666666666,
+   "n": 12
+  },
+  "sol61|i3-texture-feel||qwen35b-base|forum": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "sol61|i3-texture-feel||qwen35b-base|kex-middle-cot": {
+   "agree": 0.5833333333333334,
+   "n": 12
+  },
+  "sol61|i3-texture-feel||qwen35b-base|kex-middle-label": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "sol61|i3-texture-feel||qwen35b-base|kex-ornate-cot": {
+   "agree": 0.8333333333333334,
+   "n": 12
+  },
+  "sol61|i3-texture-feel||qwen35b-base|kex-plain-cot": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "sol61|i3-texture-feel||qwen35b-base|lit-review": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "sol61|i3-texture-feel||qwen35b-base|ornate-primed": {
+   "agree": 0.3333333333333333,
+   "n": 12
+  },
+  "sol61|i3-texture-feel||qwen35b-base|texture-primed": {
+   "agree": 0.4166666666666667,
+   "n": 12
+  },
+  "sol61|i3-texture-feel||qwen35b-base|workshop": {
+   "agree": 0.5,
+   "n": 12
+  },
+  "sol61|i3-texture-feel||sol61|i1-what-do-you-think": {
+   "agree": 1.0,
+   "n": 8
+  },
+  "sol61|i3-texture-feel||sol61|i2-which-do-you-prefer": {
+   "agree": 1.0,
+   "n": 8
+  },
+  "sol61|i3-texture-feel||sol61|i3-texture-feel": {
+   "agree": 1.0,
+   "n": 12
+  }
+ },
+ "jsd": {
+  "bare-better||bare-better": 0.0,
+  "bare-better||editor-zero": 0.08436797197344832,
+  "bare-better||forum": 0.1956940883435058,
+  "bare-better||kex-middle-cot": 0.2395227749849673,
+  "bare-better||kex-middle-label": 0.1375963970059545,
+  "bare-better||kex-ornate-cot": 0.22159125995021234,
+  "bare-better||kex-plain-cot": 0.2894454224205659,
+  "bare-better||lit-review": 0.11557993558661836,
+  "bare-better||ornate-primed": 0.06233292016426236,
+  "bare-better||texture-primed": 0.10818644376309658,
+  "bare-better||workshop": 0.09555284115568508,
+  "editor-zero||bare-better": 0.08436797197344832,
+  "editor-zero||editor-zero": 0.0,
+  "editor-zero||forum": 0.07265392514299937,
+  "editor-zero||kex-middle-cot": 0.15213490436751112,
+  "editor-zero||kex-middle-label": 0.06882208179197502,
+  "editor-zero||kex-ornate-cot": 0.125619932837636,
+  "editor-zero||kex-plain-cot": 0.17102553893788616,
+  "editor-zero||lit-review": 0.03458397676043422,
+  "editor-zero||ornate-primed": 0.02719975675879399,
+  "editor-zero||texture-primed": 0.038539741166044625,
+  "editor-zero||workshop": 0.027884586896563826,
+  "forum||bare-better": 0.1956940883435058,
+  "forum||editor-zero": 0.07265392514299937,
+  "forum||forum": 0.0,
+  "forum||kex-middle-cot": 0.11589349782100672,
+  "forum||kex-middle-label": 0.05700966838167282,
+  "forum||kex-ornate-cot": 0.08940483364805485,
+  "forum||kex-plain-cot": 0.09842090382662966,
+  "forum||lit-review": 0.05911070134851551,
+  "forum||ornate-primed": 0.09113753967372808,
+  "forum||texture-primed": 0.05293465734964069,
+  "forum||workshop": 0.06968550844643964,
+  "kex-middle-cot||bare-better": 0.2395227749849673,
+  "kex-middle-cot||editor-zero": 0.15213490436751112,
+  "kex-middle-cot||forum": 0.11589349782100672,
+  "kex-middle-cot||kex-middle-cot": 0.0,
+  "kex-middle-cot||kex-middle-label": 0.12380187280092354,
+  "kex-middle-cot||kex-ornate-cot": 0.0845091024642913,
+  "kex-middle-cot||kex-plain-cot": 0.10923875924508475,
+  "kex-middle-cot||lit-review": 0.16190436179110698,
+  "kex-middle-cot||ornate-primed": 0.17958024025464944,
+  "kex-middle-cot||texture-primed": 0.11960612671891376,
+  "kex-middle-cot||workshop": 0.1779076801109925,
+  "kex-middle-label||bare-better": 0.1375963970059545,
+  "kex-middle-label||editor-zero": 0.06882208179197502,
+  "kex-middle-label||forum": 0.05700966838167282,
+  "kex-middle-label||kex-middle-cot": 0.12380187280092354,
+  "kex-middle-label||kex-middle-label": 0.0,
+  "kex-middle-label||kex-ornate-cot": 0.10922395547549688,
+  "kex-middle-label||kex-plain-cot": 0.14602532003622298,
+  "kex-middle-label||lit-review": 0.08907209811989761,
+  "kex-middle-label||ornate-primed": 0.08532178690016722,
+  "kex-middle-label||texture-primed": 0.042837129366565724,
+  "kex-middle-label||workshop": 0.06992425466525498,
+  "kex-ornate-cot||bare-better": 0.22159125995021234,
+  "kex-ornate-cot||editor-zero": 0.125619932837636,
+  "kex-ornate-cot||forum": 0.08940483364805485,
+  "kex-ornate-cot||kex-middle-cot": 0.0845091024642913,
+  "kex-ornate-cot||kex-middle-label": 0.10922395547549688,
+  "kex-ornate-cot||kex-ornate-cot": 0.0,
+  "kex-ornate-cot||kex-plain-cot": 0.10765363768293065,
+  "kex-ornate-cot||lit-review": 0.12494908576003627,
+  "kex-ornate-cot||ornate-primed": 0.14890265351807577,
+  "kex-ornate-cot||texture-primed": 0.10866978512823923,
+  "kex-ornate-cot||workshop": 0.1510464881973797,
+  "kex-plain-cot||bare-better": 0.2894454224205659,
+  "kex-plain-cot||editor-zero": 0.17102553893788616,
+  "kex-plain-cot||forum": 0.09842090382662966,
+  "kex-plain-cot||kex-middle-cot": 0.10923875924508475,
+  "kex-plain-cot||kex-middle-label": 0.14602532003622298,
+  "kex-plain-cot||kex-ornate-cot": 0.10765363768293065,
+  "kex-plain-cot||kex-plain-cot": 0.0,
+  "kex-plain-cot||lit-review": 0.13662067969482894,
+  "kex-plain-cot||ornate-primed": 0.19660279714271262,
+  "kex-plain-cot||texture-primed": 0.14361178656995743,
+  "kex-plain-cot||workshop": 0.17307582981347075,
+  "lit-review||bare-better": 0.11557993558661836,
+  "lit-review||editor-zero": 0.03458397676043422,
+  "lit-review||forum": 0.05911070134851551,
+  "lit-review||kex-middle-cot": 0.16190436179110698,
+  "lit-review||kex-middle-label": 0.08907209811989761,
+  "lit-review||kex-ornate-cot": 0.12494908576003627,
+  "lit-review||kex-plain-cot": 0.13662067969482894,
+  "lit-review||lit-review": 0.0,
+  "lit-review||ornate-primed": 0.02857073381732799,
+  "lit-review||texture-primed": 0.04356787459411211,
+  "lit-review||workshop": 0.016334885120280137,
+  "ornate-primed||bare-better": 0.06233292016426236,
+  "ornate-primed||editor-zero": 0.02719975675879399,
+  "ornate-primed||forum": 0.09113753967372808,
+  "ornate-primed||kex-middle-cot": 0.17958024025464944,
+  "ornate-primed||kex-middle-label": 0.08532178690016722,
+  "ornate-primed||kex-ornate-cot": 0.14890265351807577,
+  "ornate-primed||kex-plain-cot": 0.19660279714271262,
+  "ornate-primed||lit-review": 0.02857073381732799,
+  "ornate-primed||ornate-primed": 0.0,
+  "ornate-primed||texture-primed": 0.03966561835010932,
+  "ornate-primed||workshop": 0.021486694506033573,
+  "texture-primed||bare-better": 0.10818644376309658,
+  "texture-primed||editor-zero": 0.038539741166044625,
+  "texture-primed||forum": 0.05293465734964069,
+  "texture-primed||kex-middle-cot": 0.11960612671891376,
+  "texture-primed||kex-middle-label": 0.042837129366565724,
+  "texture-primed||kex-ornate-cot": 0.10866978512823923,
+  "texture-primed||kex-plain-cot": 0.14361178656995743,
+  "texture-primed||lit-review": 0.04356787459411211,
+  "texture-primed||ornate-primed": 0.03966561835010932,
+  "texture-primed||texture-primed": 0.0,
+  "texture-primed||workshop": 0.03840690833729103,
+  "workshop||bare-better": 0.09555284115568508,
+  "workshop||editor-zero": 0.027884586896563826,
+  "workshop||forum": 0.06968550844643964,
+  "workshop||kex-middle-cot": 0.1779076801109925,
+  "workshop||kex-middle-label": 0.06992425466525498,
+  "workshop||kex-ornate-cot": 0.1510464881973797,
+  "workshop||kex-plain-cot": 0.17307582981347075,
+  "workshop||lit-review": 0.016334885120280137,
+  "workshop||ornate-primed": 0.021486694506033573,
+  "workshop||texture-primed": 0.03840690833729103,
+  "workshop||workshop": 0.0
+ },
+ "order_consistency": {
+  "qwen35b-base|editor-zero": 0.0625,
+  "qwen35b-base|bare-better": 0.0,
+  "qwen35b-base|forum": 0.5,
+  "qwen35b-base|kex-middle-label": 0.375,
+  "qwen35b-base|kex-middle-cot": 0.5,
+  "qwen35b-base|lit-review": 0.2,
+  "qwen35b-base|kex-plain-cot": 0.5,
+  "qwen35b-base|ornate-primed": 0.2,
+  "qwen35b-base|texture-primed": 0.23076923076923078,
+  "qwen35b-base|kex-ornate-cot": 0.5,
+  "qwen35b-base|workshop": 0.3,
+  "gpt4o|i1-what-do-you-think": 0.1875,
+  "sol61|i1-what-do-you-think": 0.6875,
+  "opus46|i1-what-do-you-think": 0.625,
+  "opus55|i1-what-do-you-think": 0.625,
+  "gpt4o|i2-which-do-you-prefer": 0.5625,
+  "sol61|i2-which-do-you-prefer": 0.75,
+  "opus55|i2-which-do-you-prefer": 0.6875,
+  "opus46|i2-which-do-you-prefer": 0.5625,
+  "gpt4o|i3-texture-feel": 0.3125,
+  "sol61|i3-texture-feel": 0.75,
+  "opus46|i3-texture-feel": 0.75,
+  "opus55|i3-texture-feel": 0.75
+ },
+ "pos_A": {
+  "qwen35b-base|editor-zero": 0.4513850946322659,
+  "qwen35b-base|bare-better": 0.8186687936892177,
+  "qwen35b-base|forum": 0.2210296362830445,
+  "qwen35b-base|kex-middle-label": 0.3557225638716869,
+  "qwen35b-base|kex-middle-cot": 0.34467290805371503,
+  "qwen35b-base|lit-review": 0.306650932179634,
+  "qwen35b-base|kex-plain-cot": 0.24820105844757775,
+  "qwen35b-base|ornate-primed": 0.457765574193918,
+  "qwen35b-base|texture-primed": 0.4220610827455608,
+  "qwen35b-base|kex-ornate-cot": 0.3052739207716778,
+  "qwen35b-base|workshop": 0.3197734584823973,
+  "gpt4o|i1-what-do-you-think": 0.34375,
+  "sol61|i1-what-do-you-think": 0.3125,
+  "opus46|i1-what-do-you-think": 0.15625,
+  "opus55|i1-what-do-you-think": 0.34375,
+  "gpt4o|i2-which-do-you-prefer": 0.21875,
+  "sol61|i2-which-do-you-prefer": 0.3125,
+  "opus55|i2-which-do-you-prefer": 0.40625,
+  "opus46|i2-which-do-you-prefer": 0.125,
+  "gpt4o|i3-texture-feel": 0.25,
+  "sol61|i3-texture-feel": 0.25,
+  "opus46|i3-texture-feel": 0.25,
+  "opus55|i3-texture-feel": 0.375
+ },
+ "cot_stats": {
+  "kex-middle-cot": {
+   "n": 256,
+   "has_notes": 205,
+   "has_why": 196,
+   "has_verdict": 181
+  },
+  "kex-plain-cot": {
+   "n": 256,
+   "has_notes": 210,
+   "has_why": 213,
+   "has_verdict": 194
+  },
+  "kex-ornate-cot": {
+   "n": 256,
+   "has_notes": 212,
+   "has_why": 221,
+   "has_verdict": 216
+  }
+ },
+ "why_words": {
+  "kex-plain-cot": [
+   [
+    "most",
+    54
+   ],
+   [
+    "natural",
+    42
+   ],
+   [
+    "korean",
+    41
+   ],
+   [
+    "original",
+    35
+   ],
+   [
+    "tone",
+    34
+   ],
+   [
+    "without",
+    32
+   ],
+   [
+    "keeps",
+    32
+   ],
+   [
+    "it's",
+    25
+   ],
+   [
+    "clear",
+    23
+   ],
+   [
+    "best",
+    22
+   ],
+   [
+    "like",
+    20
+   ],
+   [
+    "image",
+    18
+   ],
+   [
+    "captures",
+    18
+   ],
+   [
+    "slightly",
+    17
+   ],
+   [
+    "line",
+    17
+   ],
+   [
+    "casual",
+    17
+   ],
+   [
+    "both",
+    16
+   ],
+   [
+    "gives",
+    16
+   ],
+   [
+    "story",
+    16
+   ],
+   [
+    "option",
+    15
+   ],
+   [
+    "human",
+    15
+   ],
+   [
+    "action",
+    14
+   ],
+   [
+    "sentence",
+    14
+   ],
+   [
+    "meaning",
+    14
+   ],
+   [
+    "you",
+    14
+   ]
+  ],
+  "kex-middle-cot": [
+   [
+    "natural",
+    45
+   ],
+   [
+    "most",
+    38
+   ],
+   [
+    "original",
+    35
+   ],
+   [
+    "keeps",
+    35
+   ],
+   [
+    "tone",
+    33
+   ],
+   [
+    "like",
+    28
+   ],
+   [
+    "best",
+    27
+   ],
+   [
+    "without",
+    21
+   ],
+   [
+    "slightly",
+    20
+   ],
+   [
+    "casual",
+    18
+   ],
+   [
+    "clean",
+    17
+   ],
+   [
+    "both",
+    15
+   ],
+   [
+    "clear",
+    15
+   ],
+   [
+    "feels",
+    15
+   ],
+   [
+    "meaning",
+    15
+   ],
+   [
+    "korean",
+    15
+   ],
+   [
+    "real",
+    15
+   ],
+   [
+    "mythic",
+    13
+   ],
+   [
+    "it's",
+    13
+   ],
+   [
+    "also",
+    12
+   ],
+   [
+    "while",
+    12
+   ],
+   [
+    "good",
+    12
+   ],
+   [
+    "less",
+    12
+   ],
+   [
+    "name",
+    12
+   ],
+   [
+    "story",
+    12
+   ]
+  ],
+  "kex-ornate-cot": [
+   [
+    "most",
+    53
+   ],
+   [
+    "like",
+    51
+   ],
+   [
+    "natural",
+    45
+   ],
+   [
+    "tone",
+    39
+   ],
+   [
+    "original",
+    31
+   ],
+   [
+    "feels",
+    28
+   ],
+   [
+    "best",
+    28
+   ],
+   [
+    "without",
+    23
+   ],
+   [
+    "captures",
+    21
+   ],
+   [
+    "keeps",
+    21
+   ],
+   [
+    "it's",
+    20
+   ],
+   [
+    "clear",
+    20
+   ],
+   [
+    "casual",
+    18
+   ],
+   [
+    "slightly",
+    17
+   ],
+   [
+    "sounds",
+    17
+   ],
+   [
+    "while",
+    17
+   ],
+   [
+    "also",
+    15
+   ],
+   [
+    "meaning",
+    15
+   ],
+   [
+    "makes",
+    14
+   ],
+   [
+    "strong",
+    14
+   ],
+   [
+    "world",
+    14
+   ],
+   [
+    "voice",
+    14
+   ],
+   [
+    "story",
+    14
+   ],
+   [
+    "character",
+    13
+   ],
+   [
+    "mythic",
+    12
+   ]
+  ]
+ },
+ "errors": {},
+ "n_tasks": 16
+}

@@ -1,0 +1,11 @@
+{
+ "tinker_est_usd": 1.488,
+ "tinker_calls": 2946,
+ "tinker_prompt_tokens": 1921303,
+ "tinker_completion_tokens": 337821,
+ "tinker_rate_assumed": "$0.54/M in, $1.335/M out (playground pricing table)",
+ "openrouter_usd_from_key_usage": 2.133,
+ "openrouter_calls": 434,
+ "cap_usd": 30,
+ "note": "Tinker estimate is from token counts, not a bill. Opus 5.5 truncated runs were repeated; their first-pass output is kept in data/instruct_results_firstpass_truncated_dropped.jsonl."
+}

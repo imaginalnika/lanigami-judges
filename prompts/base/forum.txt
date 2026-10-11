@@ -1,0 +1,30 @@
+id: forum
+title: Anonymous forum comparison thread
+mode: slot
+notes: Casual internet-comment voice; verdict from the top comment.
+=====
+@@translation
+r/translation - "Which of these reads best? (blind, no names)"
+Posted by u/lineedit_throwaway
+
+Korean: {SOURCE}
+Where it appears: {CONTEXT}
+
+{CANDS}
+
+OP: Not telling which is which. Just tell me which one you'd keep.
+
+Top comment (212 points):
+No contest, it's
+@@myth
+r/WritingPrompts - "Which of these continuations reads best? (blind, no names)"
+Posted by u/lineedit_throwaway
+
+Opening: {SOURCE}
+
+{CANDS}
+
+OP: Not telling which is which. Just tell me which one you'd keep.
+
+Top comment (212 points):
+No contest, it's

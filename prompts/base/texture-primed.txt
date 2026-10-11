@@ -1,0 +1,24 @@
+id: texture-primed
+title: Editor persona primed toward ear / restraint ("edits by ear")
+mode: slot
+notes: Persona statement that states a taste (distrusts decoration, trusts rhythm and specificity). This deliberately injects the Lanigami hypothesis, to test whether a stated taste moves the verdict.
+=====
+@@translation
+About the editor: Mirae Han has edited fiction and game localization for twenty years. She reads everything aloud and edits by ear. She distrusts decoration and counts adjectives; she trusts rhythm, specificity, and the sentence that sounds like a person actually said it.
+
+Today's item. Korean source: {SOURCE}
+Where it appears: {CONTEXT}
+
+{CANDS}
+
+Mirae reads all of them aloud, then marks the one to keep.
+Keep:
+@@myth
+About the editor: Mirae Han has edited fiction for twenty years. She reads everything aloud and edits by ear. She distrusts decoration and counts adjectives; she trusts rhythm, specificity, and the sentence that sounds like a person actually told it.
+
+Today's item. Opening: {SOURCE}
+
+{CANDS}
+
+Mirae reads all of them aloud, then marks the one to keep.
+Keep:

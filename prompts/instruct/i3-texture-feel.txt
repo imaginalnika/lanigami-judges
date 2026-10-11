@@ -1,0 +1,22 @@
+id: i3-texture-feel
+title: Texture / feel-aware "Which reads as written, not assembled?"
+kind: plain
+notes: Same forced choice, but the question names texture and feel instead of leaving the criterion open. Tests whether naming the criterion changes an instruct judge.
+=====
+@@translation
+Here is a line from a Korean game script, with several English translations.
+
+Korean: {SOURCE}
+Where it appears: {CONTEXT}
+
+{CANDS}
+
+Which one has the best texture and feel, the one that reads as if it were written rather than assembled? Reply with the letter on the first line, then one or two sentences on why.
+@@myth
+Here are several continuations of the same creation-myth opening.
+
+Opening: {SOURCE}
+
+{CANDS}
+
+Which one has the best texture and feel, the one that reads as if it were told rather than assembled? Reply with the letter on the first line, then one or two sentences on why.

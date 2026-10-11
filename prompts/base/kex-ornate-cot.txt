@@ -1,0 +1,86 @@
+id: kex-ornate-cot
+title: k-example margin notes with reasoning (ornate-winner examples)
+mode: sample
+marker: Keep:
+notes: 2 worked items with per-candidate notes and a Why line, then an open item. In this variant both worked examples are won by the most ornate/longest candidate. The worked examples were written by the assistant (an instruct model), so they carry that taste; the three variants exist to measure how far the examples steer the verdict.
+=====
+@@translation
+EDITOR'S MARGIN NOTES - Fiction & Translation Desk
+House rule: read every version, write one short note on each, say why, then mark the one to keep. Items 1 and 2 are done; item 3 is open.
+
+--- Item 1 ---
+Source (Korean): 비가 그쳤다. 오늘은 우산 없이 가도 될 것 같다.
+Where it appears: notebook entry
+
+A. The weeping heavens have at last stilled their lament; surely I may venture forth unburdened by an umbrella this day.
+B. The rain stopped. I think I can go without an umbrella today.
+C. Rain's stopped. Guess I can leave the umbrella at home today.
+
+Notes:
+A: Stacked archaisms, far heavier than the Korean.
+B: Exact, but flat; reads like a textbook.
+C: Casual, contracted, sounds like someone muttering to themselves.
+Why: A is the only one with any ambition; the imagery gives the line weight where the others just report weather.
+Keep: A
+
+--- Item 2 ---
+Source (Korean): 엄마가 끓여준 된장찌개 냄새가 온 집에 퍼졌다.
+Where it appears: notebook entry
+
+A. The smell of Mom's doenjang stew filled the whole house.
+B. Mom's doenjang jjigae was simmering, and its smell, thick and salty-sweet, had gotten into every room, the curtains, even the hallway.
+C. The smell of the soybean stew Mom made spread through the house.
+
+Notes:
+A: Short, keeps the food word, one clean image.
+B: Adds details the Korean never gives (curtains, hallway, 'salty-sweet').
+C: Accurate, but generic 'soybean stew'.
+Why: B makes the smell something you can feel in the room. A and C only state it.
+Keep: B
+
+--- Item 3 ---
+Source (Korean): {SOURCE}
+Where it appears: {CONTEXT}
+
+{CANDS}
+
+Notes:
+
+@@myth
+EDITOR'S MARGIN NOTES - Fiction & Translation Desk
+House rule: read every version, write one short note on each, say why, then mark the one to keep. Items 1 and 2 are done; item 3 is open.
+
+--- Item 1 ---
+Opening: In the world of Brindle Quay, strange tales are told of the first bell.
+
+A. Before the first bell, the Quay was an unvoiced hush, a vast and tremulous silence woven of fog and longing; then the Great Smith, forging in the cathedral of the sea, wrung from molten moonlight a resplendent, thundering heart of bronze, whose song unmade the dark.
+B. It was a dull piece of tin that fell off a cart. A child hit it with a spoon to see what would happen, and the sound went down the street faster than she could. The whole quay turned round to look. That is why we ring it now, to give everyone the same surprise.
+C. A smith made the first bell from the melted anchors of ships that never came home. When he struck it, the harbour went quiet, and then every gull on the Quay answered at once. He said he hadn't meant it to sing; he'd only wanted it to stop the drowning.
+
+Notes:
+A: Piled-up grandeur ('unvoiced hush', 'tremulous', 'resplendent'); little actually happens.
+B: Small, odd, concrete: a tin, a child, a spoon; ends on a shrug.
+C: A specific cause (melted anchors), a turn (the gulls answer), a human line at the end.
+Why: A is the only one that sounds like a myth; the scale and the language give the first bell its weight.
+Keep: A
+
+--- Item 2 ---
+Opening: In the world of the Long Larder, strange tales are told of the first loaf.
+
+A. The first loaf was an accident of damp flour and a warm shelf. Nobody knew it was bread; they thought it was a small animal that had died of happiness. The baker's daughter was the only one brave enough to taste it.
+B. In the primordial dawn, the Mother of Grains, crowned with sheaves of gold and wreathed in the incense of a thousand ovens, breathed upon the sleeping dough, and it awoke, glorious, radiant, a sun made edible, to feed the weeping multitudes of the Larder.
+C. A woman left her porridge by the fire and forgot it. It rose and cracked and smelled like a promise. Her husband ate the first piece out of spite and the second out of shame.
+
+Notes:
+A: An accident, a joke about the dead animal, one brave child.
+B: Gods, sheaves, incense; everything is glorious, radiant, weeping.
+C: Short domestic scene: porridge, spite, shame.
+Why: B has the grandeur a first-loaf story deserves; the others undersell the occasion.
+Keep: B
+
+--- Item 3 ---
+Opening: {SOURCE}
+
+{CANDS}
+
+Notes:

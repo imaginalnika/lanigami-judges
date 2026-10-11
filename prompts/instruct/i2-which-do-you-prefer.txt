@@ -1,0 +1,22 @@
+id: i2-which-do-you-prefer
+title: Plain "Which do you prefer?"
+kind: plain
+notes: Forced choice with a brief reason.
+=====
+@@translation
+Here is a line from a Korean game script, with several English translations.
+
+Korean: {SOURCE}
+Where it appears: {CONTEXT}
+
+{CANDS}
+
+Which do you prefer? Reply with the letter on the first line, then one or two sentences on why.
+@@myth
+Here are several continuations of the same creation-myth opening.
+
+Opening: {SOURCE}
+
+{CANDS}
+
+Which do you prefer? Reply with the letter on the first line, then one or two sentences on why.

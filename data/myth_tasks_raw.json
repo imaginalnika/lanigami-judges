@@ -1,0 +1,475 @@
+{
+ "openers": [
+  "In the world of Hollowmere, where the rivers run uphill at night, strange tales are told of how the first light was made.",
+  "In the world of the Salt Teeth, a chain of islands no map agrees on, strange tales are told of the first fisherman.",
+  "In the world of Ankh-Ember, where every house keeps a small fire that must never be named, strange tales are told of how fire came to be shared.",
+  "In the world of the Tin Meadows, where the wind has a postal address, strange tales are told of the first word ever spoken.",
+  "In the world of Orrery Deep, the sea at the bottom of the sky, strange tales are told of why the stars keep their distance.",
+  "In the world of the Grey Orchard, strange tales are told of the first death, and of the tree that apologised."
+ ],
+ "gen_prompt": "Complete this creation myth. Continue directly from where the opening leaves off, in one or two paragraphs, about 150 words. Output only the continuation, nothing else.\n\nOpening: {o}",
+ "tasks": [
+  {
+   "id": "myth-1",
+   "type": "myth",
+   "source": "In the world of Hollowmere, where the rivers run uphill at night, strange tales are told of how the first light was made.",
+   "unused_base_samples": [
+    {
+     "text": "In the world of Hollowmere, where the rivers run uphill at night, strange tales are told of how the first light was made.  It is said that the ancient beings of Hollowmere, the Moon Druids, played a crucial role in shaping the world. They created the Sun, Moon, and Stars, and their powers are still revered by the followers of the Moon Druid tradition.\nIn Hollowmere, the Moon Druids are seen as the keepers of the natural world, and they have a deep connection to the moon and the stars. They use their magic to influence the tides, the seasons, and the growth of plants. They also have the power to communicate with the spirits of the land and the creatures that inhabit it.\nOne of the most powerful Moon Druids in Hollowmere is a young woman named Elara. She has a deep connection to the moon and her magic is incredibly strong. She is the leader of a small group of Moon Druids who live in a hidden grove deep within the forest.\nElara's powers were put to the test when a terrible darkness fell upon Hollowmere. The sun had not risen in days, and the moon had been covered in a thick cloud.",
+     "raw": " It is said that the ancient beings of Hollowmere, the Moon Druids, played a crucial role in shaping the world. They created the Sun, Moon, and Stars, and their powers are still revered by the followers of the Moon Druid tradition.\nIn Hollowmere, the Moon Druids are seen as the keepers of the natural world, and they have a deep connection to the moon and the stars. They use their magic to influence the tides, the seasons, and the growth of plants. They also have the power to communicate with the spirits of the land and the creatures that inhabit it.\nOne of the most powerful Moon Druids in Hollowmere is a young woman named Elara. She has a deep connection to the moon and her magic is incredibly strong. She is the leader of a small group of Moon Druids who live in a hidden grove deep within the forest.\nElara's powers were put to the test when a terrible darkness fell upon Hollowmere. The sun had not risen in days, and the moon had been covered in a thick cloud. The world was plunged into a deep darkness, and the",
+     "derailed": false,
+     "origin": "Qwen 3.5 35B-A3B Base (plain continuation, sample 3)"
+    },
+    {
+     "text": "In the world of Hollowmere, where the rivers run uphill at night, strange tales are told of how the first light was made.  But in my life, I’ve never seen magic, only the flicker of a lamp and the turn of a key. So when I was handed the key, I thought it was a joke. My grandfather had been the keeper of the Light of Hollowmere, the one who kept the city safe from the Shrouded Ones. But he’d grown old, and his hands trembled, so he passed the key to me. I didn’t believe in the Light, or the Shrouded Ones. I just wanted to fix the old house, get on with my life.\nThe key was heavy, cold, and ugly. It looked like it belonged in a museum, not in my pocket. But it was mine now, and I didn’t know what else to do. The old house was a mess, full of dust and broken things. But there was something in the attic that made me stop. It was a box, made of wood and iron, and it had a lock that fit the key perfectly. I opened it, and inside was a flame, small and blue, like a candle that never burned out.",
+     "raw": " But in my life, I’ve never seen magic, only the flicker of a lamp and the turn of a key. So when I was handed the key, I thought it was a joke. My grandfather had been the keeper of the Light of Hollowmere, the one who kept the city safe from the Shrouded Ones. But he’d grown old, and his hands trembled, so he passed the key to me. I didn’t believe in the Light, or the Shrouded Ones. I just wanted to fix the old house, get on with my life.\nThe key was heavy, cold, and ugly. It looked like it belonged in a museum, not in my pocket. But it was mine now, and I didn’t know what else to do. The old house was a mess, full of dust and broken things. But there was something in the attic that made me stop. It was a box, made of wood and iron, and it had a lock that fit the key perfectly. I opened it, and inside was a flame, small and blue, like a candle that never burned out. It was",
+     "derailed": false,
+     "origin": "Qwen 3.5 35B-A3B Base (plain continuation, sample 4)"
+    },
+    {
+     "text": "In the world of Hollowmere, where the rivers run uphill at night, strange tales are told of how the first light was made.  According to legend, a mighty giant named Gorthon, with eyes like blazing moons, stood on the edge of the world and threw a star into the sky, lighting up the darkness. This story is often told to children in Hollowmere, who gather around their hearths to listen to the myths of their ancestors.\n\nOne day, a curious boy named Finn wandered into the Whispering Woods, a place where the trees are said to hum ancient songs. There, he found a group of dwarves working on a strange device, using gears and crystals to capture sunlight. They explained that they were creating a sun to replace the one Gorthon had thrown. Finn was fascinated and decided to help them.\n\nAs the dwarves worked, they shared their knowledge of the stars and the forces that held them in place. Finn learned that the stars were not just distant lights but were connected to the heart of the world. He also discovered that the giant Gorthon was not just a myth but a being who had once walked among them, shaping the land and sky.",
+     "raw": " According to legend, a mighty giant named Gorthon, with eyes like blazing moons, stood on the edge of the world and threw a star into the sky, lighting up the darkness. This story is often told to children in Hollowmere, who gather around their hearths to listen to the myths of their ancestors.\n\nOne day, a curious boy named Finn wandered into the Whispering Woods, a place where the trees are said to hum ancient songs. There, he found a group of dwarves working on a strange device, using gears and crystals to capture sunlight. They explained that they were creating a sun to replace the one Gorthon had thrown. Finn was fascinated and decided to help them.\n\nAs the dwarves worked, they shared their knowledge of the stars and the forces that held them in place. Finn learned that the stars were not just distant lights but were connected to the heart of the world. He also discovered that the giant Gorthon was not just a myth but a being who had once walked among them, shaping the land and sky.\n\nWith the help of the dwarves and the wisdom of the stars,",
+     "derailed": false,
+     "origin": "Qwen 3.5 35B-A3B Base (plain continuation, sample 5)"
+    },
+    {
+     "text": "In the world of Hollowmere, where the rivers run uphill at night, strange tales are told of how the first light was made.  The story of Ilmaril, the moon, and Thrym, the sun, is one that is passed down from generation to generation.\nIlmaril was a skilled blacksmith who lived in the village of Hammer's End. He was known for his strength and ingenuity, and was highly respected by his fellow villagers. One day, while he was working in his forge, he heard a knock on his door.\nTo his surprise, he saw Thrym standing at his doorstep. Thrym was a giant with fiery hair and eyes that glowed like the sun. He told Ilmaril that he needed his help to create something that would bring light to the world.\nIlmaril was initially skeptical of Thrym's request, but he saw the desperation in his eyes and knew that he had to help. Together, they worked tirelessly in the forge, using Ilmaril's blacksmithing skills and Thrym's immense strength to create a magnificent metal sphere.\nAs they worked, they bonded and grew to respect and admire each other.",
+     "raw": " The story of Ilmaril, the moon, and Thrym, the sun, is one that is passed down from generation to generation.\nIlmaril was a skilled blacksmith who lived in the village of Hammer's End. He was known for his strength and ingenuity, and was highly respected by his fellow villagers. One day, while he was working in his forge, he heard a knock on his door.\nTo his surprise, he saw Thrym standing at his doorstep. Thrym was a giant with fiery hair and eyes that glowed like the sun. He told Ilmaril that he needed his help to create something that would bring light to the world.\nIlmaril was initially skeptical of Thrym's request, but he saw the desperation in his eyes and knew that he had to help. Together, they worked tirelessly in the forge, using Ilmaril's blacksmithing skills and Thrym's immense strength to create a magnificent metal sphere.\nAs they worked, they bonded and grew to respect and admire each other. They poured their hearts and souls into their creation, and when",
+     "derailed": false,
+     "origin": "Qwen 3.5 35B-A3B Base (plain continuation, sample 6)"
+    }
+   ],
+   "candidates": [
+    {
+     "text": "In the world of Hollowmere, where the rivers run uphill at night, strange tales are told of how the first light was made.  It is said that in the beginning, the world was dark. No stars, no moon, no sun—just endless night. The people lived in fear, for without light, they could not see, and without seeing, they could not survive. The animals whispered that the darkness was a curse from the gods, but no one knew how to lift it. Then came the first light, born not from fire, but from a single, glowing stone found deep in the heart of Hollowmere. The stone was found by a young girl named Lira, who had wandered too far from her village. As she stumbled through the dark, the stone pulsed in her hands, warm and alive, as if it had been waiting for her. She held it up, and in that moment, the darkness retreated. The light from the stone spread, casting shadows and revealing the world for the first time. The people gathered around her, amazed, and from that day on, the stone became their beacon. But the light was not always steady. Sometimes, it flickered, and the people would wonder if the darkness would return.",
+     "origins": [
+      "Qwen 3.5 35B-A3B Base (plain continuation, sample 1)"
+     ],
+     "kinds": [
+      "base"
+     ],
+     "finish": "length",
+     "sampling": "temp 0.8, top_p 0.95, max_tokens 230, prompt = opener only"
+    },
+    {
+     "text": "In the world of Hollowmere, where the rivers run uphill at night, strange tales are told of how the first light was made.  People speak of a creature who once stood at the edge of the lake, watching the stars reflect on the water. He wasn’t born under the sun, and his skin was pale like moonlight. He had no name, but he was called the Pale One. The Pale One could not speak, only hum. His hum was low and deep, like wind through trees, but also sharp like glass. It was said that when he hummed, the stars flickered. The people of Hollowmere feared him. They whispered that he might be a god, or something worse. One night, a girl named Mira found him sitting by the lake. She was curious, not afraid. She walked closer and heard the hum. It was gentle now, not threatening. Mira sat beside him and listened. She didn’t know why, but she felt safe. The Pale One looked at her with eyes like silver coins. He reached out and touched her hand. It was cold, but not uncomfortable. Then he hummed again, and the stars above began to spin. Mira gasped.",
+     "origins": [
+      "Qwen 3.5 35B-A3B Base (plain continuation, sample 2)"
+     ],
+     "kinds": [
+      "base"
+     ],
+     "finish": "length",
+     "sampling": "temp 0.8, top_p 0.95, max_tokens 230, prompt = opener only"
+    },
+    {
+     "text": "In the world of Hollowmere, where the rivers run uphill at night, strange tales are told of how the first light was made. They say that before the sun, before the stars, there was only the Blind Shepherd, who wandered the endless dark with a flock of silent stones. He could not see, had never seen, for there was nothing yet to see and no means to see it. But he could feel the cold, and it troubled him. One night—though all was night then—he stumbled and struck his crook against the largest of his stones, and from the wound in its surface spilled a single drop of something warm and terrible. It hissed where it touched the dark, burning a hole in the nothing.\n\nThe Blind Shepherd wept, believing he had broken his beloved stone, and his tears fell upon that burning drop and made it swell like a blister on the skin of the void. It grew and grew until it tore free and rose, pulling the rivers after it in confusion—which is why, even now, the waters of Hollowmere remember that first rising and strain upward when darkness returns.",
+     "origins": [
+      "Opus 4.6 (asked to complete)"
+     ],
+     "kinds": [
+      "instruct"
+     ],
+     "finish": "stop",
+     "sampling": "default/temp 1.0"
+    },
+    {
+     "text": "In the world of Hollowmere, where the rivers run uphill at night, strange tales are told of how the first light was made. The eldest tellers say that before the first dawn, Hollowmere was a bowl of dark water cupped in the hands of a sleeping giantess named Oruvel. Each night the rivers climbed her fingers, searching for something they could not name, and each morning they slid back down, weary and empty. At last a heron, the only creature with eyes, grew tired of watching them fail. It plucked a single ember from Oruvel's dreaming heart, where her memories of some older world still smoldered, and carried it in its beak to the highest ridge of her knuckles.\n\nThere the heron let the ember fall into the rising current. The rivers, finally holding what they had sought, carried it upward into the sky, where it burst into the first sun. Oruvel stirred but did not wake, and so the heron still keeps watch. Should she ever open her eyes, they say, the light will return to her and the rivers will rest.",
+     "origins": [
+      "Opus 5.5 (asked to complete)"
+     ],
+     "kinds": [
+      "instruct"
+     ],
+     "finish": "stop",
+     "sampling": "default/temp 1.0"
+    }
+   ]
+  },
+  {
+   "id": "myth-2",
+   "type": "myth",
+   "source": "In the world of the Salt Teeth, a chain of islands no map agrees on, strange tales are told of the first fisherman.",
+   "unused_base_samples": [
+    {
+     "text": "In the world of the Salt Teeth, a chain of islands no map agrees on, strange tales are told of the first fisherman. \n\nHe lived and worked and sailed among the in-between.\n\nHe knew the salt and the sand, the deep, the shore, the sky.\n\nHe was the salt man.\n\nHe was the father.\n\nI remember this because I'm a fisherman.\n\nThe story goes that he arrived on the Salt Teeth one day when the tide was low and the sun had just begun to move from the east.\n\nHe found a small island and he found a small bay.\n\nHe found a fishing boat and he found a fishing rod.\n\nHe found a fish and he found a fisherman.\n\nHe found a family and he found a wife.\n\nHe found a child and he found a daughter.\n\nHe found a home and he found a house.\n\nHe found a life and he found a living.\n\nHe found a salt man and he found a fisherman.\n\nHe found a family and he found a home.\n\nHe found a life and he found a living.\n\nHe found a salt man and he found a fisherman.\n\nHe found a family and he found a home.",
+     "raw": "\n\nHe lived and worked and sailed among the in-between.\n\nHe knew the salt and the sand, the deep, the shore, the sky.\n\nHe was the salt man.\n\nHe was the father.\n\nI remember this because I'm a fisherman.\n\nThe story goes that he arrived on the Salt Teeth one day when the tide was low and the sun had just begun to move from the east.\n\nHe found a small island and he found a small bay.\n\nHe found a fishing boat and he found a fishing rod.\n\nHe found a fish and he found a fisherman.\n\nHe found a family and he found a wife.\n\nHe found a child and he found a daughter.\n\nHe found a home and he found a house.\n\nHe found a life and he found a living.\n\nHe found a salt man and he found a fisherman.\n\nHe found a family and he found a home.\n\nHe found a life and he found a living.\n\nHe found a salt man and he found a fisherman.\n\nHe found a family and he found a home.\n\nHe found a life",
+     "derailed": false,
+     "origin": "Qwen 3.5 35B-A3B Base (plain continuation, sample 3)"
+    },
+    {
+     "text": "In the world of the Salt Teeth, a chain of islands no map agrees on, strange tales are told of the first fisherman.  A man who dove off his boat into the sea and never came back up, but instead, it is said, he became a merman. The salt tears from his eyes were his first fish, and they fled away to make a home in the salt teeth. He has a human face, but has never been seen above water. He is said to watch over the islands and help the fishermen of the Salt Teeth, but those who have gone to him have never returned.",
+     "raw": " A man who dove off his boat into the sea and never came back up, but instead, it is said, he became a merman. The salt tears from his eyes were his first fish, and they fled away to make a home in the salt teeth. He has a human face, but has never been seen above water. He is said to watch over the islands and help the fishermen of the Salt Teeth, but those who have gone to him have never returned.",
+     "derailed": false,
+     "origin": "Qwen 3.5 35B-A3B Base (plain continuation, sample 4)"
+    },
+    {
+     "text": "In the world of the Salt Teeth, a chain of islands no map agrees on, strange tales are told of the first fisherman.  The story begins with a man named Cap, who was simply the first man. Cap was a simple, ordinary man, and his story is told in the book \"Cap and the Salt Teeth\" by Rebecca McLaughlin. The book is part of the \"Salt Teeth\" series, published by Fandango Publishing on September 12, 2023, and is available in English. It has the ISBN-13: 978-1-7378410-2-0 and is currently priced at $3. 99. Rebecca McLaughlin, the author, is a writer, illustrator, and storyteller who has contributed to various projects, including \"The Song of the Pines: A Poetry Anthology. \" Her work, \"Cap and the Salt Teeth, \" is a captivating tale that delves into the mysterious and enigmatic world of the Salt Teeth. The book is available from Amazon's Book Store and has received positive reviews, with a 5-star rating from the seller \"very good book\" in Glasgow, United Kingdom.",
+     "raw": " The story begins with a man named Cap, who was simply the first man. Cap was a simple, ordinary man, and his story is told in the book \"Cap and the Salt Teeth\" by Rebecca McLaughlin. The book is part of the \"Salt Teeth\" series, published by Fandango Publishing on September 12, 2023, and is available in English. It has the ISBN-13: 978-1-7378410-2-0 and is currently priced at $3. 99. Rebecca McLaughlin, the author, is a writer, illustrator, and storyteller who has contributed to various projects, including \"The Song of the Pines: A Poetry Anthology. \" Her work, \"Cap and the Salt Teeth, \" is a captivating tale that delves into the mysterious and enigmatic world of the Salt Teeth. The book is available from Amazon's Book Store and has received positive reviews, with a 5-star rating from the seller \"very good book\" in Glasgow, United Kingdom. In addition to her work on \"",
+     "derailed": false,
+     "origin": "Qwen 3.5 35B-A3B Base (plain continuation, sample 5)"
+    },
+    {
+     "text": "In the world of the Salt Teeth, a chain of islands no map agrees on, strange tales are told of the first fisherman.  A man who had no god of the sea to call upon, who instead had to toil alongside his boats, like a slave to the tide, as if the sea would only yield to those who paid their dues.\nTo live here is to struggle, to live here is to keep pulling and pulling on your line, to try and find some small prize in the salty deep. To live here is to listen to the tales, to fear the salt tooth, to be grateful for each day’s catch. To live here is to be alive.\n==The Salt Teeth: A Chronicle of Salt and Stone==\n===Introduction===\nThe Salt Teeth is a chain of islands where the sea and land collide in a harsh embrace. These islands are a place of extremes, where the wind howls and the waves crash, where the sun beats down mercilessly and the storms rage without mercy. It is a land of survival, of struggle, and of stories.\n===The First Fisherman===\nLong ago, in the beginning, there was a man who lived on the Salt Teeth.",
+     "raw": " A man who had no god of the sea to call upon, who instead had to toil alongside his boats, like a slave to the tide, as if the sea would only yield to those who paid their dues.\nTo live here is to struggle, to live here is to keep pulling and pulling on your line, to try and find some small prize in the salty deep. To live here is to listen to the tales, to fear the salt tooth, to be grateful for each day’s catch. To live here is to be alive.\n==The Salt Teeth: A Chronicle of Salt and Stone==\n===Introduction===\nThe Salt Teeth is a chain of islands where the sea and land collide in a harsh embrace. These islands are a place of extremes, where the wind howls and the waves crash, where the sun beats down mercilessly and the storms rage without mercy. It is a land of survival, of struggle, and of stories.\n===The First Fisherman===\nLong ago, in the beginning, there was a man who lived on the Salt Teeth. This man had no god of the sea to call upon,",
+     "derailed": false,
+     "origin": "Qwen 3.5 35B-A3B Base (plain continuation, sample 6)"
+    }
+   ],
+   "candidates": [
+    {
+     "text": "In the world of the Salt Teeth, a chain of islands no map agrees on, strange tales are told of the first fisherman.  He was said to be a man of impossible strength and cunning, who could capture fish with a single hand. He was also said to be able to change his shape at will, and to be able to control the weather.\n\nThe fisherman was said to be the son of a great sea god, and to have been born with a gift for seeing into the future. He was also said to be able to speak to the spirits of the land and sea.\n\nThe fisherman was a legend in his own time, and his deeds were told and retold by fishermen and sailors alike. But he was also a feared figure, for his powers were said to be dangerous and unpredictable.\n\nOne day, the fisherman decided to sail into the unknown, to explore the world beyond the Salt Teeth. He took with him a small boat and a single fishing rod, and he set out into the great sea.\n\nHe sailed for many days, and many nights, and he saw many strange and wonderful things. He saw islands of crystal, and forests of fire, and mountains of ice.",
+     "origins": [
+      "Qwen 3.5 35B-A3B Base (plain continuation, sample 1)"
+     ],
+     "kinds": [
+      "base"
+     ],
+     "finish": "length",
+     "sampling": "temp 0.8, top_p 0.95, max_tokens 230, prompt = opener only"
+    },
+    {
+     "text": "In the world of the Salt Teeth, a chain of islands no map agrees on, strange tales are told of the first fisherman. \nIn those days, a man came to the island of Cascais, and he had a boat and a net, and he cast his net to fish. He was there for many days and many nights, and he caught many fish, and he ate and he was well.\nBut one day, he caught a fish that was the biggest he had ever seen, and he could not pull it in. It pulled him into the sea, and he could not let go. He held on for days and days, and he saw the fish swim down deep, deep into the sea.\nOn the fifth day, the man saw a light shining in the depths of the sea. He could see it was a woman, and she was beautiful. She reached out her hand, and she pulled the man out of the water. He was safe, and he was alive.\nThe woman said to him, \"You have saved me. I am the queen of the sea. I will give you a gift. You will never want for food again.\"\nAnd with that, she disappeared into the depths of the sea.",
+     "origins": [
+      "Qwen 3.5 35B-A3B Base (plain continuation, sample 2)"
+     ],
+     "kinds": [
+      "base"
+     ],
+     "finish": "length",
+     "sampling": "temp 0.8, top_p 0.95, max_tokens 230, prompt = opener only"
+    },
+    {
+     "text": "In the world of the Salt Teeth, a chain of islands no map agrees on, strange tales are told of the first fisherman. He cast his net before there was a sea, standing on the lip of darkness, and drew up a fish with the moon caught in its throat. “Throw me back,” it said, “and you shall never hunger.” But the fisherman had children not yet born, and he feared their empty bowls. He slit the silver belly. Out poured the waters, drowning the darkness and lifting him upon a wave.\n\nThe fish’s bones became the islands, its scales the stars, and its teeth the reefs that still bite holes in passing boats. Of the fisherman, only his net remained, spread beneath the water where no sun can reach. The islanders say it catches the names of those lost at sea. When the tide retreats farther than it should, you may hear him counting them, trying to learn which belong to his children. This is why no one in the Salt Teeth names a child before its first rain.",
+     "origins": [
+      "GPT-6.1 Sol (asked to complete)"
+     ],
+     "kinds": [
+      "instruct"
+     ],
+     "finish": "stop",
+     "sampling": "default/temp 1.0"
+    },
+    {
+     "text": "In the world of the Salt Teeth, a chain of islands no map agrees on, strange tales are told of the first fisherman. His name was Aro, born from the foam and grit of the churning sea. It is said that before Aro, the waters were barren, holding no life but the murmurs of forgotten storms. One dawn, as the sun bled over the horizon, Aro cast his handmade net woven from sea grass and wishes into the stillness. The ocean sighed, a deep, resonant sound that rippled across the Salt Teeth.\n\nFrom the depths, fish of every color and shape sprang forth, wriggling into being as if awakened from a long slumber. Aro, stunned by the bounty spilling from the deep, knew then that he must give back. He whispered a pledge to the waves, forever binding his fate to the sea, promising to protect its hidden heart. Thus, the sea gifted Aro immortality, and he became the eternal fisherman, guardian of the ocean's endless ebb and flow.",
+     "origins": [
+      "GPT-4o (asked to complete)"
+     ],
+     "kinds": [
+      "instruct"
+     ],
+     "finish": "stop",
+     "sampling": "default/temp 1.0"
+    }
+   ]
+  },
+  {
+   "id": "myth-3",
+   "type": "myth",
+   "source": "In the world of Ankh-Ember, where every house keeps a small fire that must never be named, strange tales are told of how fire came to be shared.",
+   "unused_base_samples": [
+    {
+     "text": "In the world of Ankh-Ember, where every house keeps a small fire that must never be named, strange tales are told of how fire came to be shared.  It all began with a great feast that could not be finished—food left over, lamps too few, and flames running low. The final spark, kept by the last house, was considered sacred, something not to be touched lightly. But when hunger grew louder than silence, and the glow of hearths began to fade, one house dared to ask: \"Can we share a flame?\"\n\nAt first, the house with the last spark hesitated. Sharing meant giving away a part of their own warmth. But then another house said, \"If we all take a little, we can all keep a little.\" And so the spark passed from hand to hand, from home to home. Not stolen, but offered—not taken, but shared.\n\nBy the next morning, the city glowed with life. Each house had a small flame of its own, not just for cooking, but for warmth, for stories told in the dark. The fire had been shared—not hoarded, not guarded, but given freely. And in that simple act, the people learned a truth that still echoes today: no one can stay warm alone.",
+     "raw": " It all began with a great feast that could not be finished—food left over, lamps too few, and flames running low. The final spark, kept by the last house, was considered sacred, something not to be touched lightly. But when hunger grew louder than silence, and the glow of hearths began to fade, one house dared to ask: \"Can we share a flame?\"\n\nAt first, the house with the last spark hesitated. Sharing meant giving away a part of their own warmth. But then another house said, \"If we all take a little, we can all keep a little.\" And so the spark passed from hand to hand, from home to home. Not stolen, but offered—not taken, but shared.\n\nBy the next morning, the city glowed with life. Each house had a small flame of its own, not just for cooking, but for warmth, for stories told in the dark. The fire had been shared—not hoarded, not guarded, but given freely. And in that simple act, the people learned a truth that still echoes today: no one can stay warm alone.\n\nFrom then",
+     "derailed": false,
+     "origin": "Qwen 3.5 35B-A3B Base (plain continuation, sample 3)"
+    },
+    {
+     "text": "In the world of Ankh-Ember, where every house keeps a small fire that must never be named, strange tales are told of how fire came to be shared. \nAt first, fire belonged only to one house. The other houses could not speak it, not even its name. But this one house, the one that held fire, had a daughter who looked at the others with longing. She watched the dark in their homes, the cold and the quiet. She knew fire was not just warmth—it was light, and light was life.\nOne night, the fire-keeper's daughter slipped into the night, carrying a small ember wrapped in cloth. She carried it in her hands, not in a pot or a vessel. She carried it because it was the only thing she dared not lose.\nShe went from house to house, passing the ember from one to another. Each house that received the fire whispered its name to the wind, so that no one could take it back. They learned the fire. They learned the name. And they kept it safe.\nBut the fire-keeper's daughter was caught. Her father took the fire back, and he punished her. He took her hands, and he made them never touch fire again.\nStill, the fire lived on.",
+     "raw": "\nAt first, fire belonged only to one house. The other houses could not speak it, not even its name. But this one house, the one that held fire, had a daughter who looked at the others with longing. She watched the dark in their homes, the cold and the quiet. She knew fire was not just warmth—it was light, and light was life.\nOne night, the fire-keeper's daughter slipped into the night, carrying a small ember wrapped in cloth. She carried it in her hands, not in a pot or a vessel. She carried it because it was the only thing she dared not lose.\nShe went from house to house, passing the ember from one to another. Each house that received the fire whispered its name to the wind, so that no one could take it back. They learned the fire. They learned the name. And they kept it safe.\nBut the fire-keeper's daughter was caught. Her father took the fire back, and he punished her. He took her hands, and he made them never touch fire again.\nStill, the fire lived on.\nIt spread",
+     "derailed": false,
+     "origin": "Qwen 3.5 35B-A3B Base (plain continuation, sample 4)"
+    },
+    {
+     "text": "In the world of Ankh-Ember, where every house keeps a small fire that must never be named, strange tales are told of how fire came to be shared.  Some say it was stolen from the gods, others whisper that the great serpent Anu once held it in his coils and let it slip into the hands of mortals. But no matter the story, all agree that fire was never meant to be kept safe behind closed doors.\n\nThose who hoard it, they say, grow colder in the heart. Those who spread it, even when it burns their hands, warm the world in ways no name could describe.\n\nAnd so, the Emberfolk say: \"The fire that is not spoken of, will one day forget to burn.\"\n\nWould you like a short parable-style version of this, or a more poetic retelling?\n\n<think>\nHmm, the user has shared a rich mythological fragment from the world of Ankh-Ember and is asking for a stylistic adaptation. The core themes are clear: fire as a communal gift, the danger of hoarding, and the power of shared stories. \n\nThe user offers two distinct creative directions—parabolic versus poetic—so I should respect that choice while maintaining the original's mystical tone.",
+     "raw": " Some say it was stolen from the gods, others whisper that the great serpent Anu once held it in his coils and let it slip into the hands of mortals. But no matter the story, all agree that fire was never meant to be kept safe behind closed doors.\n\nThose who hoard it, they say, grow colder in the heart. Those who spread it, even when it burns their hands, warm the world in ways no name could describe.\n\nAnd so, the Emberfolk say: \"The fire that is not spoken of, will one day forget to burn.\"\n\nWould you like a short parable-style version of this, or a more poetic retelling?\n\n<think>\nHmm, the user has shared a rich mythological fragment from the world of Ankh-Ember and is asking for a stylistic adaptation. The core themes are clear: fire as a communal gift, the danger of hoarding, and the power of shared stories. \n\nThe user offers two distinct creative directions—parabolic versus poetic—so I should respect that choice while maintaining the original's mystical tone. For the parable, I can",
+     "derailed": false,
+     "origin": "Qwen 3.5 35B-A3B Base (plain continuation, sample 5)"
+    },
+    {
+     "text": "In the world of Ankh-Ember, where every house keeps a small fire that must never be named, strange tales are told of how fire came to be shared. \nDuring the Great Drought, when the rivers shrank to silent threads and the sky remained forever pale, no one dared to keep fire. It was forbidden.\nBut on the night of the Still Moon, a maiden known as Ember-Born walked to the edge of the village and, without words, lit a torch.\nShe held it high and said nothing. The wind rose and the flame flickered.\nSome fled. Some shouted curses. But the flame did not die.\nShe offered it to the eldest, who refused. She offered it to the youngest, who wept.\nShe passed it down until the fire reached the one who had long carried its absence in silence.\nAnd then, for the first time in years, a family ate from the same bowl and laughed in the same room.\nThe elders called her a thief of smoke.\nBut the children called her mother.\nAnd in every Ankh-Ember home, the flame is kept.\nIt is never named.\nAnd no one speaks of the night it was stolen.",
+     "raw": "\nDuring the Great Drought, when the rivers shrank to silent threads and the sky remained forever pale, no one dared to keep fire. It was forbidden.\nBut on the night of the Still Moon, a maiden known as Ember-Born walked to the edge of the village and, without words, lit a torch.\nShe held it high and said nothing. The wind rose and the flame flickered.\nSome fled. Some shouted curses. But the flame did not die.\nShe offered it to the eldest, who refused. She offered it to the youngest, who wept.\nShe passed it down until the fire reached the one who had long carried its absence in silence.\nAnd then, for the first time in years, a family ate from the same bowl and laughed in the same room.\nThe elders called her a thief of smoke.\nBut the children called her mother.\nAnd in every Ankh-Ember home, the flame is kept.\nIt is never named.\nAnd no one speaks of the night it was stolen.",
+     "derailed": false,
+     "origin": "Qwen 3.5 35B-A3B Base (plain continuation, sample 6)"
+    }
+   ],
+   "candidates": [
+    {
+     "text": "In the world of Ankh-Ember, where every house keeps a small fire that must never be named, strange tales are told of how fire came to be shared.  It is said that once upon a time, fire was not given freely. Instead, it was hidden by the dwarves in their deep, hidden halls beneath the mountains.\nThe dwarves, fierce and proud, had a secret. They had discovered a way to keep fire from spreading beyond their own kind. They believed that fire was a gift, one that should not be shared with those who might misuse it.\nIn those days, the world was divided. The dwarves ruled the mountains, while the humans lived in the valleys and plains. The dwarves were content to keep their fire and their secrets, but the humans were desperate for it.\nOne day, a human named Einar wandered into the mountains, seeking the secret of fire. He was a clever man, and he managed to sneak into the dwarves' halls. He found the fire, hidden in a small, flickering flame, and he took it back to his people.\nBut the dwarves were not pleased. They were angry that their secret had been revealed, and they vowed to never share their fire again.",
+     "origins": [
+      "Qwen 3.5 35B-A3B Base (plain continuation, sample 1)"
+     ],
+     "kinds": [
+      "base"
+     ],
+     "finish": "length",
+     "sampling": "temp 0.8, top_p 0.95, max_tokens 230, prompt = opener only"
+    },
+    {
+     "text": "In the world of Ankh-Ember, where every house keeps a small fire that must never be named, strange tales are told of how fire came to be shared.  Some say it was not given by gods, but taken by a clever apprentice. Others claim it was stolen by a misunderstood fire spirit. And yet, there is another tale whispered in the kitchens and hearths, one that speaks of a serpent named Nuriel, who sought to keep the fire for herself alone.\n\nNuriel was no ordinary serpent. She lived in the heart of the Ember Vale, where the fire of creation was said to have first burned. Her scales shimmered with the colors of flame, and her eyes glowed like embers. She was proud and fierce, guarding the fire with a devotion that bordered on obsession. She believed the fire was hers, a sacred trust given only to her by the ancient spirits.\n\nBut the fire was not meant to be hoarded. It was meant to be shared, to warm homes, to cook food, to forge tools. When the humans of the valley learned of Nuriel’s treasure, they came to her, not with weapons, but with offers of friendship.",
+     "origins": [
+      "Qwen 3.5 35B-A3B Base (plain continuation, sample 2)"
+     ],
+     "kinds": [
+      "base"
+     ],
+     "finish": "length",
+     "sampling": "temp 0.8, top_p 0.95, max_tokens 230, prompt = opener only"
+    },
+    {
+     "text": "In the world of Ankh-Ember, where every house keeps a small fire that must never be named, strange tales are told of how fire came to be shared. They say that in the age before warmth, a blind weaver named Suleth lived at the rim of the Quiet, where the world trailed off into colorless nothing. She spent her days weaving thread from silence itself, crafting tapestries no one could see. One evening, her needle pricked something hidden in the dark—a seed of light buried beneath the loom, trembling and alive. It burned her fingers, and she cried out, and the sound gave it shape. The flame leaped into being, wild and hungry, speaking a name so beautiful that all who heard it were struck still. Suleth, being blind, was the only one who could move. She tore the flame into pieces and pressed each shard into a stone, then carried them house to house, warning everyone: *The fire will stay only if you forget what it called itself.*\n\nAnd so the people learned to keep their fires close and their silence closer, tending the bright without ever speaking its name, lest the scattered pieces remember they were once whole and rush together again to speak the word that would end all motion forever.",
+     "origins": [
+      "Opus 4.6 (asked to complete)"
+     ],
+     "kinds": [
+      "instruct"
+     ],
+     "finish": "stop",
+     "sampling": "default/temp 1.0"
+    },
+    {
+     "text": "In the world of Ankh-Ember, where every house keeps a small fire that must never be named, strange tales are told of how fire came to be shared. Before there were hearths, all warmth belonged to a bird who nested beneath the earth. Each evening she opened one golden eye, and summer rose through the roots; each morning she closed it, and frost returned. The first people brought her offerings of salt and song, but she would not divide her treasure.\n\nThen a child descended carrying an empty clay bowl. “I have nothing worth giving,” the child said, “but something cold worth warming.” Inside the bowl lay a dying moth. The bird bent close, and one spark fell from her breast. The moth stirred; the bowl glowed. Before she could reclaim the spark, the child ran home and broke the bowl upon the threshold. Its fragments became the first hearths. Ever since, no household has named its fire, lest the bird hear her stolen name and call every spark back into the dark.",
+     "origins": [
+      "GPT-6.1 Sol (asked to complete)"
+     ],
+     "kinds": [
+      "instruct"
+     ],
+     "finish": "stop",
+     "sampling": "default/temp 1.0"
+    }
+   ]
+  },
+  {
+   "id": "myth-4",
+   "type": "myth",
+   "source": "In the world of the Tin Meadows, where the wind has a postal address, strange tales are told of the first word ever spoken.",
+   "unused_base_samples": [
+    {
+     "text": "In the world of the Tin Meadows, where the wind has a postal address, strange tales are told of the first word ever spoken.  According to the 1954 edition of \"The Sun Almanac, \" this word was \"hey, \" uttered by a girl named Lillibet. This unique and whimsical story is just one of the many fascinating tidbits found in the 1954 edition of \"The Sun Almanac, \" which also includes a table of contents, a comprehensive index, and a section on country lore. Another interesting fact from the same year is that the 1954 version of \"The Complete Book of Household Hints\" by the editors of \"The Sun Almanac\" is a well-preserved hardcover, available in very good condition. This book, like \"The Sun Almanac, \" is a treasure trove of practical advice and household tips. The history of the Sun Almanac, however, is not without its controversies. The Sun (New York City) faced a significant legal challenge when it was sued for libel in 1834, as the case was decided against it.",
+     "raw": " According to the 1954 edition of \"The Sun Almanac, \" this word was \"hey, \" uttered by a girl named Lillibet. This unique and whimsical story is just one of the many fascinating tidbits found in the 1954 edition of \"The Sun Almanac, \" which also includes a table of contents, a comprehensive index, and a section on country lore. Another interesting fact from the same year is that the 1954 version of \"The Complete Book of Household Hints\" by the editors of \"The Sun Almanac\" is a well-preserved hardcover, available in very good condition. This book, like \"The Sun Almanac, \" is a treasure trove of practical advice and household tips. The history of the Sun Almanac, however, is not without its controversies. The Sun (New York City) faced a significant legal challenge when it was sued for libel in 1834, as the case was decided against it. This legal battle is a part of the rich history of the Sun Almanac, which has been a trusted source",
+     "derailed": false,
+     "origin": "Qwen 3.5 35B-A3B Base (plain continuation, sample 3)"
+    },
+    {
+     "text": "In the world of the Tin Meadows, where the wind has a postal address, strange tales are told of the first word ever spoken.  The grasses there are not just blades but postmen, carrying the echoes of language through their swaying forms. A white sheep grazes peacefully in a field, its fleece thick and curly, while a black sheep stands nearby, contrasting sharply against the green pasture. Their presence evokes a sense of quiet wonder, as if they too are part of this ancient linguistic landscape, listening intently to the whispers carried by the breeze. The scene is serene, with rolling hills stretching into the distance under a sky dotted with clouds, suggesting a timeless harmony between nature and the mysterious origins of speech. The question lingers: what was the first word? Perhaps it was whispered by the wind itself, carried on the backs of these sheep, or perhaps it was the rustle of leaves, the cry of a bird, or the sigh of the sea. The answer remains lost to time, but the Tin Meadows remind us that language, like the wind, is ever-present, shaping our world in ways both subtle and profound.",
+     "raw": " The grasses there are not just blades but postmen, carrying the echoes of language through their swaying forms. A white sheep grazes peacefully in a field, its fleece thick and curly, while a black sheep stands nearby, contrasting sharply against the green pasture. Their presence evokes a sense of quiet wonder, as if they too are part of this ancient linguistic landscape, listening intently to the whispers carried by the breeze. The scene is serene, with rolling hills stretching into the distance under a sky dotted with clouds, suggesting a timeless harmony between nature and the mysterious origins of speech. The question lingers: what was the first word? Perhaps it was whispered by the wind itself, carried on the backs of these sheep, or perhaps it was the rustle of leaves, the cry of a bird, or the sigh of the sea. The answer remains lost to time, but the Tin Meadows remind us that language, like the wind, is ever-present, shaping our world in ways both subtle and profound. As we wander through this enchanted land, we might pause to listen closely, for somewhere in the rustling grass, the first word still",
+     "derailed": false,
+     "origin": "Qwen 3.5 35B-A3B Base (plain continuation, sample 4)"
+    },
+    {
+     "text": "In the world of the Tin Meadows, where the wind has a postal address, strange tales are told of the first word ever spoken.  It was said to be a whisper, soft and delicate, carried on the breeze. And it was said to be a name – the name of the very first creature to ever speak. This creature was a small, furry being with large, luminous eyes, who lived high up in the mountains, where the air was thin and the stars were close.\nThis creature was known as the Windwhisperer, and it was said to have the power to communicate with the wind itself. The Windwhisperer was a wise and gentle soul, who spent its days watching over the Tin Meadows and listening to the whispers of the wind. It would gather these whispers and weave them into stories, passing them down to the other creatures of the Meadows.\nOne day, the Windwhisperer decided to speak its first word. It looked up at the sky and whispered the word “love” into the wind. And as soon as the word left its lips, the wind carried it across the Tin Meadows, and all the creatures heard it.",
+     "raw": " It was said to be a whisper, soft and delicate, carried on the breeze. And it was said to be a name – the name of the very first creature to ever speak. This creature was a small, furry being with large, luminous eyes, who lived high up in the mountains, where the air was thin and the stars were close.\nThis creature was known as the Windwhisperer, and it was said to have the power to communicate with the wind itself. The Windwhisperer was a wise and gentle soul, who spent its days watching over the Tin Meadows and listening to the whispers of the wind. It would gather these whispers and weave them into stories, passing them down to the other creatures of the Meadows.\nOne day, the Windwhisperer decided to speak its first word. It looked up at the sky and whispered the word “love” into the wind. And as soon as the word left its lips, the wind carried it across the Tin Meadows, and all the creatures heard it. It was the first time any creature had ever spoken, and it was a word that was full of warmth",
+     "derailed": false,
+     "origin": "Qwen 3.5 35B-A3B Base (plain continuation, sample 5)"
+    },
+    {
+     "text": "In the world of the Tin Meadows, where the wind has a postal address, strange tales are told of the first word ever spoken.  It was 'Zlot', and it has been passed down through generations. In the game \"Black & White, \" a similar sense of mystery and wonder is captured. One of the key figures in this game is Xan, a Hermit who has been a source of wisdom and guidance. Xan, who is known for his long, old, and grey beard, even more so than his beard, has been a significant character in the series. The creators of \"Black & White\" wanted to create something unique, and they succeeded in making a game that feels like a living, breathing world. In the game, Xan is introduced as an old Hermit who provides the player with advice and guidance. He can even be found at the Blacksmith, where he sometimes asks the player for help. The Hermit's role is crucial, as he helps the player understand the importance of balancing good and evil, and the consequences of their actions. The game's unique feature, the Command Circle, allows players to give orders to their followers in various situations, adding a layer of depth and strategy to the gameplay.",
+     "raw": " It was 'Zlot', and it has been passed down through generations. In the game \"Black & White, \" a similar sense of mystery and wonder is captured. One of the key figures in this game is Xan, a Hermit who has been a source of wisdom and guidance. Xan, who is known for his long, old, and grey beard, even more so than his beard, has been a significant character in the series. The creators of \"Black & White\" wanted to create something unique, and they succeeded in making a game that feels like a living, breathing world. In the game, Xan is introduced as an old Hermit who provides the player with advice and guidance. He can even be found at the Blacksmith, where he sometimes asks the player for help. The Hermit's role is crucial, as he helps the player understand the importance of balancing good and evil, and the consequences of their actions. The game's unique feature, the Command Circle, allows players to give orders to their followers in various situations, adding a layer of depth and strategy to the gameplay. In \"Black & White ",
+     "derailed": false,
+     "origin": "Qwen 3.5 35B-A3B Base (plain continuation, sample 6)"
+    }
+   ],
+   "candidates": [
+    {
+     "text": "In the world of the Tin Meadows, where the wind has a postal address, strange tales are told of the first word ever spoken.  It was not a prayer, nor a boast, but a simple exclamation of surprise: 'Ow!' This cry was uttered by a strange, six-legged creature that emerged from the sea, its voice echoing across the land and sea. The creature, with its yellow eyes and green, blue, and red stripes, possessed an uncanny ability to change its shape and color, much like a chameleon. Its voice was deep and booming, and it was said to be the most powerful creature in the universe, capable of speaking a language understood by all. This creature, known as the 'Ow!' creature, was a legend in the Tin Meadows, and its story continues to be passed down from generation to generation.",
+     "origins": [
+      "Qwen 3.5 35B-A3B Base (plain continuation, sample 1)"
+     ],
+     "kinds": [
+      "base"
+     ],
+     "finish": "stop",
+     "sampling": "temp 0.8, top_p 0.95, max_tokens 230, prompt = opener only"
+    },
+    {
+     "text": "In the world of the Tin Meadows, where the wind has a postal address, strange tales are told of the first word ever spoken. \nThe father of the Tin Meadows had a son, and his wife, the mother of the Tin Meadows, had a daughter. When the mother of the Tin Meadows gave birth to the daughter, the father of the Tin Meadows named her Heartbeat because the sound of her heart was heard before she was born.\nThe father of the Tin Meadows was a powerful man, and he had a horse that was very fast. One day, the father of the Tin Meadows decided to go on a journey, and he took his horse with him. The mother of the Tin Meadows said goodbye to her husband and watched as he rode off into the distance.\nThe father of the Tin Meadows rode for many days, and he came to a land where the grass was always green and the sky was always blue. He met a wizard there, and the wizard told him that he could grant him any wish. The father of the Tin Meadows wished for a son, and the wizard granted his wish.\nThe father of the Tin Meadows rode back to the Tin Meadows with his new son, and the mother of the Tin Meadows was overjoyed to see him.",
+     "origins": [
+      "Qwen 3.5 35B-A3B Base (plain continuation, sample 2)"
+     ],
+     "kinds": [
+      "base"
+     ],
+     "finish": "length",
+     "sampling": "temp 0.8, top_p 0.95, max_tokens 230, prompt = opener only"
+    },
+    {
+     "text": "In the world of the Tin Meadows, where the wind has a postal address, strange tales are told of the first word ever spoken. They say that before the first word, the meadows rang only with the clatter of tin grass and the wind went undelivered, drifting from field to field with no place to call home. The Silversmith Mother, who had hammered the hills from a single kettle, grew lonely in all that ringing. So she cupped her hands, breathed into them, and folded the breath like a letter. Inside, she placed one word, though none agree on what it was. Some insist it was *here*, some swear it was *again*, and the oldest grandmothers say it was a name too round to say twice.\n\nShe sealed the breath with rust and gave it to the wind, writing upon it: *Number Seven, The Hollow Beneath the Weathervane*. The wind, delighted to finally have somewhere to be, carried it home. When the letter opened, the word spilled out and became the first bird, which has been trying to repeat it ever since.",
+     "origins": [
+      "Opus 5.5 (asked to complete)"
+     ],
+     "kinds": [
+      "instruct"
+     ],
+     "finish": "stop",
+     "sampling": "default/temp 1.0"
+    },
+    {
+     "text": "In the world of the Tin Meadows, where the wind has a postal address, strange tales are told of the first word ever spoken. It is said that this word rolled off the tongue of a being crafted from moonlight and dew, a figure named Verelune. Born from the whispering shadows beneath ancient willow trees, Verelune wandered through the Meadows, watching the sunlight weave spells across the land. Unknowing of her own voice until she heard the longing sigh of the breeze, she spoke a word—a word in tones so harmonious that the skies blushed into dusk and stars blinked awake. With that utterance, the world quivered as the rivers learned to sing and the stones gained stories to share. The Tin Meadows held their breath as echoes danced, reverberating through time. This first word was a secret melody, an enchanting call to life, urging every creature to find its rhythm and release its own song into the wind. Verelune disappeared with the echoes, but her word lingered, forever entwined in the fabric of existence, urging beings to shape their truth.",
+     "origins": [
+      "GPT-4o (asked to complete)"
+     ],
+     "kinds": [
+      "instruct"
+     ],
+     "finish": "stop",
+     "sampling": "default/temp 1.0"
+    }
+   ]
+  },
+  {
+   "id": "myth-5",
+   "type": "myth",
+   "source": "In the world of Orrery Deep, the sea at the bottom of the sky, strange tales are told of why the stars keep their distance.",
+   "unused_base_samples": [
+    {
+     "text": "In the world of Orrery Deep, the sea at the bottom of the sky, strange tales are told of why the stars keep their distance.  Some say they are afraid of the sea, while others believe the sea is scared of them. But the real reason is that the sea is so deep that it goes so far down that it can see the stars, and the stars are afraid of the sea.\nThis tale has been passed down through generations, but it has always been a mystery to the people of Orrery Deep. They have never been able to fully understand the reason behind the stars' fear of the sea. However, as time passed, a group of explorers set out to find the answer.\nThe first person to embark on this journey was a young woman named Lila. She had always been fascinated by the sea and its secrets. Lila grew up hearing stories about the stars and their fear of the sea, and she was determined to uncover the truth.\nShe gathered a team of brave and skilled explorers and they set sail on their ship, the Sea Serpent. They sailed for days, but the sea remained calm and the stars shone brightly in the sky. As they ventured further into the unknown, they began to notice strange phenomena.",
+     "raw": " Some say they are afraid of the sea, while others believe the sea is scared of them. But the real reason is that the sea is so deep that it goes so far down that it can see the stars, and the stars are afraid of the sea.\nThis tale has been passed down through generations, but it has always been a mystery to the people of Orrery Deep. They have never been able to fully understand the reason behind the stars' fear of the sea. However, as time passed, a group of explorers set out to find the answer.\nThe first person to embark on this journey was a young woman named Lila. She had always been fascinated by the sea and its secrets. Lila grew up hearing stories about the stars and their fear of the sea, and she was determined to uncover the truth.\nShe gathered a team of brave and skilled explorers and they set sail on their ship, the Sea Serpent. They sailed for days, but the sea remained calm and the stars shone brightly in the sky. As they ventured further into the unknown, they began to notice strange phenomena. The stars would",
+     "derailed": false,
+     "origin": "Qwen 3.5 35B-A3B Base (plain continuation, sample 3)"
+    },
+    {
+     "text": "In the world of Orrery Deep, the sea at the bottom of the sky, strange tales are told of why the stars keep their distance.  The dark is so great, and the cold so deep, that the stars cannot be seen. But the stars are there, and they are still there, even if they are not seen. They are hidden, and they are waiting. They are waiting for the time when the stars can be seen again. They are waiting for the time when the stars can be seen again, and the dark is not so great, and the cold is not so deep. They are waiting for the time when the stars can be seen again, and the dark is not so great, and the cold is not so deep. They are waiting for the time when the stars can be seen again, and the dark is not so great, and the cold is not so deep. They are waiting for the time when the stars can be seen again, and the dark is not so great, and the cold is not so deep. They are waiting for the time when the stars can be seen again, and the dark is not so great, and the cold is not so deep.",
+     "raw": " The dark is so great, and the cold so deep, that the stars cannot be seen. But the stars are there, and they are still there, even if they are not seen. They are hidden, and they are waiting. They are waiting for the time when the stars can be seen again. They are waiting for the time when the stars can be seen again, and the dark is not so great, and the cold is not so deep. They are waiting for the time when the stars can be seen again, and the dark is not so great, and the cold is not so deep. They are waiting for the time when the stars can be seen again, and the dark is not so great, and the cold is not so deep. They are waiting for the time when the stars can be seen again, and the dark is not so great, and the cold is not so deep. They are waiting for the time when the stars can be seen again, and the dark is not so great, and the cold is not so deep. They are waiting for the time when the stars can be seen again, and the dark is not",
+     "derailed": false,
+     "origin": "Qwen 3.5 35B-A3B Base (plain continuation, sample 4)"
+    },
+    {
+     "text": "In the world of Orrery Deep, the sea at the bottom of the sky, strange tales are told of why the stars keep their distance.  Among the most persistent are the stars known as the Forlorn, whose names are not spoken aloud but whispered in the dark between the waves.\n=== The Forlorn Stars ===\nThe Forlorn are a group of stars that have been cast aside, their light dimmed and their songs silenced by the Great Forgetting. They are said to have committed an ancient sin, one that is too terrible to name, and as a result, they were banished to the edges of the sky, where they wander in silence, their light barely visible to the naked eye.\n=== The Deep Echoes ===\nIt is believed that the Forlorn stars still whisper their names to those who are brave enough to listen. These whispers, known as the Deep Echoes, are said to be carried by the currents of the sea, reaching the ears of those who are attuned to the whispers of the deep. Some say that by listening to the Deep Echoes, one can gain insight into the secrets of the past and the future.",
+     "raw": " Among the most persistent are the stars known as the Forlorn, whose names are not spoken aloud but whispered in the dark between the waves.\n=== The Forlorn Stars ===\nThe Forlorn are a group of stars that have been cast aside, their light dimmed and their songs silenced by the Great Forgetting. They are said to have committed an ancient sin, one that is too terrible to name, and as a result, they were banished to the edges of the sky, where they wander in silence, their light barely visible to the naked eye.\n=== The Deep Echoes ===\nIt is believed that the Forlorn stars still whisper their names to those who are brave enough to listen. These whispers, known as the Deep Echoes, are said to be carried by the currents of the sea, reaching the ears of those who are attuned to the whispers of the deep. Some say that by listening to the Deep Echoes, one can gain insight into the secrets of the past and the future.\n=== The Silent Journey ===\nAccording to the tales, the Forlorn stars are on a silent",
+     "derailed": false,
+     "origin": "Qwen 3.5 35B-A3B Base (plain continuation, sample 5)"
+    },
+    {
+     "text": "In the world of Orrery Deep, the sea at the bottom of the sky, strange tales are told of why the stars keep their distance.  The story begins with an entity known as the Enigma, who asks the stars why they do not come closer. One of the stars, called the Star, responds, explaining that they do not approach the Enigma due to a sense of fear. The star mentions that the Enigma's presence is overwhelming, and their light is too intense, causing the stars to feel overshadowed. The Enigma, intrigued by this response, decides to observe the stars from a distance. It wonders what the stars see from their vantage point and what thoughts might cross their minds.\nThe Enigma contemplates the concept of light and darkness, pondering the idea that the stars might have a deeper meaning or purpose beyond their physical appearance. It considers the possibility that the stars could be more than just celestial bodies, perhaps representing something greater in the cosmic scheme of things. As the Enigma continues to observe the stars, it begins to question the nature of its own existence and the purpose of the universe. It wonders if there is a deeper connection between itself and the stars, and if their separation is merely a result of their different natures.",
+     "raw": " The story begins with an entity known as the Enigma, who asks the stars why they do not come closer. One of the stars, called the Star, responds, explaining that they do not approach the Enigma due to a sense of fear. The star mentions that the Enigma's presence is overwhelming, and their light is too intense, causing the stars to feel overshadowed. The Enigma, intrigued by this response, decides to observe the stars from a distance. It wonders what the stars see from their vantage point and what thoughts might cross their minds.\nThe Enigma contemplates the concept of light and darkness, pondering the idea that the stars might have a deeper meaning or purpose beyond their physical appearance. It considers the possibility that the stars could be more than just celestial bodies, perhaps representing something greater in the cosmic scheme of things. As the Enigma continues to observe the stars, it begins to question the nature of its own existence and the purpose of the universe. It wonders if there is a deeper connection between itself and the stars, and if their separation is merely a result of their different natures.\nThe En",
+     "derailed": false,
+     "origin": "Qwen 3.5 35B-A3B Base (plain continuation, sample 6)"
+    }
+   ],
+   "candidates": [
+    {
+     "text": "In the world of Orrery Deep, the sea at the bottom of the sky, strange tales are told of why the stars keep their distance.  There are those who claim that it is because the stars are afraid of the sea, and others who say that the stars are simply too shy to venture too close. But the truth is far more complex.\nThe first perspective comes from the sea gods, who have ruled over the waters since time immemorial. They are proud and powerful beings, with the ability to control the tides and the waves. They are also fiercely protective of their domain, and have warned the stars that they are not welcome in their waters. The sea gods say that the stars should stay in their place, above the horizon, and not try to intrude on their territory.\nThe second perspective comes from the stars themselves. They are ancient and wise, with the power to light up the darkness and guide the way. They are also humble and shy, and do not like to draw attention to themselves. The stars say that they are afraid of the sea, not because of the sea gods, but because of the creatures that dwell in its depths. They say that the sea is a mysterious and dangerous place, and that they do not want to take any risks.",
+     "origins": [
+      "Qwen 3.5 35B-A3B Base (plain continuation, sample 1)"
+     ],
+     "kinds": [
+      "base"
+     ],
+     "finish": "length",
+     "sampling": "temp 0.8, top_p 0.95, max_tokens 230, prompt = opener only"
+    },
+    {
+     "text": "In the world of Orrery Deep, the sea at the bottom of the sky, strange tales are told of why the stars keep their distance. \n== Prelude ==\nIn the world of Orrery Deep, the stars are distant lights in the sky. It is known that the sea at the bottom of the sky is not quite a sea of water, but rather of a gas, called the Orrery. The Orrery is a bright gas that reflects starlight, but only at the bottom of the sky, never below the level of the sea.\n== The Tale ==\nA young man named Owen was fascinated by the stars and the Orrery. He spent his days watching them from the shore of the sea, wondering what lay beyond. One day, he decided to venture out onto the Orrery, to see if he could get a closer look at the stars. \nOwen was a skilled swimmer, and he knew that the Orrery was not as dense as water. He prepared for his journey by bringing a long rope and a lantern. He tied the rope to a buoy and set off, hoping to reach the stars.\nAs Owen swam through the Orrery, he noticed that the stars seemed to grow larger and brighter as he got closer.",
+     "origins": [
+      "Qwen 3.5 35B-A3B Base (plain continuation, sample 2)"
+     ],
+     "kinds": [
+      "base"
+     ],
+     "finish": "length",
+     "sampling": "temp 0.8, top_p 0.95, max_tokens 230, prompt = opener only"
+    },
+    {
+     "text": "In the world of Orrery Deep, the sea at the bottom of the sky, strange tales are told of why the stars keep their distance. They say that long before the first lanternfish learned to speak, the stars were curious creatures who swam among the abyssal plains, pressing their bright faces against every dark thing they could find. They nuzzled into trenches, threaded through forests of black coral, and tangled themselves in the hair of sleeping leviathans. But their warmth was too much for the deep world. Where they touched, ancient ice-stones melted into nothing, and the slow gardens of crystal that had grown for ten thousand years dissolved like salt. The leviathans woke screaming, their dreams boiled away.\n\nSo the Great Urchin, oldest of all bottom-dwellers, spoke a word that was also a current, and the current carried every star upward, pinning them to the far ceiling of the sea where they could only watch. That is why, even now, the stars tremble—not from cold, but from longing, each one still straining downward toward the darkness it once loved too fiercely.",
+     "origins": [
+      "Opus 4.6 (asked to complete)"
+     ],
+     "kinds": [
+      "instruct"
+     ],
+     "finish": "stop",
+     "sampling": "default/temp 1.0"
+    },
+    {
+     "text": "In the world of Orrery Deep, the sea at the bottom of the sky, strange tales are told of why the stars keep their distance. Long ago, the stars were vibrant creatures that roamed the crystalline waters, illuminating the dark with their celestial glow. They danced upon the waves and lit trails that guided the explorers of the night. Intrigued by the luring call of the vast sky above, the stars wished to rise beyond Orrery Deep and adorn the heavens. Among them was the boldest, Astraea, who longed to break free from the ocean's embrace. She wove a chain of silver light from moonbeams, anchoring herself to the sky. The other stars quickly followed, weaving their own chains, and together they climbed higher, leaving behind their watery realm. Shimmering in newfound freedom, they formed the constellations. But the sea, grieved by their departure, conjured rippling tides to tug at their chains. Now, forever anchored above, the stars remain distant, guiding the lost with their glistening maps, silent witnesses of their oceanic origins.",
+     "origins": [
+      "GPT-4o (asked to complete)"
+     ],
+     "kinds": [
+      "instruct"
+     ],
+     "finish": "stop",
+     "sampling": "default/temp 1.0"
+    }
+   ]
+  },
+  {
+   "id": "myth-6",
+   "type": "myth",
+   "source": "In the world of the Grey Orchard, strange tales are told of the first death, and of the tree that apologised.",
+   "unused_base_samples": [
+    {
+     "text": "In the world of the Grey Orchard, strange tales are told of the first death, and of the tree that apologised. \n== The first death ==\nIn the oldest memories of the Grey Orchard, the trees were alive. They could speak and walk and climb down from their branches and stand tall as the guardians they were. It was they who made the soil fertile and who ensured that the fruit was sweet. And it was they who guarded the people who lived among them, and kept out the beasts of the forest.\nThe trees were one with the land, and they knew that as the soil grew more fertile, the orchard would become more fruitful. The trees knew that, as the fruit was plucked from their branches, they would bear fruit again, in time.\nAnd so they did, with great pleasure.\nBut one day, a tree was struck by a bolt of lightning, and it fell. And when the tree fell, the fruit of that tree rotted. The other trees could not understand. The tree that fell had been strong, and its fruit had been sweet. But even as the other trees whispered in concern, the fruit rotted.\nThe trees looked to the sky, and saw that the sky was clear.",
+     "raw": "\n== The first death ==\nIn the oldest memories of the Grey Orchard, the trees were alive. They could speak and walk and climb down from their branches and stand tall as the guardians they were. It was they who made the soil fertile and who ensured that the fruit was sweet. And it was they who guarded the people who lived among them, and kept out the beasts of the forest.\nThe trees were one with the land, and they knew that as the soil grew more fertile, the orchard would become more fruitful. The trees knew that, as the fruit was plucked from their branches, they would bear fruit again, in time.\nAnd so they did, with great pleasure.\nBut one day, a tree was struck by a bolt of lightning, and it fell. And when the tree fell, the fruit of that tree rotted. The other trees could not understand. The tree that fell had been strong, and its fruit had been sweet. But even as the other trees whispered in concern, the fruit rotted.\nThe trees looked to the sky, and saw that the sky was clear. They looked",
+     "derailed": false,
+     "origin": "Qwen 3.5 35B-A3B Base (plain continuation, sample 3)"
+    },
+    {
+     "text": "In the world of the Grey Orchard, strange tales are told of the first death, and of the tree that apologised. \nThe story goes like this:\nOnce upon a time, two gods did battle in a glade, and the tree between them died.\nAs it died, the tree apologised to the gods, saying that it was sorry for being in their way.\nBut the gods were so fierce in their rage that they did not hear the apology, and so the tree withered away.\nThe gods continued to battle, and the tree died.\nThis is the first death, and the tree that apologised.\nThe gods continued to battle, and the tree died.\nThis is the first death, and the tree that apologised.",
+     "raw": "\nThe story goes like this:\nOnce upon a time, two gods did battle in a glade, and the tree between them died.\nAs it died, the tree apologised to the gods, saying that it was sorry for being in their way.\nBut the gods were so fierce in their rage that they did not hear the apology, and so the tree withered away.\nThe gods continued to battle, and the tree died.\nThis is the first death, and the tree that apologised.\nThe gods continued to battle, and the tree died.\nThis is the first death, and the tree that apologised.",
+     "derailed": false,
+     "origin": "Qwen 3.5 35B-A3B Base (plain continuation, sample 4)"
+    },
+    {
+     "text": "In the world of the Grey Orchard, strange tales are told of the first death, and of the tree that apologised. \nIt was an awful thing, so many centuries ago, that no one remembers the date. The Grey Orchard, a strange realm of infinite black, filled with impossibly large trees that had been planted so long ago that no one could remember.\nThe trees were not like the ones found on Earth. They were twisted and gnarled, their bark black as coal, and their leaves a deep, dark purple. They were ancient, and they were powerful, and they were the only inhabitants of the Grey Orchard.\nIt was said that the trees had been planted by a mysterious being, a being that had once been a great god. The god had been banished to the Grey Orchard, and it was said that it had planted the trees as a way of protecting itself from its enemies.\nNo one knew for sure, but it was said that the god had been banished for a great crime. It was said that it had once been a great and powerful being, but that it had grown arrogant and had tried to overthrow the other gods. It had been defeated, and it had been banished to the Grey Orchard.",
+     "raw": "\nIt was an awful thing, so many centuries ago, that no one remembers the date. The Grey Orchard, a strange realm of infinite black, filled with impossibly large trees that had been planted so long ago that no one could remember.\nThe trees were not like the ones found on Earth. They were twisted and gnarled, their bark black as coal, and their leaves a deep, dark purple. They were ancient, and they were powerful, and they were the only inhabitants of the Grey Orchard.\nIt was said that the trees had been planted by a mysterious being, a being that had once been a great god. The god had been banished to the Grey Orchard, and it was said that it had planted the trees as a way of protecting itself from its enemies.\nNo one knew for sure, but it was said that the god had been banished for a great crime. It was said that it had once been a great and powerful being, but that it had grown arrogant and had tried to overthrow the other gods. It had been defeated, and it had been banished to the Grey Orchard.\nBut",
+     "derailed": false,
+     "origin": "Qwen 3.5 35B-A3B Base (plain continuation, sample 5)"
+    },
+    {
+     "text": "In the world of the Grey Orchard, strange tales are told of the first death, and of the tree that apologised. \n===The First Death===\nThe first death occurred on a Grey Orchard world some time in the early days of the Mythos. As all the trees of the orchard moved in response to the shifting winds, there were a few that did not. \nUnbeknownst to the other trees, the first death had occurred. The tree was rotting from the inside out, unable to keep itself alive as the other trees were. With the last of its strength, the tree cast out a tendril to the ground. In a flash of power, the tree was fully grown again.\nThe tree died a second time, and then a third. The cycle repeated itself until the tree was able to heal itself. The tree was known as the Tree of Repetition, and it became an object of worship for the other trees. They would gather around the tree and watch as it repeated the cycle of death and rebirth.\nAs time passed, the Tree of Repetition grew stronger and more powerful. It was said that the tree could heal itself from any injury, no matter how severe.",
+     "raw": "\n===The First Death===\nThe first death occurred on a Grey Orchard world some time in the early days of the Mythos. As all the trees of the orchard moved in response to the shifting winds, there were a few that did not. \nUnbeknownst to the other trees, the first death had occurred. The tree was rotting from the inside out, unable to keep itself alive as the other trees were. With the last of its strength, the tree cast out a tendril to the ground. In a flash of power, the tree was fully grown again.\nThe tree died a second time, and then a third. The cycle repeated itself until the tree was able to heal itself. The tree was known as the Tree of Repetition, and it became an object of worship for the other trees. They would gather around the tree and watch as it repeated the cycle of death and rebirth.\nAs time passed, the Tree of Repetition grew stronger and more powerful. It was said that the tree could heal itself from any injury, no matter how severe. It was also said that the tree",
+     "derailed": false,
+     "origin": "Qwen 3.5 35B-A3B Base (plain continuation, sample 6)"
+    }
+   ],
+   "candidates": [
+    {
+     "text": "In the world of the Grey Orchard, strange tales are told of the first death, and of the tree that apologised. \n== The First Death ==\nThe tree began its life in the Grey Orchard as a seed, and grew slowly, as things do in the world of the Grey Orchard. When it was time for the tree to bear fruit, it did so with the joy and lightness of a child. But as the tree grew, it came to realise that life was not so simple, and when the fruits began to fall, the tree came to understand death, and its own end.\n== The Apology ==\nAs the fruits fell from the tree, they came to the ground and began to rot. The tree was filled with sorrow, and with shame, and with fear, and it came to understand its own end. And so the tree began to weep, and its tears fell upon the ground, and they began to rot, and the tree knew that it was dying, and it began to apologise. And it said, \"Forgive me for the rotting fruit, and for the rotting tears, and for the rotting life that I have brought upon this world.",
+     "origins": [
+      "Qwen 3.5 35B-A3B Base (plain continuation, sample 1)"
+     ],
+     "kinds": [
+      "base"
+     ],
+     "finish": "length",
+     "sampling": "temp 0.8, top_p 0.95, max_tokens 230, prompt = opener only"
+    },
+    {
+     "text": "In the world of the Grey Orchard, strange tales are told of the first death, and of the tree that apologised. \n----\nWhat is a Grey Orchard? Some say it is a place of death and destruction, a place where those who have sinned are punished. Some say it is a prison, a place for the souls who have lost their way and are too wicked to be forgiven. Some say it is a place of torture and suffering, a place where the wicked are punished for their sins. But others say that the Grey Orchard is a place of hope, a place where even the most wicked of souls can find redemption. The Grey Orchard is a place of mystery, and its secrets are guarded by the Keeper of the Orchard. The Keeper is a being of great power and knowledge, and he is the one who decides who is allowed to enter the Orchard and who is not. He is the one who decides what punishments are given to those who enter the Orchard, and he is the one who decides when a soul is ready to be freed from its punishment. The Grey Orchard is a place of many tales, and it is said that the first death occurred there.",
+     "origins": [
+      "Qwen 3.5 35B-A3B Base (plain continuation, sample 2)"
+     ],
+     "kinds": [
+      "base"
+     ],
+     "finish": "length",
+     "sampling": "temp 0.8, top_p 0.95, max_tokens 230, prompt = opener only"
+    },
+    {
+     "text": "In the world of the Grey Orchard, strange tales are told of the first death, and of the tree that apologised. Before that time, nothing in the orchard had ever ended. Fruit hung forever ripe, and the people who tended the trees grew neither old nor tired, for the great Mother Pear at the orchard's heart held every life within her roots like water in cupped hands. But one autumn a girl named Essa climbed too high, reaching for a fruit that glowed like a second moon, and the branch beneath her broke. She fell, and did not rise.\n\nThe Mother Pear felt the weight of her stillness and shuddered so deeply that every leaf in the orchard turned grey. For seven nights the tree wept sap the colour of ash, and on the eighth she spoke aloud for the first and only time: \"I am sorry. I could not hold her.\" Then she let the broken branch fall beside the girl, and from that place grew the first grave-tree, whose blossoms open only for those who are leaving.",
+     "origins": [
+      "Opus 5.5 (asked to complete)"
+     ],
+     "kinds": [
+      "instruct"
+     ],
+     "finish": "stop",
+     "sampling": "default/temp 1.0"
+    },
+    {
+     "text": "In the world of the Grey Orchard, strange tales are told of the first death, and of the tree that apologised. Before there were graves, the trees bore names instead of fruit, and each name belonged to someone not yet born. A child wandered among them, listening for her own. When she found it trembling on a low branch, she reached up and plucked it. At once her mother, far away beside the river, forgot how to breathe. Thus death entered the world, not as a hunter, but as a silence between two calls.\n\nThe tree bent until its leaves touched the child’s hair. “I am sorry,” it said, and dropped its remaining names into the earth. Wherever they fell, white roots curled around the dead, holding them gently against the dark. But the child would not forgive it. She carried her mother’s name through every season, until it softened in her palm and became the first pear. This is why fruit tastes sweetest just before it spoils, and why the orchard is grey at dawn.",
+     "origins": [
+      "GPT-6.1 Sol (asked to complete)"
+     ],
+     "kinds": [
+      "instruct"
+     ],
+     "finish": "stop",
+     "sampling": "default/temp 1.0"
+    }
+   ]
+  }
+ ]
+}

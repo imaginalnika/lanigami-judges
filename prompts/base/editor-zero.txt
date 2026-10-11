@@ -1,0 +1,24 @@
+id: editor-zero
+title: Editor's margin notes, zero-shot (verdict slot only)
+mode: slot
+notes: Desk-header framing but no worked examples. Ends at "Keep:".
+=====
+@@translation
+EDITORIAL DESK - MARGIN NOTES
+Each item has several English versions of the same Korean line. The editor marks the one to keep.
+
+Source (Korean): {SOURCE}
+Where it appears: {CONTEXT}
+
+{CANDS}
+
+Keep:
+@@myth
+EDITORIAL DESK - MARGIN NOTES
+Each item has several continuations of the same opening sentence. The editor marks the one to keep.
+
+Opening: {SOURCE}
+
+{CANDS}
+
+Keep:
