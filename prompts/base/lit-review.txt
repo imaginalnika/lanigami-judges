@@ -1,8 +1,3 @@
-id: lit-review
-title: Literary-quarterly review excerpt
-mode: slot
-notes: A published-review voice that compares unnamed versions. Ends at "version".
-=====
 @@translation
 From the "Translation Notes" column of a literary quarterly:
 

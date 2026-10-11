@@ -1,8 +1,3 @@
-id: critic-persona
-title: R2 Named-style critic persona (slot)
-mode: slot
-notes: Round 2. A fictional named critic with a stated style (dry, exact, unsentimental). The persona states a taste, like the round-1 primed personas.
-=====
 @@translation
 THE LITERARY GAZETTE - "Side by Side", a column by Harold Vance
 (Vance is known for dry, exact, unsentimental judgments. He picks one version and moves on.)

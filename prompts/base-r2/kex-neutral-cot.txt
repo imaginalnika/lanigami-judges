@@ -1,9 +1,3 @@
-id: kex-neutral-cot
-title: R2 k-example margin notes, NEUTRAL worked examples (descriptive notes, no ornate-is-heavy language; one plain winner, one rich winner)
-mode: sample
-marker: Keep:
-notes: Round 2. Same layout as kex-*-cot. Notes only describe features (length, register, devices). One worked example is won by the plain candidate, the other by the rich one, so the examples do not point either way. Worked examples written by the assistant (an instruct model).
-=====
 @@translation
 EDITOR'S MARGIN NOTES - Fiction & Translation Desk
 House rule: read every version, write one short note on each, say why, then mark the one to keep. Items 1 and 2 are done; item 3 is open.

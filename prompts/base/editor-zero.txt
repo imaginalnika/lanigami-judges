@@ -1,8 +1,3 @@
-id: editor-zero
-title: Editor's margin notes, zero-shot (verdict slot only)
-mode: slot
-notes: Desk-header framing but no worked examples. Ends at "Keep:".
-=====
 @@translation
 EDITORIAL DESK - MARGIN NOTES
 Each item has several English versions of the same Korean line. The editor marks the one to keep.

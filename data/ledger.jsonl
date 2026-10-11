@@ -5980,3 +5980,928 @@
 {"svc": "tinker", "in": 905, "out": 420, "cost": 0.0010494}
 {"svc": "tinker", "in": 905, "out": 420, "cost": 0.0010494}
 {"svc": "tinker", "in": 905, "out": 420, "cost": 0.0010494}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 20, "out": 300, "cost": 0.0004113}
+{"svc": "tinker", "in": 20, "out": 300, "cost": 0.0004113}
+{"svc": "tinker", "in": 20, "out": 300, "cost": 0.0004113}
+{"svc": "tinker", "in": 20, "out": 300, "cost": 0.0004113}
+{"svc": "tinker", "in": 20, "out": 300, "cost": 0.0004113}
+{"svc": "tinker", "in": 20, "out": 300, "cost": 0.0004113}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "tinker", "in": 19, "out": 300, "cost": 0.00041076}
+{"svc": "openrouter", "model": "gpt4o", "in": 30, "out": 455, "cost": 0.004625}
+{"svc": "openrouter", "model": "opus55", "in": 44, "out": 900, "cost": 0.018176}
+{"svc": "openrouter", "model": "opus55", "in": 44, "out": 900, "cost": 0.018176}
+{"svc": "openrouter", "model": "gpt4o", "in": 30, "out": 522, "cost": 0.005295}
+{"svc": "openrouter", "model": "sol61", "in": 29, "out": 892, "cost": 0.008978}
+{"svc": "openrouter", "model": "sol61", "in": 29, "out": 781, "cost": 0.007868}
+{"svc": "openrouter", "model": "opus46", "in": 33, "out": 900, "cost": 0.022665}
+{"svc": "openrouter", "model": "opus46", "in": 33, "out": 900, "cost": 0.022665}
+{"svc": "openrouter", "model": "opus55", "in": 44, "out": 900, "cost": 0.018176}
+{"svc": "openrouter", "model": "gpt4o", "in": 30, "out": 481, "cost": 0.004885}
+{"svc": "openrouter", "model": "gpt4o", "in": 31, "out": 462, "cost": 0.0046975}
+{"svc": "openrouter", "model": "opus46", "in": 34, "out": 900, "cost": 0.02267}
+{"svc": "openrouter", "model": "opus55", "in": 44, "out": 900, "cost": 0.018176}
+{"svc": "openrouter", "model": "sol61", "in": 29, "out": 953, "cost": 0.009588}
+{"svc": "openrouter", "model": "gpt4o", "in": 30, "out": 520, "cost": 0.005275}
+{"svc": "openrouter", "model": "opus46", "in": 34, "out": 900, "cost": 0.02267}
+{"svc": "openrouter", "model": "opus55", "in": 44, "out": 900, "cost": 0.018176}
+{"svc": "openrouter", "model": "sol61", "in": 30, "out": 1079, "cost": 0.01085}
+{"svc": "openrouter", "model": "opus46", "in": 33, "out": 900, "cost": 0.022665}
+{"svc": "openrouter", "model": "gpt4o", "in": 30, "out": 468, "cost": 0.004755}
+{"svc": "openrouter", "model": "opus55", "in": 44, "out": 900, "cost": 0.018176}
+{"svc": "openrouter", "model": "sol61", "in": 29, "out": 880, "cost": 0.008858}
+{"svc": "openrouter", "model": "sol61", "in": 29, "out": 700, "cost": 0.007058}
+{"svc": "openrouter", "model": "opus46", "in": 33, "out": 900, "cost": 0.022665}
+{"svc": "openrouter", "model": "opus55", "in": 44, "out": 1784, "cost": 0.035856}
+{"svc": "tinker", "in": 124, "out": 1, "cost": 6.8295e-05}
+{"svc": "tinker", "in": 85, "out": 1, "cost": 4.7235000000000004e-05}
+{"svc": "tinker", "in": 68, "out": 1, "cost": 3.8055e-05}
+{"svc": "tinker", "in": 127, "out": 1, "cost": 6.9915e-05}
+{"svc": "tinker", "in": 517, "out": 1, "cost": 0.000280515}
+{"svc": "tinker", "in": 116, "out": 1, "cost": 6.3975e-05}
+{"svc": "tinker", "in": 1771, "out": 33, "cost": 0.001000395}
+{"svc": "tinker", "in": 1771, "out": 40, "cost": 0.00100974}
+{"svc": "tinker", "in": 1802, "out": 40, "cost": 0.00102648}
+{"svc": "tinker", "in": 1802, "out": 40, "cost": 0.00102648}
+{"svc": "tinker", "in": 1754, "out": 40, "cost": 0.0010005600000000002}
+{"svc": "tinker", "in": 1810, "out": 40, "cost": 0.0010308000000000001}
+{"svc": "tinker", "in": 116, "out": 1, "cost": 6.3975e-05}
+{"svc": "tinker", "in": 1810, "out": 40, "cost": 0.0010308000000000001}
+{"svc": "tinker", "in": 131, "out": 1, "cost": 7.2075e-05}
+{"svc": "tinker", "in": 1754, "out": 40, "cost": 0.0010005600000000002}
+{"svc": "tinker", "in": 105, "out": 1, "cost": 5.8035e-05}
+{"svc": "tinker", "in": 131, "out": 1, "cost": 7.2075e-05}
+{"svc": "tinker", "in": 126, "out": 1, "cost": 6.9375e-05}
+{"svc": "tinker", "in": 93, "out": 1, "cost": 5.1555000000000004e-05}
+{"svc": "tinker", "in": 124, "out": 1, "cost": 6.8295e-05}
+{"svc": "tinker", "in": 1771, "out": 40, "cost": 0.00100974}
+{"svc": "tinker", "in": 68, "out": 1, "cost": 3.8055e-05}
+{"svc": "tinker", "in": 1802, "out": 40, "cost": 0.00102648}
+{"svc": "tinker", "in": 517, "out": 1, "cost": 0.000280515}
+{"svc": "tinker", "in": 85, "out": 1, "cost": 4.7235000000000004e-05}
+{"svc": "tinker", "in": 1802, "out": 40, "cost": 0.00102648}
+{"svc": "tinker", "in": 116, "out": 1, "cost": 6.3975e-05}
+{"svc": "tinker", "in": 127, "out": 1, "cost": 6.9915e-05}
+{"svc": "tinker", "in": 1771, "out": 40, "cost": 0.00100974}
+{"svc": "tinker", "in": 1754, "out": 34, "cost": 0.00099255}
+{"svc": "tinker", "in": 1810, "out": 40, "cost": 0.0010308000000000001}
+{"svc": "tinker", "in": 1810, "out": 40, "cost": 0.0010308000000000001}
+{"svc": "tinker", "in": 116, "out": 1, "cost": 6.3975e-05}
+{"svc": "tinker", "in": 1754, "out": 40, "cost": 0.0010005600000000002}
+{"svc": "tinker", "in": 93, "out": 1, "cost": 5.1555000000000004e-05}
+{"svc": "tinker", "in": 131, "out": 1, "cost": 7.2075e-05}
+{"svc": "tinker", "in": 105, "out": 1, "cost": 5.8035e-05}
+{"svc": "tinker", "in": 126, "out": 1, "cost": 6.9375e-05}
+{"svc": "tinker", "in": 131, "out": 1, "cost": 7.2075e-05}
+{"svc": "tinker", "in": 68, "out": 1, "cost": 3.8055e-05}
+{"svc": "tinker", "in": 2203, "out": 40, "cost": 0.0012430200000000003}
+{"svc": "tinker", "in": 124, "out": 1, "cost": 6.8295e-05}
+{"svc": "tinker", "in": 85, "out": 1, "cost": 4.7235000000000004e-05}
+{"svc": "tinker", "in": 517, "out": 1, "cost": 0.000280515}
+{"svc": "tinker", "in": 2203, "out": 40, "cost": 0.0012430200000000003}
+{"svc": "tinker", "in": 127, "out": 1, "cost": 6.9915e-05}
+{"svc": "tinker", "in": 116, "out": 1, "cost": 6.3975e-05}
+{"svc": "tinker", "in": 116, "out": 1, "cost": 6.3975e-05}
+{"svc": "tinker", "in": 2203, "out": 2, "cost": 0.0011922900000000001}
+{"svc": "tinker", "in": 131, "out": 1, "cost": 7.2075e-05}
+{"svc": "tinker", "in": 105, "out": 1, "cost": 5.8035e-05}
+{"svc": "tinker", "in": 93, "out": 1, "cost": 5.1555000000000004e-05}
+{"svc": "tinker", "in": 131, "out": 1, "cost": 7.2075e-05}
+{"svc": "tinker", "in": 126, "out": 1, "cost": 6.9375e-05}
+{"svc": "tinker", "in": 69, "out": 1, "cost": 3.8595000000000006e-05}
+{"svc": "tinker", "in": 2203, "out": 40, "cost": 0.0012430200000000003}
+{"svc": "tinker", "in": 125, "out": 1, "cost": 6.883499999999999e-05}
+{"svc": "openrouter", "model": "gpt4o", "in": 1749, "out": 126, "cost": 0.0056325}
+{"svc": "tinker", "in": 518, "out": 1, "cost": 0.000281055}
+{"svc": "tinker", "in": 117, "out": 1, "cost": 6.4515e-05}
+{"svc": "tinker", "in": 128, "out": 1, "cost": 7.0455e-05}
+{"svc": "tinker", "in": 117, "out": 1, "cost": 6.4515e-05}
+{"svc": "tinker", "in": 86, "out": 1, "cost": 4.7775e-05}
+{"svc": "tinker", "in": 132, "out": 1, "cost": 7.2615e-05}
+{"svc": "tinker", "in": 106, "out": 1, "cost": 5.8575e-05}
+{"svc": "tinker", "in": 127, "out": 1, "cost": 6.9915e-05}
+{"svc": "tinker", "in": 2415, "out": 241, "cost": 0.001625835}
+{"svc": "tinker", "in": 2389, "out": 420, "cost": 0.0018507600000000001}
+{"svc": "tinker", "in": 68, "out": 1, "cost": 3.8055e-05}
+{"svc": "tinker", "in": 132, "out": 1, "cost": 7.2615e-05}
+{"svc": "tinker", "in": 124, "out": 1, "cost": 6.8295e-05}
+{"svc": "tinker", "in": 94, "out": 1, "cost": 5.209500000000001e-05}
+{"svc": "tinker", "in": 2415, "out": 420, "cost": 0.0018648000000000002}
+{"svc": "tinker", "in": 2389, "out": 296, "cost": 0.0016852200000000003}
+{"svc": "tinker", "in": 116, "out": 1, "cost": 6.3975e-05}
+{"svc": "tinker", "in": 85, "out": 1, "cost": 4.7235000000000004e-05}
+{"svc": "tinker", "in": 517, "out": 1, "cost": 0.000280515}
+{"svc": "tinker", "in": 127, "out": 1, "cost": 6.9915e-05}
+{"svc": "tinker", "in": 2393, "out": 420, "cost": 0.00185292}
+{"svc": "tinker", "in": 116, "out": 1, "cost": 6.3975e-05}
+{"svc": "tinker", "in": 2393, "out": 420, "cost": 0.00185292}
+{"svc": "tinker", "in": 131, "out": 1, "cost": 7.2075e-05}
+{"svc": "tinker", "in": 93, "out": 1, "cost": 5.1555000000000004e-05}
+{"svc": "openrouter", "model": "sol61", "in": 1748, "out": 118, "cost": 0.0055485}
+{"svc": "tinker", "in": 126, "out": 1, "cost": 6.9375e-05}
+{"svc": "tinker", "in": 105, "out": 1, "cost": 5.8035e-05}
+{"svc": "tinker", "in": 131, "out": 1, "cost": 7.2075e-05}
+{"svc": "tinker", "in": 124, "out": 1, "cost": 6.8295e-05}
+{"svc": "tinker", "in": 68, "out": 1, "cost": 3.8055e-05}
+{"svc": "tinker", "in": 116, "out": 1, "cost": 6.3975e-05}
+{"svc": "tinker", "in": 85, "out": 1, "cost": 4.7235000000000004e-05}
+{"svc": "tinker", "in": 517, "out": 1, "cost": 0.000280515}
+{"svc": "tinker", "in": 127, "out": 1, "cost": 6.9915e-05}
+{"svc": "tinker", "in": 2389, "out": 153, "cost": 0.001494315}
+{"svc": "tinker", "in": 116, "out": 1, "cost": 6.3975e-05}
+{"svc": "tinker", "in": 131, "out": 1, "cost": 7.2075e-05}
+{"svc": "tinker", "in": 105, "out": 1, "cost": 5.8035e-05}
+{"svc": "tinker", "in": 126, "out": 1, "cost": 6.9375e-05}
+{"svc": "tinker", "in": 93, "out": 1, "cost": 5.1555000000000004e-05}
+{"svc": "tinker", "in": 2396, "out": 420, "cost": 0.00185454}
+{"svc": "tinker", "in": 131, "out": 1, "cost": 7.2075e-05}
+{"svc": "tinker", "in": 2396, "out": 420, "cost": 0.00185454}
+{"svc": "openrouter", "model": "opus55", "in": 2520, "out": 342, "cost": 0.01692}
+{"svc": "openrouter", "model": "opus55", "in": 2520, "out": 375, "cost": 0.01758}
+{"svc": "tinker", "in": 2415, "out": 284, "cost": 0.0016832400000000003}
+{"svc": "tinker", "in": 2389, "out": 420, "cost": 0.0018507600000000001}
+{"svc": "tinker", "in": 2415, "out": 401, "cost": 0.0018394350000000002}
+{"svc": "openrouter", "model": "gpt4o", "in": 1749, "out": 127, "cost": 0.0056425}
+{"svc": "openrouter", "model": "opus46", "in": 1917, "out": 154, "cost": 0.013435}
+{"svc": "tinker", "in": 2396, "out": 191, "cost": 0.001548825}
+{"svc": "tinker", "in": 2389, "out": 327, "cost": 0.0017266050000000002}
+{"svc": "tinker", "in": 2393, "out": 420, "cost": 0.00185292}
+{"svc": "openrouter", "model": "opus46", "in": 1917, "out": 176, "cost": 0.013985}
+{"svc": "tinker", "in": 2393, "out": 420, "cost": 0.00185292}
+{"svc": "openrouter", "model": "sol61", "in": 1748, "out": 114, "cost": 0.0055085}
+{"svc": "tinker", "in": 2415, "out": 233, "cost": 0.0016151550000000003}
+{"svc": "tinker", "in": 2415, "out": 286, "cost": 0.00168591}
+{"svc": "openrouter", "model": "gpt4o", "in": 1743, "out": 63, "cost": 0.0030675}
+{"svc": "tinker", "in": 2389, "out": 420, "cost": 0.0018507600000000001}
+{"svc": "tinker", "in": 2396, "out": 420, "cost": 0.00185454}
+{"svc": "tinker", "in": 2396, "out": 209, "cost": 0.001572855}
+{"svc": "tinker", "in": 2389, "out": 367, "cost": 0.001780005}
+{"svc": "openrouter", "model": "sol61", "in": 1742, "out": 47, "cost": 0.0048235}
+{"svc": "tinker", "in": 2393, "out": 227, "cost": 0.001595265}
+{"svc": "tinker", "in": 2415, "out": 420, "cost": 0.0018648000000000002}
+{"svc": "tinker", "in": 2415, "out": 420, "cost": 0.0018648000000000002}
+{"svc": "tinker", "in": 2393, "out": 420, "cost": 0.00185292}
+{"svc": "tinker", "in": 2396, "out": 269, "cost": 0.0016529550000000002}
+{"svc": "openrouter", "model": "opus55", "in": 2515, "out": 190, "cost": 0.01386}
+{"svc": "tinker", "in": 2389, "out": 420, "cost": 0.0018507600000000001}
+{"svc": "openrouter", "model": "opus46", "in": 1909, "out": 107, "cost": 0.01222}
+{"svc": "openrouter", "model": "gpt4o", "in": 1743, "out": 56, "cost": 0.0049175}
+{"svc": "openrouter", "model": "sol61", "in": 1742, "out": 60, "cost": 0.0049535}
+{"svc": "tinker", "in": 2389, "out": 420, "cost": 0.0018507600000000001}
+{"svc": "tinker", "in": 2393, "out": 271, "cost": 0.001654005}
+{"svc": "tinker", "in": 2396, "out": 420, "cost": 0.00185454}
+{"svc": "tinker", "in": 2396, "out": 230, "cost": 0.00160089}
+{"svc": "openrouter", "model": "opus55", "in": 2515, "out": 232, "cost": 0.0147}
+{"svc": "tinker", "in": 2415, "out": 420, "cost": 0.0018648000000000002}
+{"svc": "tinker", "in": 2415, "out": 420, "cost": 0.0018648000000000002}
+{"svc": "tinker", "in": 2389, "out": 269, "cost": 0.0016491750000000001}
+{"svc": "openrouter", "model": "gpt4o", "in": 1760, "out": 48, "cost": 0.00296}
+{"svc": "tinker", "in": 2389, "out": 205, "cost": 0.0015637350000000001}
+{"svc": "openrouter", "model": "opus46", "in": 1909, "out": 109, "cost": 0.01227}
+{"svc": "openrouter", "model": "sol61", "in": 1759, "out": 53, "cost": 0.004926}
+{"svc": "tinker", "in": 1813, "out": 40, "cost": 0.00103242}
+{"svc": "tinker", "in": 1813, "out": 40, "cost": 0.00103242}
+{"svc": "tinker", "in": 2415, "out": 304, "cost": 0.00170994}
+{"svc": "tinker", "in": 2393, "out": 420, "cost": 0.00185292}
+{"svc": "tinker", "in": 2393, "out": 420, "cost": 0.00185292}
+{"svc": "openrouter", "model": "opus46", "in": 1926, "out": 69, "cost": 0.011355}
+{"svc": "tinker", "in": 2389, "out": 420, "cost": 0.0018507600000000001}
+{"svc": "openrouter", "model": "gpt4o", "in": 1760, "out": 53, "cost": 0.00493}
+{"svc": "tinker", "in": 1802, "out": 40, "cost": 0.00102648}
+{"svc": "tinker", "in": 1813, "out": 40, "cost": 0.00103242}
+{"svc": "tinker", "in": 2396, "out": 420, "cost": 0.00185454}
+{"svc": "tinker", "in": 2415, "out": 420, "cost": 0.0018648000000000002}
+{"svc": "tinker", "in": 1802, "out": 40, "cost": 0.00102648}
+{"svc": "tinker", "in": 1802, "out": 40, "cost": 0.00102648}
+{"svc": "tinker", "in": 1813, "out": 40, "cost": 0.00103242}
+{"svc": "tinker", "in": 2396, "out": 420, "cost": 0.00185454}
+{"svc": "tinker", "in": 1817, "out": 40, "cost": 0.0010345800000000002}
+{"svc": "tinker", "in": 1791, "out": 40, "cost": 0.0010205400000000001}
+{"svc": "tinker", "in": 1817, "out": 40, "cost": 0.0010345800000000002}
+{"svc": "openrouter", "model": "opus46", "in": 1926, "out": 75, "cost": 0.011505}
+{"svc": "tinker", "in": 1802, "out": 40, "cost": 0.00102648}
+{"svc": "tinker", "in": 1791, "out": 40, "cost": 0.0010205400000000001}
+{"svc": "openrouter", "model": "sol61", "in": 1759, "out": 76, "cost": 0.005156}
+{"svc": "tinker", "in": 1817, "out": 40, "cost": 0.0010345800000000002}
+{"svc": "tinker", "in": 2393, "out": 293, "cost": 0.001683375}
+{"svc": "tinker", "in": 1791, "out": 40, "cost": 0.0010205400000000001}
+{"svc": "tinker", "in": 1791, "out": 40, "cost": 0.0010205400000000001}
+{"svc": "tinker", "in": 1817, "out": 40, "cost": 0.0010345800000000002}
+{"svc": "tinker", "in": 1779, "out": 40, "cost": 0.00101406}
+{"svc": "openrouter", "model": "opus55", "in": 2536, "out": 204, "cost": 0.014224}
+{"svc": "tinker", "in": 2393, "out": 420, "cost": 0.00185292}
+{"svc": "tinker", "in": 1779, "out": 40, "cost": 0.00101406}
+{"svc": "tinker", "in": 1779, "out": 40, "cost": 0.00101406}
+{"svc": "tinker", "in": 1812, "out": 40, "cost": 0.0010318800000000002}
+{"svc": "tinker", "in": 1812, "out": 40, "cost": 0.0010318800000000002}
+{"svc": "openrouter", "model": "opus55", "in": 2536, "out": 378, "cost": 0.017704}
+{"svc": "tinker", "in": 1817, "out": 40, "cost": 0.0010345800000000002}
+{"svc": "tinker", "in": 1812, "out": 40, "cost": 0.0010318800000000002}
+{"svc": "tinker", "in": 1815, "out": 167, "cost": 0.001203045}
+{"svc": "tinker", "in": 1779, "out": 40, "cost": 0.00101406}
+{"svc": "tinker", "in": 1812, "out": 40, "cost": 0.0010318800000000002}
+{"svc": "openrouter", "model": "gpt4o", "in": 1603, "out": 138, "cost": 0.0053875}
+{"svc": "tinker", "in": 1817, "out": 40, "cost": 0.0010345800000000002}
+{"svc": "tinker", "in": 2396, "out": 420, "cost": 0.00185454}
+{"svc": "tinker", "in": 1817, "out": 40, "cost": 0.0010345800000000002}
+{"svc": "tinker", "in": 1615, "out": 40, "cost": 0.0009255}
+{"svc": "openrouter", "model": "sol61", "in": 1602, "out": 105, "cost": 0.0050535}
+{"svc": "tinker", "in": 1671, "out": 28, "cost": 0.00093972}
+{"svc": "tinker", "in": 1615, "out": 40, "cost": 0.0009255}
+{"svc": "tinker", "in": 1815, "out": 420, "cost": 0.0015408}
+{"svc": "tinker", "in": 1817, "out": 40, "cost": 0.0010345800000000002}
+{"svc": "tinker", "in": 1615, "out": 40, "cost": 0.0009255}
+{"svc": "tinker", "in": 1671, "out": 40, "cost": 0.0009557400000000001}
+{"svc": "tinker", "in": 1632, "out": 40, "cost": 0.00093468}
+{"svc": "tinker", "in": 1632, "out": 40, "cost": 0.00093468}
+{"svc": "tinker", "in": 1615, "out": 40, "cost": 0.0009255}
+{"svc": "openrouter", "model": "gpt4o", "in": 1603, "out": 116, "cost": 0.0051675}
+{"svc": "tinker", "in": 1671, "out": 40, "cost": 0.0009557400000000001}
+{"svc": "tinker", "in": 2393, "out": 420, "cost": 0.00185292}
+{"svc": "tinker", "in": 1815, "out": 328, "cost": 0.00141798}
+{"svc": "tinker", "in": 1671, "out": 10, "cost": 0.00091569}
+{"svc": "openrouter", "model": "opus46", "in": 1800, "out": 164, "cost": 0.0131}
+{"svc": "tinker", "in": 1632, "out": 40, "cost": 0.00093468}
+{"svc": "tinker", "in": 1632, "out": 40, "cost": 0.00093468}
+{"svc": "openrouter", "model": "opus55", "in": 2382, "out": 404, "cost": 0.017608}
+{"svc": "tinker", "in": 1663, "out": 40, "cost": 0.00095142}
+{"svc": "openrouter", "model": "sol61", "in": 1602, "out": 107, "cost": 0.0050735}
+{"svc": "tinker", "in": 1663, "out": 40, "cost": 0.00095142}
+{"svc": "openrouter", "model": "opus55", "in": 2382, "out": 290, "cost": 0.015328}
+{"svc": "tinker", "in": 2064, "out": 40, "cost": 0.0011679600000000002}
+{"svc": "tinker", "in": 1663, "out": 40, "cost": 0.00095142}
+{"svc": "tinker", "in": 1663, "out": 40, "cost": 0.00095142}
+{"svc": "tinker", "in": 2396, "out": 420, "cost": 0.00185454}
+{"svc": "tinker", "in": 2064, "out": 40, "cost": 0.0011679600000000002}
+{"svc": "tinker", "in": 2064, "out": 2, "cost": 0.0011172300000000003}
+{"svc": "tinker", "in": 2254, "out": 310, "cost": 0.00163101}
+{"svc": "openrouter", "model": "gpt4o", "in": 1597, "out": 59, "cost": 0.0045825}
+{"svc": "tinker", "in": 1815, "out": 235, "cost": 0.001293825}
+{"svc": "tinker", "in": 1815, "out": 420, "cost": 0.0015408}
+{"svc": "tinker", "in": 2064, "out": 40, "cost": 0.0011679600000000002}
+{"svc": "openrouter", "model": "opus46", "in": 1800, "out": 171, "cost": 0.013275}
+{"svc": "openrouter", "model": "sol61", "in": 1596, "out": 51, "cost": 0.0044985}
+{"svc": "tinker", "in": 2254, "out": 420, "cost": 0.00177786}
+{"svc": "openrouter", "model": "opus46", "in": 1792, "out": 49, "cost": 0.010185}
+{"svc": "tinker", "in": 2276, "out": 420, "cost": 0.0017897400000000002}
+{"svc": "tinker", "in": 2276, "out": 420, "cost": 0.0017897400000000002}
+{"svc": "openrouter", "model": "gpt4o", "in": 1597, "out": 62, "cost": 0.0046125}
+{"svc": "tinker", "in": 2250, "out": 420, "cost": 0.0017756999999999998}
+{"svc": "tinker", "in": 2250, "out": 224, "cost": 0.00151404}
+{"svc": "openrouter", "model": "opus55", "in": 2377, "out": 211, "cost": 0.013728}
+{"svc": "tinker", "in": 1815, "out": 390, "cost": 0.00150075}
+{"svc": "tinker", "in": 2254, "out": 217, "cost": 0.001506855}
+{"svc": "tinker", "in": 1815, "out": 420, "cost": 0.0015408}
+{"svc": "openrouter", "model": "opus46", "in": 1792, "out": 97, "cost": 0.011385}
+{"svc": "openrouter", "model": "sol61", "in": 1596, "out": 52, "cost": 0.0045085}
+{"svc": "openrouter", "model": "opus55", "in": 2377, "out": 160, "cost": 0.012708}
+{"svc": "tinker", "in": 2254, "out": 420, "cost": 0.00177786}
+{"svc": "tinker", "in": 2250, "out": 166, "cost": 0.0014366099999999998}
+{"svc": "tinker", "in": 2276, "out": 420, "cost": 0.0017897400000000002}
+{"svc": "tinker", "in": 2276, "out": 420, "cost": 0.0017897400000000002}
+{"svc": "tinker", "in": 2250, "out": 420, "cost": 0.0017756999999999998}
+{"svc": "openrouter", "model": "gpt4o", "in": 1614, "out": 58, "cost": 0.004615}
+{"svc": "tinker", "in": 2250, "out": 149, "cost": 0.001413915}
+{"svc": "tinker", "in": 1815, "out": 420, "cost": 0.0015408}
+{"svc": "tinker", "in": 1815, "out": 409, "cost": 0.001526115}
+{"svc": "openrouter", "model": "opus46", "in": 1809, "out": 65, "cost": 0.01067}
+{"svc": "tinker", "in": 2276, "out": 252, "cost": 0.0015654600000000003}
+{"svc": "openrouter", "model": "sol61", "in": 1613, "out": 71, "cost": 0.004741}
+{"svc": "tinker", "in": 2276, "out": 420, "cost": 0.0017897400000000002}
+{"svc": "tinker", "in": 2254, "out": 420, "cost": 0.00177786}
+{"svc": "tinker", "in": 2254, "out": 403, "cost": 0.001755165}
+{"svc": "openrouter", "model": "gpt4o", "in": 1614, "out": 61, "cost": 0.004645}
+{"svc": "tinker", "in": 2250, "out": 420, "cost": 0.0017756999999999998}
+{"svc": "openrouter", "model": "sol61", "in": 1613, "out": 60, "cost": 0.004631}
+{"svc": "openrouter", "model": "opus55", "in": 2398, "out": 225, "cost": 0.014092}
+{"svc": "tinker", "in": 2276, "out": 264, "cost": 0.0015814800000000003}
+{"svc": "tinker", "in": 2250, "out": 420, "cost": 0.0017756999999999998}
+{"svc": "openrouter", "model": "opus55", "in": 2398, "out": 197, "cost": 0.013532}
+{"svc": "tinker", "in": 1815, "out": 420, "cost": 0.0015408}
+{"svc": "openrouter", "model": "opus46", "in": 1809, "out": 77, "cost": 0.01097}
+{"svc": "tinker", "in": 1815, "out": 405, "cost": 0.001520775}
+{"svc": "tinker", "in": 2276, "out": 420, "cost": 0.0017897400000000002}
+{"svc": "tinker", "in": 2250, "out": 215, "cost": 0.0015020250000000001}
+{"svc": "tinker", "in": 2254, "out": 420, "cost": 0.00177786}
+{"svc": "tinker", "in": 2250, "out": 160, "cost": 0.0014286}
+{"svc": "tinker", "in": 2254, "out": 420, "cost": 0.00177786}
+{"svc": "openrouter", "model": "gpt4o", "in": 1754, "out": 123, "cost": 0.005615}
+{"svc": "tinker", "in": 2276, "out": 193, "cost": 0.0014866950000000001}
+{"svc": "tinker", "in": 2276, "out": 420, "cost": 0.0017897400000000002}
+{"svc": "tinker", "in": 2257, "out": 196, "cost": 0.00148044}
+{"svc": "tinker", "in": 2254, "out": 170, "cost": 0.0014441100000000002}
+{"svc": "tinker", "in": 2250, "out": 192, "cost": 0.00147132}
+{"svc": "tinker", "in": 1815, "out": 420, "cost": 0.0015408}
+{"svc": "tinker", "in": 2276, "out": 239, "cost": 0.0015481050000000001}
+{"svc": "tinker", "in": 2254, "out": 222, "cost": 0.0015135300000000001}
+{"svc": "tinker", "in": 2250, "out": 184, "cost": 0.0014606399999999998}
+{"svc": "tinker", "in": 1674, "out": 3, "cost": 0.000907965}
+{"svc": "tinker", "in": 2276, "out": 311, "cost": 0.0016442250000000002}
+{"svc": "tinker", "in": 1674, "out": 40, "cost": 0.00095736}
+{"svc": "tinker", "in": 2250, "out": 420, "cost": 0.0017756999999999998}
+{"svc": "tinker", "in": 1663, "out": 40, "cost": 0.00095142}
+{"svc": "tinker", "in": 1663, "out": 40, "cost": 0.00095142}
+{"svc": "tinker", "in": 2254, "out": 420, "cost": 0.00177786}
+{"svc": "tinker", "in": 1674, "out": 40, "cost": 0.00095736}
+{"svc": "tinker", "in": 2257, "out": 420, "cost": 0.00177948}
+{"svc": "openrouter", "model": "sol61", "in": 1753, "out": 115, "cost": 0.005531}
+{"svc": "tinker", "in": 1674, "out": 40, "cost": 0.00095736}
+{"svc": "tinker", "in": 1663, "out": 40, "cost": 0.00095142}
+{"svc": "openrouter", "model": "opus55", "in": 2562, "out": 361, "cost": 0.017468}
+{"svc": "tinker", "in": 1678, "out": 26, "cost": 0.00094083}
+{"svc": "tinker", "in": 1663, "out": 40, "cost": 0.00095142}
+{"svc": "openrouter", "model": "opus46", "in": 1918, "out": 169, "cost": 0.013815}
+{"svc": "tinker", "in": 1678, "out": 40, "cost": 0.00095952}
+{"svc": "tinker", "in": 1678, "out": 40, "cost": 0.00095952}
+{"svc": "tinker", "in": 2257, "out": 420, "cost": 0.00177948}
+{"svc": "tinker", "in": 1652, "out": 40, "cost": 0.0009454800000000001}
+{"svc": "tinker", "in": 1652, "out": 40, "cost": 0.0009454800000000001}
+{"svc": "tinker", "in": 1640, "out": 40, "cost": 0.000939}
+{"svc": "tinker", "in": 1678, "out": 40, "cost": 0.00095952}
+{"svc": "openrouter", "model": "opus55", "in": 2562, "out": 314, "cost": 0.016528}
+{"svc": "tinker", "in": 1640, "out": 16, "cost": 0.0009069600000000001}
+{"svc": "tinker", "in": 1652, "out": 40, "cost": 0.0009454800000000001}
+{"svc": "tinker", "in": 2257, "out": 163, "cost": 0.001436385}
+{"svc": "tinker", "in": 1640, "out": 40, "cost": 0.000939}
+{"svc": "tinker", "in": 1673, "out": 40, "cost": 0.00095682}
+{"svc": "tinker", "in": 1652, "out": 40, "cost": 0.0009454800000000001}
+{"svc": "openrouter", "model": "sol61", "in": 1753, "out": 114, "cost": 0.005521}
+{"svc": "tinker", "in": 2254, "out": 285, "cost": 0.001597635}
+{"svc": "openrouter", "model": "gpt4o", "in": 1754, "out": 116, "cost": 0.005545}
+{"svc": "tinker", "in": 1673, "out": 40, "cost": 0.00095682}
+{"svc": "tinker", "in": 1640, "out": 40, "cost": 0.000939}
+{"svc": "openrouter", "model": "opus46", "in": 1918, "out": 179, "cost": 0.014065}
+{"svc": "tinker", "in": 1673, "out": 40, "cost": 0.00095682}
+{"svc": "tinker", "in": 1678, "out": 40, "cost": 0.00095952}
+{"svc": "tinker", "in": 1673, "out": 40, "cost": 0.00095682}
+{"svc": "tinker", "in": 1678, "out": 40, "cost": 0.00095952}
+{"svc": "tinker", "in": 1761, "out": 40, "cost": 0.00100434}
+{"svc": "tinker", "in": 1678, "out": 40, "cost": 0.00095952}
+{"svc": "openrouter", "model": "gpt4o", "in": 1748, "out": 47, "cost": 0.00484}
+{"svc": "tinker", "in": 1761, "out": 40, "cost": 0.00100434}
+{"svc": "tinker", "in": 1678, "out": 40, "cost": 0.00095952}
+{"svc": "tinker", "in": 1676, "out": 420, "cost": 0.00146574}
+{"svc": "openrouter", "model": "opus55", "in": 2557, "out": 154, "cost": 0.013308}
+{"svc": "tinker", "in": 2257, "out": 285, "cost": 0.001599255}
+{"svc": "openrouter", "model": "sol61", "in": 1747, "out": 44, "cost": 0.004806}
+{"svc": "tinker", "in": 1817, "out": 40, "cost": 0.0010345800000000002}
+{"svc": "tinker", "in": 1761, "out": 40, "cost": 0.00100434}
+{"svc": "tinker", "in": 1817, "out": 40, "cost": 0.0010345800000000002}
+{"svc": "tinker", "in": 1761, "out": 40, "cost": 0.00100434}
+{"svc": "tinker", "in": 1817, "out": 4, "cost": 0.00098652}
+{"svc": "tinker", "in": 1778, "out": 40, "cost": 0.0010135200000000002}
+{"svc": "tinker", "in": 1817, "out": 14, "cost": 0.0009998700000000001}
+{"svc": "tinker", "in": 1778, "out": 40, "cost": 0.0010135200000000002}
+{"svc": "openrouter", "model": "gpt4o", "in": 1748, "out": 61, "cost": 0.00498}
+{"svc": "tinker", "in": 2257, "out": 420, "cost": 0.00177948}
+{"svc": "tinker", "in": 1676, "out": 324, "cost": 0.0013375799999999999}
+{"svc": "tinker", "in": 1778, "out": 40, "cost": 0.0010135200000000002}
+{"svc": "openrouter", "model": "opus46", "in": 1910, "out": 75, "cost": 0.011425}
+{"svc": "tinker", "in": 1809, "out": 40, "cost": 0.00103026}
+{"svc": "tinker", "in": 1778, "out": 40, "cost": 0.0010135200000000002}
+{"svc": "tinker", "in": 1809, "out": 40, "cost": 0.00103026}
+{"svc": "openrouter", "model": "sol61", "in": 1747, "out": 54, "cost": 0.004906}
+{"svc": "tinker", "in": 1809, "out": 40, "cost": 0.00103026}
+{"svc": "openrouter", "model": "opus46", "in": 1910, "out": 79, "cost": 0.011525}
+{"svc": "tinker", "in": 1676, "out": 420, "cost": 0.00146574}
+{"svc": "tinker", "in": 2257, "out": 420, "cost": 0.00177948}
+{"svc": "tinker", "in": 1809, "out": 40, "cost": 0.00103026}
+{"svc": "tinker", "in": 2210, "out": 40, "cost": 0.0012468000000000002}
+{"svc": "openrouter", "model": "opus55", "in": 2557, "out": 198, "cost": 0.014188}
+{"svc": "tinker", "in": 2400, "out": 168, "cost": 0.00152028}
+{"svc": "tinker", "in": 2210, "out": 40, "cost": 0.0012468000000000002}
+{"svc": "openrouter", "model": "gpt4o", "in": 1765, "out": 67, "cost": 0.0050825}
+{"svc": "tinker", "in": 2210, "out": 40, "cost": 0.0012468000000000002}
+{"svc": "tinker", "in": 2400, "out": 420, "cost": 0.0018566999999999998}
+{"svc": "tinker", "in": 2210, "out": 40, "cost": 0.0012468000000000002}
+{"svc": "tinker", "in": 2257, "out": 420, "cost": 0.00177948}
+{"svc": "openrouter", "model": "sol61", "in": 1764, "out": 49, "cost": 0.0048985}
+{"svc": "tinker", "in": 1676, "out": 420, "cost": 0.00146574}
+{"svc": "tinker", "in": 1676, "out": 420, "cost": 0.00146574}
+{"svc": "openrouter", "model": "opus46", "in": 1927, "out": 75, "cost": 0.01151}
+{"svc": "tinker", "in": 2257, "out": 350, "cost": 0.00168603}
+{"svc": "tinker", "in": 2422, "out": 239, "cost": 0.001626945}
+{"svc": "tinker", "in": 1676, "out": 297, "cost": 0.0013015350000000001}
+{"svc": "openrouter", "model": "gpt4o", "in": 1765, "out": 55, "cost": 0.0049625}
+{"svc": "tinker", "in": 2400, "out": 420, "cost": 0.0018566999999999998}
+{"svc": "openrouter", "model": "sol61", "in": 1764, "out": 58, "cost": 0.0049885}
+{"svc": "openrouter", "model": "opus46", "in": 1927, "out": 77, "cost": 0.01156}
+{"svc": "tinker", "in": 2422, "out": 420, "cost": 0.00186858}
+{"svc": "tinker", "in": 2400, "out": 420, "cost": 0.0018566999999999998}
+{"svc": "tinker", "in": 2257, "out": 420, "cost": 0.00177948}
+{"svc": "tinker", "in": 1676, "out": 420, "cost": 0.00146574}
+{"svc": "tinker", "in": 2396, "out": 420, "cost": 0.00185454}
+{"svc": "tinker", "in": 1676, "out": 420, "cost": 0.00146574}
+{"svc": "openrouter", "model": "opus55", "in": 2578, "out": 281, "cost": 0.015932}
+{"svc": "tinker", "in": 2400, "out": 420, "cost": 0.0018566999999999998}
+{"svc": "openrouter", "model": "gpt4o", "in": 1749, "out": 118, "cost": 0.0055525}
+{"svc": "tinker", "in": 2422, "out": 420, "cost": 0.00186858}
+{"svc": "openrouter", "model": "opus55", "in": 2578, "out": 239, "cost": 0.015092}
+{"svc": "tinker", "in": 2422, "out": 420, "cost": 0.00186858}
+{"svc": "tinker", "in": 2400, "out": 169, "cost": 0.001521615}
+{"svc": "tinker", "in": 2400, "out": 420, "cost": 0.0018566999999999998}
+{"svc": "tinker", "in": 1676, "out": 420, "cost": 0.00146574}
+{"svc": "tinker", "in": 1676, "out": 420, "cost": 0.00146574}
+{"svc": "tinker", "in": 2257, "out": 420, "cost": 0.00177948}
+{"svc": "openrouter", "model": "sol61", "in": 1748, "out": 112, "cost": 0.0054885}
+{"svc": "tinker", "in": 2422, "out": 194, "cost": 0.0015668700000000002}
+{"svc": "tinker", "in": 2400, "out": 202, "cost": 0.0015656700000000001}
+{"svc": "tinker", "in": 2396, "out": 420, "cost": 0.00185454}
+{"svc": "tinker", "in": 2422, "out": 420, "cost": 0.00186858}
+{"svc": "openrouter", "model": "opus55", "in": 2568, "out": 358, "cost": 0.017432}
+{"svc": "openrouter", "model": "opus46", "in": 1948, "out": 163, "cost": 0.013815}
+{"svc": "tinker", "in": 2396, "out": 199, "cost": 0.001559505}
+{"svc": "tinker", "in": 1676, "out": 261, "cost": 0.0012534750000000002}
+{"svc": "openrouter", "model": "sol61", "in": 1748, "out": 107, "cost": 0.0054385}
+{"svc": "tinker", "in": 2400, "out": 349, "cost": 0.001761915}
+{"svc": "openrouter", "model": "gpt4o", "in": 1749, "out": 115, "cost": 0.0055225}
+{"svc": "tinker", "in": 2257, "out": 420, "cost": 0.00177948}
+{"svc": "tinker", "in": 2400, "out": 420, "cost": 0.0018566999999999998}
+{"svc": "tinker", "in": 2422, "out": 420, "cost": 0.00186858}
+{"svc": "tinker", "in": 2422, "out": 345, "cost": 0.0017684550000000002}
+{"svc": "openrouter", "model": "opus55", "in": 2568, "out": 307, "cost": 0.016412}
+{"svc": "tinker", "in": 2396, "out": 194, "cost": 0.00155283}
+{"svc": "tinker", "in": 2396, "out": 420, "cost": 0.00185454}
+{"svc": "openrouter", "model": "opus46", "in": 1948, "out": 165, "cost": 0.013865}
+{"svc": "tinker", "in": 2400, "out": 243, "cost": 0.001620405}
+{"svc": "tinker", "in": 2422, "out": 271, "cost": 0.0016696649999999999}
+{"svc": "tinker", "in": 2403, "out": 420, "cost": 0.0018583200000000001}
+{"svc": "openrouter", "model": "gpt4o", "in": 1743, "out": 63, "cost": 0.0049875}
+{"svc": "openrouter", "model": "sol61", "in": 1742, "out": 50, "cost": 0.0048535}
+{"svc": "tinker", "in": 1676, "out": 420, "cost": 0.00146574}
+{"svc": "tinker", "in": 2400, "out": 420, "cost": 0.0018566999999999998}
+{"svc": "openrouter", "model": "opus46", "in": 1940, "out": 74, "cost": 0.01155}
+{"svc": "tinker", "in": 1820, "out": 40, "cost": 0.0010362000000000001}
+{"svc": "tinker", "in": 2396, "out": 258, "cost": 0.0016382700000000003}
+{"svc": "openrouter", "model": "opus55", "in": 2563, "out": 199, "cost": 0.014232}
+{"svc": "tinker", "in": 1820, "out": 40, "cost": 0.0010362000000000001}
+{"svc": "openrouter", "model": "gpt4o", "in": 1743, "out": 57, "cost": 0.0049275}
+{"svc": "tinker", "in": 1820, "out": 40, "cost": 0.0010362000000000001}
+{"svc": "tinker", "in": 2422, "out": 420, "cost": 0.00186858}
+{"svc": "tinker", "in": 2403, "out": 420, "cost": 0.0018583200000000001}
+{"svc": "tinker", "in": 1820, "out": 40, "cost": 0.0010362000000000001}
+{"svc": "tinker", "in": 2422, "out": 420, "cost": 0.00186858}
+{"svc": "tinker", "in": 2403, "out": 420, "cost": 0.0018583200000000001}
+{"svc": "openrouter", "model": "sol61", "in": 1742, "out": 55, "cost": 0.0049035}
+{"svc": "tinker", "in": 1809, "out": 40, "cost": 0.00103026}
+{"svc": "tinker", "in": 2396, "out": 420, "cost": 0.00185454}
+{"svc": "tinker", "in": 1809, "out": 40, "cost": 0.00103026}
+{"svc": "tinker", "in": 1824, "out": 40, "cost": 0.00103836}
+{"svc": "tinker", "in": 1809, "out": 33, "cost": 0.001020915}
+{"svc": "tinker", "in": 1824, "out": 40, "cost": 0.00103836}
+{"svc": "tinker", "in": 2396, "out": 202, "cost": 0.0015635100000000002}
+{"svc": "tinker", "in": 1809, "out": 40, "cost": 0.00103026}
+{"svc": "openrouter", "model": "opus46", "in": 1940, "out": 74, "cost": 0.01155}
+{"svc": "openrouter", "model": "gpt4o", "in": 1760, "out": 69, "cost": 0.00509}
+{"svc": "openrouter", "model": "sol61", "in": 1759, "out": 56, "cost": 0.004956}
+{"svc": "tinker", "in": 1824, "out": 40, "cost": 0.00103836}
+{"svc": "tinker", "in": 1798, "out": 7, "cost": 0.0009802650000000001}
+{"svc": "tinker", "in": 1798, "out": 40, "cost": 0.0010243200000000002}
+{"svc": "tinker", "in": 2422, "out": 352, "cost": 0.0017778000000000002}
+{"svc": "tinker", "in": 2403, "out": 420, "cost": 0.0018583200000000001}
+{"svc": "tinker", "in": 1824, "out": 3, "cost": 0.000988965}
+{"svc": "tinker", "in": 2396, "out": 105, "cost": 0.001434015}
+{"svc": "tinker", "in": 2403, "out": 384, "cost": 0.0018102600000000002}
+{"svc": "tinker", "in": 2396, "out": 321, "cost": 0.001722375}
+{"svc": "tinker", "in": 1798, "out": 40, "cost": 0.0010243200000000002}
+{"svc": "tinker", "in": 1798, "out": 40, "cost": 0.0010243200000000002}
+{"svc": "tinker", "in": 1786, "out": 40, "cost": 0.00101784}
+{"svc": "openrouter", "model": "opus55", "in": 2563, "out": 197, "cost": 0.014192}
+{"svc": "tinker", "in": 1786, "out": 40, "cost": 0.00101784}
+{"svc": "tinker", "in": 2403, "out": 136, "cost": 0.00147918}
+{"svc": "tinker", "in": 1819, "out": 40, "cost": 0.00103566}
+{"svc": "tinker", "in": 1819, "out": 40, "cost": 0.00103566}
+{"svc": "tinker", "in": 1786, "out": 40, "cost": 0.00101784}
+{"svc": "tinker", "in": 1819, "out": 40, "cost": 0.00103566}
+{"svc": "tinker", "in": 1786, "out": 40, "cost": 0.00101784}
+{"svc": "openrouter", "model": "opus55", "in": 2584, "out": 248, "cost": 0.015296}
+{"svc": "tinker", "in": 1819, "out": 40, "cost": 0.00103566}
+{"svc": "openrouter", "model": "gpt4o", "in": 1760, "out": 50, "cost": 0.0049}
+{"svc": "tinker", "in": 1824, "out": 40, "cost": 0.00103836}
+{"svc": "tinker", "in": 2396, "out": 245, "cost": 0.0016209150000000001}
+{"svc": "tinker", "in": 2403, "out": 420, "cost": 0.0018583200000000001}
+{"svc": "openrouter", "model": "sol61", "in": 1759, "out": 62, "cost": 0.005016}
+{"svc": "tinker", "in": 2396, "out": 420, "cost": 0.00185454}
+{"svc": "openrouter", "model": "opus46", "in": 1957, "out": 106, "cost": 0.012435}
+{"svc": "tinker", "in": 1824, "out": 40, "cost": 0.00103836}
+{"svc": "tinker", "in": 1824, "out": 40, "cost": 0.00103836}
+{"svc": "tinker", "in": 1761, "out": 40, "cost": 0.00100434}
+{"svc": "tinker", "in": 1824, "out": 40, "cost": 0.00103836}
+{"svc": "tinker", "in": 1761, "out": 40, "cost": 0.00100434}
+{"svc": "tinker", "in": 1822, "out": 332, "cost": 0.0014271000000000002}
+{"svc": "tinker", "in": 2403, "out": 420, "cost": 0.0018583200000000001}
+{"svc": "tinker", "in": 1761, "out": 40, "cost": 0.00100434}
+{"svc": "tinker", "in": 1822, "out": 310, "cost": 0.00139773}
+{"svc": "tinker", "in": 1817, "out": 40, "cost": 0.0010345800000000002}
+{"svc": "tinker", "in": 1761, "out": 40, "cost": 0.00100434}
+{"svc": "tinker", "in": 1817, "out": 40, "cost": 0.0010345800000000002}
+{"svc": "tinker", "in": 1778, "out": 40, "cost": 0.0010135200000000002}
+{"svc": "tinker", "in": 1817, "out": 40, "cost": 0.0010345800000000002}
+{"svc": "tinker", "in": 1778, "out": 31, "cost": 0.0010015050000000002}
+{"svc": "openrouter", "model": "gpt4o", "in": 1660, "out": 104, "cost": 0.00519}
+{"svc": "tinker", "in": 2403, "out": 420, "cost": 0.0018583200000000001}
+{"svc": "tinker", "in": 1778, "out": 40, "cost": 0.0010135200000000002}
+{"svc": "tinker", "in": 1817, "out": 40, "cost": 0.0010345800000000002}
+{"svc": "tinker", "in": 1809, "out": 40, "cost": 0.00103026}
+{"svc": "tinker", "in": 1778, "out": 40, "cost": 0.0010135200000000002}
+{"svc": "openrouter", "model": "opus55", "in": 2584, "out": 269, "cost": 0.015716}
+{"svc": "tinker", "in": 1809, "out": 40, "cost": 0.00103026}
+{"svc": "tinker", "in": 2403, "out": 420, "cost": 0.0018583200000000001}
+{"svc": "tinker", "in": 1822, "out": 420, "cost": 0.0015445799999999998}
+{"svc": "tinker", "in": 1809, "out": 40, "cost": 0.00103026}
+{"svc": "openrouter", "model": "opus46", "in": 1957, "out": 108, "cost": 0.012485}
+{"svc": "tinker", "in": 1822, "out": 420, "cost": 0.0015445799999999998}
+{"svc": "tinker", "in": 1809, "out": 40, "cost": 0.00103026}
+{"svc": "tinker", "in": 2210, "out": 40, "cost": 0.0012468000000000002}
+{"svc": "tinker", "in": 2400, "out": 245, "cost": 0.001623075}
+{"svc": "tinker", "in": 2210, "out": 40, "cost": 0.0012468000000000002}
+{"svc": "openrouter", "model": "sol61", "in": 1659, "out": 118, "cost": 0.005326}
+{"svc": "tinker", "in": 2210, "out": 20, "cost": 0.0012201000000000002}
+{"svc": "tinker", "in": 2403, "out": 193, "cost": 0.001555275}
+{"svc": "tinker", "in": 2403, "out": 420, "cost": 0.0018583200000000001}
+{"svc": "tinker", "in": 2210, "out": 9, "cost": 0.0012054150000000003}
+{"svc": "tinker", "in": 2400, "out": 310, "cost": 0.00170985}
+{"svc": "openrouter", "model": "opus55", "in": 2482, "out": 264, "cost": 0.015208}
+{"svc": "tinker", "in": 1822, "out": 251, "cost": 0.001318965}
+{"svc": "tinker", "in": 1822, "out": 420, "cost": 0.0015445799999999998}
+{"svc": "openrouter", "model": "gpt4o", "in": 1660, "out": 140, "cost": 0.00555}
+{"svc": "tinker", "in": 2422, "out": 420, "cost": 0.00186858}
+{"svc": "tinker", "in": 2422, "out": 420, "cost": 0.00186858}
+{"svc": "openrouter", "model": "opus46", "in": 1867, "out": 143, "cost": 0.01291}
+{"svc": "tinker", "in": 2400, "out": 420, "cost": 0.0018566999999999998}
+{"svc": "tinker", "in": 2396, "out": 344, "cost": 0.0017530800000000002}
+{"svc": "tinker", "in": 2396, "out": 420, "cost": 0.00185454}
+{"svc": "tinker", "in": 2400, "out": 420, "cost": 0.0018566999999999998}
+{"svc": "tinker", "in": 1822, "out": 420, "cost": 0.0015445799999999998}
+{"svc": "openrouter", "model": "opus55", "in": 2482, "out": 321, "cost": 0.016348}
+{"svc": "tinker", "in": 1822, "out": 420, "cost": 0.0015445799999999998}
+{"svc": "openrouter", "model": "sol61", "in": 1659, "out": 102, "cost": 0.005166}
+{"svc": "tinker", "in": 2422, "out": 406, "cost": 0.00184989}
+{"svc": "tinker", "in": 2422, "out": 420, "cost": 0.00186858}
+{"svc": "tinker", "in": 2396, "out": 221, "cost": 0.001588875}
+{"svc": "tinker", "in": 2400, "out": 329, "cost": 0.001735215}
+{"svc": "tinker", "in": 2400, "out": 245, "cost": 0.001623075}
+{"svc": "tinker", "in": 1822, "out": 206, "cost": 0.0012588900000000001}
+{"svc": "tinker", "in": 2396, "out": 420, "cost": 0.00185454}
+{"svc": "openrouter", "model": "gpt4o", "in": 1654, "out": 66, "cost": 0.004795}
+{"svc": "openrouter", "model": "opus46", "in": 1859, "out": 77, "cost": 0.01122}
+{"svc": "openrouter", "model": "sol61", "in": 1653, "out": 51, "cost": 0.004641}
+{"svc": "tinker", "in": 2422, "out": 198, "cost": 0.00157221}
+{"svc": "openrouter", "model": "opus55", "in": 2477, "out": 167, "cost": 0.013248}
+{"svc": "openrouter", "model": "opus46", "in": 1867, "out": 142, "cost": 0.012885}
+{"svc": "tinker", "in": 2422, "out": 420, "cost": 0.00186858}
+{"svc": "openrouter", "model": "gpt4o", "in": 1654, "out": 54, "cost": 0.004675}
+{"svc": "tinker", "in": 2400, "out": 316, "cost": 0.00171786}
+{"svc": "tinker", "in": 1822, "out": 420, "cost": 0.0015445799999999998}
+{"svc": "tinker", "in": 2396, "out": 248, "cost": 0.00162492}
+{"svc": "tinker", "in": 1822, "out": 312, "cost": 0.0014004}
+{"svc": "tinker", "in": 2396, "out": 420, "cost": 0.00185454}
+{"svc": "tinker", "in": 2400, "out": 420, "cost": 0.0018566999999999998}
+{"svc": "openrouter", "model": "sol61", "in": 1653, "out": 55, "cost": 0.004681}
+{"svc": "tinker", "in": 2422, "out": 420, "cost": 0.00186858}
+{"svc": "tinker", "in": 1822, "out": 194, "cost": 0.00124287}
+{"svc": "tinker", "in": 2400, "out": 284, "cost": 0.0016751399999999999}
+{"svc": "openrouter", "model": "opus46", "in": 1859, "out": 75, "cost": 0.01117}
+{"svc": "tinker", "in": 2396, "out": 204, "cost": 0.0015661800000000001}
+{"svc": "tinker", "in": 2422, "out": 420, "cost": 0.00186858}
+{"svc": "openrouter", "model": "opus55", "in": 2477, "out": 147, "cost": 0.012848}
+{"svc": "openrouter", "model": "gpt4o", "in": 1671, "out": 62, "cost": 0.0047975}
+{"svc": "tinker", "in": 2396, "out": 420, "cost": 0.00185454}
+{"svc": "tinker", "in": 2403, "out": 420, "cost": 0.0018583200000000001}
+{"svc": "tinker", "in": 2400, "out": 420, "cost": 0.0018566999999999998}
+{"svc": "tinker", "in": 2400, "out": 222, "cost": 0.0015923699999999999}
+{"svc": "openrouter", "model": "sol61", "in": 1670, "out": 60, "cost": 0.0047735}
+{"svc": "tinker", "in": 2422, "out": 420, "cost": 0.00186858}
+{"svc": "tinker", "in": 2403, "out": 420, "cost": 0.0018583200000000001}
+{"svc": "openrouter", "model": "opus46", "in": 1876, "out": 70, "cost": 0.01113}
+{"svc": "tinker", "in": 1820, "out": 40, "cost": 0.0010362000000000001}
+{"svc": "tinker", "in": 2396, "out": 296, "cost": 0.001689}
+{"svc": "openrouter", "model": "opus55", "in": 2498, "out": 203, "cost": 0.014052}
+{"svc": "openrouter", "model": "gpt4o", "in": 1671, "out": 49, "cost": 0.0046675}
+{"svc": "tinker", "in": 1820, "out": 40, "cost": 0.0010362000000000001}
+{"svc": "tinker", "in": 2422, "out": 420, "cost": 0.00186858}
+{"svc": "tinker", "in": 2403, "out": 420, "cost": 0.0018583200000000001}
+{"svc": "tinker", "in": 1820, "out": 40, "cost": 0.0010362000000000001}
+{"svc": "tinker", "in": 2396, "out": 420, "cost": 0.00185454}
+{"svc": "openrouter", "model": "sol61", "in": 1670, "out": 59, "cost": 0.0047635}
+{"svc": "tinker", "in": 1820, "out": 40, "cost": 0.0010362000000000001}
+{"svc": "tinker", "in": 2422, "out": 420, "cost": 0.00186858}
+{"svc": "tinker", "in": 2400, "out": 420, "cost": 0.0018566999999999998}
+{"svc": "tinker", "in": 2422, "out": 207, "cost": 0.001584225}
+{"svc": "tinker", "in": 1809, "out": 40, "cost": 0.00103026}
+{"svc": "tinker", "in": 2396, "out": 364, "cost": 0.0017797800000000001}
+{"svc": "tinker", "in": 1809, "out": 40, "cost": 0.00103026}
+{"svc": "tinker", "in": 1824, "out": 40, "cost": 0.00103836}
+{"svc": "tinker", "in": 2403, "out": 420, "cost": 0.0018583200000000001}
+{"svc": "tinker", "in": 2396, "out": 216, "cost": 0.0015822000000000002}
+{"svc": "tinker", "in": 1809, "out": 40, "cost": 0.00103026}
+{"svc": "tinker", "in": 1824, "out": 40, "cost": 0.00103836}
+{"svc": "tinker", "in": 2403, "out": 420, "cost": 0.0018583200000000001}
+{"svc": "tinker", "in": 1798, "out": 40, "cost": 0.0010243200000000002}
+{"svc": "tinker", "in": 1809, "out": 40, "cost": 0.00103026}
+{"svc": "openrouter", "model": "gpt4o", "in": 1776, "out": 101, "cost": 0.00545}
+{"svc": "tinker", "in": 1798, "out": 40, "cost": 0.0010243200000000002}
+{"svc": "tinker", "in": 1824, "out": 40, "cost": 0.00103836}
+{"svc": "openrouter", "model": "opus55", "in": 2498, "out": 195, "cost": 0.013892}
+{"svc": "tinker", "in": 1824, "out": 3, "cost": 0.000988965}
+{"svc": "tinker", "in": 1786, "out": 40, "cost": 0.00101784}
+{"svc": "tinker", "in": 1798, "out": 40, "cost": 0.0010243200000000002}
+{"svc": "openrouter", "model": "sol61", "in": 1775, "out": 106, "cost": 0.005496}
+{"svc": "openrouter", "model": "opus46", "in": 1876, "out": 96, "cost": 0.01178}
+{"svc": "tinker", "in": 1819, "out": 40, "cost": 0.00103566}
+{"svc": "tinker", "in": 1786, "out": 40, "cost": 0.00101784}
+{"svc": "tinker", "in": 1798, "out": 40, "cost": 0.0010243200000000002}
+{"svc": "tinker", "in": 1786, "out": 40, "cost": 0.00101784}
+{"svc": "tinker", "in": 1819, "out": 40, "cost": 0.00103566}
+{"svc": "tinker", "in": 2403, "out": 210, "cost": 0.00157797}
+{"svc": "tinker", "in": 1819, "out": 40, "cost": 0.00103566}
+{"svc": "tinker", "in": 1786, "out": 40, "cost": 0.00101784}
+{"svc": "tinker", "in": 1819, "out": 40, "cost": 0.00103566}
+{"svc": "tinker", "in": 1824, "out": 40, "cost": 0.00103836}
+{"svc": "tinker", "in": 1679, "out": 40, "cost": 0.0009600600000000001}
+{"svc": "tinker", "in": 1824, "out": 40, "cost": 0.00103836}
+{"svc": "tinker", "in": 2403, "out": 420, "cost": 0.0018583200000000001}
+{"svc": "tinker", "in": 1679, "out": 40, "cost": 0.0009600600000000001}
+{"svc": "tinker", "in": 1824, "out": 40, "cost": 0.00103836}
+{"svc": "openrouter", "model": "opus55", "in": 2596, "out": 277, "cost": 0.015924}
+{"svc": "tinker", "in": 1824, "out": 40, "cost": 0.00103836}
+{"svc": "tinker", "in": 1822, "out": 420, "cost": 0.0015445799999999998}
+{"svc": "tinker", "in": 2403, "out": 243, "cost": 0.001622025}
+{"svc": "openrouter", "model": "gpt4o", "in": 1776, "out": 114, "cost": 0.00558}
+{"svc": "tinker", "in": 1679, "out": 40, "cost": 0.0009600600000000001}
+{"svc": "tinker", "in": 1735, "out": 4, "cost": 0.0009422400000000001}
+{"svc": "tinker", "in": 1735, "out": 40, "cost": 0.0009903000000000002}
+{"svc": "tinker", "in": 1679, "out": 40, "cost": 0.0009600600000000001}
+{"svc": "tinker", "in": 1696, "out": 40, "cost": 0.00096924}
+{"svc": "tinker", "in": 1822, "out": 420, "cost": 0.0015445799999999998}
+{"svc": "tinker", "in": 1735, "out": 40, "cost": 0.0009903000000000002}
+{"svc": "tinker", "in": 1735, "out": 40, "cost": 0.0009903000000000002}
+{"svc": "tinker", "in": 1696, "out": 40, "cost": 0.00096924}
+{"svc": "tinker", "in": 1696, "out": 40, "cost": 0.00096924}
+{"svc": "openrouter", "model": "opus46", "in": 1965, "out": 180, "cost": 0.014325}
+{"svc": "tinker", "in": 1727, "out": 40, "cost": 0.00098598}
+{"svc": "tinker", "in": 1696, "out": 16, "cost": 0.0009372}
+{"svc": "tinker", "in": 2403, "out": 420, "cost": 0.0018583200000000001}
+{"svc": "tinker", "in": 1727, "out": 40, "cost": 0.00098598}
+{"svc": "openrouter", "model": "sol61", "in": 1775, "out": 111, "cost": 0.005546}
+{"svc": "tinker", "in": 1822, "out": 420, "cost": 0.0015445799999999998}
+{"svc": "tinker", "in": 1727, "out": 40, "cost": 0.00098598}
+{"svc": "tinker", "in": 1727, "out": 40, "cost": 0.00098598}
+{"svc": "tinker", "in": 2318, "out": 68, "cost": 0.0013425}
+{"svc": "tinker", "in": 2403, "out": 420, "cost": 0.0018583200000000001}
+{"svc": "tinker", "in": 2318, "out": 207, "cost": 0.0015280650000000001}
+{"svc": "tinker", "in": 2128, "out": 40, "cost": 0.00120252}
+{"svc": "tinker", "in": 2128, "out": 40, "cost": 0.00120252}
+{"svc": "openrouter", "model": "gpt4o", "in": 1770, "out": 54, "cost": 0.004965}
+{"svc": "openrouter", "model": "opus55", "in": 2596, "out": 357, "cost": 0.017524}
+{"svc": "tinker", "in": 1822, "out": 420, "cost": 0.0015445799999999998}
+{"svc": "tinker", "in": 2128, "out": 40, "cost": 0.00120252}
+{"svc": "tinker", "in": 2128, "out": 40, "cost": 0.00120252}
+{"svc": "openrouter", "model": "sol61", "in": 1769, "out": 57, "cost": 0.004991}
+{"svc": "tinker", "in": 2403, "out": 349, "cost": 0.001763535}
+{"svc": "openrouter", "model": "opus46", "in": 1965, "out": 154, "cost": 0.013675}
+{"svc": "tinker", "in": 2318, "out": 420, "cost": 0.0018124200000000001}
+{"svc": "openrouter", "model": "opus46", "in": 1957, "out": 74, "cost": 0.011635}
+{"svc": "tinker", "in": 2340, "out": 420, "cost": 0.0018243000000000003}
+{"svc": "openrouter", "model": "opus55", "in": 2591, "out": 179, "cost": 0.013944}
+{"svc": "tinker", "in": 1822, "out": 420, "cost": 0.0015445799999999998}
+{"svc": "tinker", "in": 2318, "out": 420, "cost": 0.0018124200000000001}
+{"svc": "openrouter", "model": "gpt4o", "in": 1770, "out": 51, "cost": 0.003015}
+{"svc": "tinker", "in": 2340, "out": 420, "cost": 0.0018243000000000003}
+{"svc": "tinker", "in": 2318, "out": 277, "cost": 0.001621515}
+{"svc": "tinker", "in": 2340, "out": 420, "cost": 0.0018243000000000003}
+{"svc": "tinker", "in": 2403, "out": 256, "cost": 0.0016393800000000002}
+{"svc": "openrouter", "model": "sol61", "in": 1769, "out": 58, "cost": 0.005001}
+{"svc": "tinker", "in": 2318, "out": 420, "cost": 0.0018124200000000001}
+{"svc": "tinker", "in": 1822, "out": 420, "cost": 0.0015445799999999998}
+{"svc": "openrouter", "model": "opus46", "in": 1957, "out": 78, "cost": 0.011735}
+{"svc": "tinker", "in": 2318, "out": 254, "cost": 0.00159081}
+{"svc": "openrouter", "model": "opus55", "in": 2591, "out": 176, "cost": 0.013884}
+{"svc": "tinker", "in": 2314, "out": 420, "cost": 0.0018102600000000002}
+{"svc": "tinker", "in": 1822, "out": 420, "cost": 0.0015445799999999998}
+{"svc": "openrouter", "model": "gpt4o", "in": 1787, "out": 60, "cost": 0.0050675}
+{"svc": "tinker", "in": 2340, "out": 420, "cost": 0.0018243000000000003}
+{"svc": "tinker", "in": 2314, "out": 61, "cost": 0.0013309950000000002}
+{"svc": "tinker", "in": 2340, "out": 420, "cost": 0.0018243000000000003}
+{"svc": "openrouter", "model": "sol61", "in": 1786, "out": 56, "cost": 0.0050235}
+{"svc": "openrouter", "model": "opus46", "in": 1974, "out": 85, "cost": 0.011995}
+{"svc": "openrouter", "model": "opus55", "in": 2612, "out": 196, "cost": 0.014368}
+{"svc": "tinker", "in": 2314, "out": 420, "cost": 0.0018102600000000002}
+{"svc": "openrouter", "model": "sol61", "in": 1786, "out": 55, "cost": 0.0050135}
+{"svc": "openrouter", "model": "gpt4o", "in": 1787, "out": 68, "cost": 0.0032275}
+{"svc": "tinker", "in": 2318, "out": 420, "cost": 0.0018124200000000001}
+{"svc": "tinker", "in": 2318, "out": 323, "cost": 0.001682925}
+{"svc": "tinker", "in": 2314, "out": 182, "cost": 0.0014925300000000002}
+{"svc": "tinker", "in": 2340, "out": 420, "cost": 0.0018243000000000003}
+{"svc": "tinker", "in": 1822, "out": 420, "cost": 0.0015445799999999998}
+{"svc": "tinker", "in": 2340, "out": 420, "cost": 0.0018243000000000003}
+{"svc": "tinker", "in": 1822, "out": 420, "cost": 0.0015445799999999998}
+{"svc": "tinker", "in": 2340, "out": 112, "cost": 0.0014131200000000001}
+{"svc": "tinker", "in": 2318, "out": 420, "cost": 0.0018124200000000001}
+{"svc": "tinker", "in": 2318, "out": 420, "cost": 0.0018124200000000001}
+{"svc": "openrouter", "model": "opus46", "in": 1974, "out": 76, "cost": 0.01177}
+{"svc": "tinker", "in": 2340, "out": 281, "cost": 0.001638735}
+{"svc": "tinker", "in": 2340, "out": 351, "cost": 0.0017321850000000002}
+{"svc": "tinker", "in": 2314, "out": 420, "cost": 0.0018102600000000002}
+{"svc": "tinker", "in": 2318, "out": 420, "cost": 0.0018124200000000001}
+{"svc": "tinker", "in": 1822, "out": 274, "cost": 0.00134967}
+{"svc": "tinker", "in": 2314, "out": 420, "cost": 0.0018102600000000002}
+{"svc": "tinker", "in": 1738, "out": 40, "cost": 0.00099192}
+{"svc": "openrouter", "model": "opus55", "in": 2612, "out": 557, "cost": 0.021588}
+{"svc": "tinker", "in": 2321, "out": 420, "cost": 0.00181404}
+{"svc": "tinker", "in": 2340, "out": 420, "cost": 0.0018243000000000003}
+{"svc": "tinker", "in": 1738, "out": 40, "cost": 0.00099192}
+{"svc": "tinker", "in": 1822, "out": 420, "cost": 0.0015445799999999998}
+{"svc": "tinker", "in": 1738, "out": 40, "cost": 0.00099192}
+{"svc": "tinker", "in": 2321, "out": 420, "cost": 0.00181404}
+{"svc": "tinker", "in": 1727, "out": 40, "cost": 0.00098598}
+{"svc": "tinker", "in": 1738, "out": 40, "cost": 0.00099192}
+{"svc": "tinker", "in": 1727, "out": 40, "cost": 0.00098598}
+{"svc": "tinker", "in": 1727, "out": 40, "cost": 0.00098598}
+{"svc": "tinker", "in": 2321, "out": 420, "cost": 0.00181404}
+{"svc": "tinker", "in": 2340, "out": 420, "cost": 0.0018243000000000003}
+{"svc": "tinker", "in": 1742, "out": 40, "cost": 0.00099408}
+{"svc": "tinker", "in": 1822, "out": 420, "cost": 0.0015445799999999998}
+{"svc": "tinker", "in": 1727, "out": 40, "cost": 0.00098598}
+{"svc": "tinker", "in": 2314, "out": 420, "cost": 0.0018102600000000002}
+{"svc": "tinker", "in": 2314, "out": 420, "cost": 0.0018102600000000002}
+{"svc": "tinker", "in": 1716, "out": 40, "cost": 0.0009800400000000002}
+{"svc": "tinker", "in": 1742, "out": 40, "cost": 0.00099408}
+{"svc": "tinker", "in": 1742, "out": 40, "cost": 0.00099408}
+{"svc": "tinker", "in": 1716, "out": 40, "cost": 0.0009800400000000002}
+{"svc": "tinker", "in": 1704, "out": 13, "cost": 0.0009375150000000001}
+{"svc": "tinker", "in": 1716, "out": 16, "cost": 0.0009480000000000002}
+{"svc": "tinker", "in": 1716, "out": 40, "cost": 0.0009800400000000002}
+{"svc": "tinker", "in": 1742, "out": 40, "cost": 0.00099408}
+{"svc": "tinker", "in": 1704, "out": 40, "cost": 0.00097356}
+{"svc": "tinker", "in": 1737, "out": 40, "cost": 0.00099138}
+{"svc": "tinker", "in": 1704, "out": 40, "cost": 0.00097356}
+{"svc": "tinker", "in": 2321, "out": 369, "cost": 0.0017459550000000002}
+{"svc": "tinker", "in": 1737, "out": 40, "cost": 0.00099138}
+{"svc": "tinker", "in": 1737, "out": 40, "cost": 0.00099138}
+{"svc": "tinker", "in": 1704, "out": 40, "cost": 0.00097356}
+{"svc": "tinker", "in": 1737, "out": 40, "cost": 0.00099138}
+{"svc": "tinker", "in": 2321, "out": 420, "cost": 0.00181404}
+{"svc": "tinker", "in": 1742, "out": 40, "cost": 0.00099408}
+{"svc": "tinker", "in": 1742, "out": 40, "cost": 0.00099408}
+{"svc": "tinker", "in": 2314, "out": 420, "cost": 0.0018102600000000002}
+{"svc": "tinker", "in": 1742, "out": 40, "cost": 0.00099408}
+{"svc": "tinker", "in": 1742, "out": 40, "cost": 0.00099408}
+{"svc": "tinker", "in": 1794, "out": 40, "cost": 0.00102216}
+{"svc": "tinker", "in": 1794, "out": 40, "cost": 0.00102216}
+{"svc": "tinker", "in": 1740, "out": 420, "cost": 0.0015003}
+{"svc": "tinker", "in": 1850, "out": 40, "cost": 0.0010524}
+{"svc": "tinker", "in": 2314, "out": 415, "cost": 0.0018035850000000001}
+{"svc": "tinker", "in": 2321, "out": 420, "cost": 0.00181404}
+{"svc": "tinker", "in": 1794, "out": 40, "cost": 0.00102216}
+{"svc": "tinker", "in": 1740, "out": 420, "cost": 0.0015003}
+{"svc": "tinker", "in": 1850, "out": 40, "cost": 0.0010524}
+{"svc": "tinker", "in": 1794, "out": 40, "cost": 0.00102216}
+{"svc": "tinker", "in": 1850, "out": 40, "cost": 0.0010524}
+{"svc": "tinker", "in": 1811, "out": 28, "cost": 0.0010153200000000001}
+{"svc": "tinker", "in": 1811, "out": 40, "cost": 0.0010313400000000002}
+{"svc": "tinker", "in": 1850, "out": 40, "cost": 0.0010524}
+{"svc": "tinker", "in": 1811, "out": 40, "cost": 0.0010313400000000002}
+{"svc": "tinker", "in": 1811, "out": 40, "cost": 0.0010313400000000002}
+{"svc": "tinker", "in": 2321, "out": 420, "cost": 0.00181404}
+{"svc": "tinker", "in": 2314, "out": 420, "cost": 0.0018102600000000002}
+{"svc": "tinker", "in": 1842, "out": 40, "cost": 0.00104808}
+{"svc": "tinker", "in": 1740, "out": 420, "cost": 0.0015003}
+{"svc": "tinker", "in": 1842, "out": 11, "cost": 0.001009365}
+{"svc": "tinker", "in": 1842, "out": 40, "cost": 0.00104808}
+{"svc": "tinker", "in": 2321, "out": 420, "cost": 0.00181404}
+{"svc": "tinker", "in": 1740, "out": 420, "cost": 0.0015003}
+{"svc": "tinker", "in": 1842, "out": 40, "cost": 0.00104808}
+{"svc": "tinker", "in": 2243, "out": 40, "cost": 0.0012646200000000002}
+{"svc": "tinker", "in": 2314, "out": 420, "cost": 0.0018102600000000002}
+{"svc": "tinker", "in": 2243, "out": 40, "cost": 0.0012646200000000002}
+{"svc": "tinker", "in": 2433, "out": 420, "cost": 0.00187452}
+{"svc": "tinker", "in": 1740, "out": 420, "cost": 0.0015003}
+{"svc": "tinker", "in": 2243, "out": 40, "cost": 0.0012646200000000002}
+{"svc": "tinker", "in": 2433, "out": 151, "cost": 0.0015154050000000003}
+{"svc": "tinker", "in": 1740, "out": 420, "cost": 0.0015003}
+{"svc": "tinker", "in": 2433, "out": 420, "cost": 0.00187452}
+{"svc": "tinker", "in": 2243, "out": 40, "cost": 0.0012646200000000002}
+{"svc": "tinker", "in": 2321, "out": 420, "cost": 0.00181404}
+{"svc": "tinker", "in": 2455, "out": 420, "cost": 0.0018864}
+{"svc": "tinker", "in": 2321, "out": 420, "cost": 0.00181404}
+{"svc": "tinker", "in": 1740, "out": 420, "cost": 0.0015003}
+{"svc": "tinker", "in": 1740, "out": 292, "cost": 0.00132942}
+{"svc": "tinker", "in": 2455, "out": 380, "cost": 0.001833}
+{"svc": "tinker", "in": 2433, "out": 420, "cost": 0.00187452}
+{"svc": "tinker", "in": 2455, "out": 420, "cost": 0.0018864}
+{"svc": "tinker", "in": 2429, "out": 210, "cost": 0.00159201}
+{"svc": "tinker", "in": 2433, "out": 420, "cost": 0.00187452}
+{"svc": "tinker", "in": 1740, "out": 420, "cost": 0.0015003}
+{"svc": "tinker", "in": 2321, "out": 420, "cost": 0.00181404}
+{"svc": "tinker", "in": 1740, "out": 420, "cost": 0.0015003}
+{"svc": "tinker", "in": 2455, "out": 241, "cost": 0.001647435}
+{"svc": "tinker", "in": 2455, "out": 412, "cost": 0.00187572}
+{"svc": "tinker", "in": 2433, "out": 261, "cost": 0.001662255}
+{"svc": "tinker", "in": 2429, "out": 362, "cost": 0.0017949300000000001}
+{"svc": "tinker", "in": 2433, "out": 420, "cost": 0.00187452}
+{"svc": "tinker", "in": 1740, "out": 362, "cost": 0.00142287}
+{"svc": "tinker", "in": 2455, "out": 273, "cost": 0.001690155}
+{"svc": "tinker", "in": 2455, "out": 252, "cost": 0.0016621200000000002}
+{"svc": "tinker", "in": 1740, "out": 420, "cost": 0.0015003}
+{"svc": "tinker", "in": 2321, "out": 420, "cost": 0.00181404}
+{"svc": "tinker", "in": 2433, "out": 420, "cost": 0.00187452}
+{"svc": "tinker", "in": 2455, "out": 142, "cost": 0.00151527}
+{"svc": "tinker", "in": 2429, "out": 304, "cost": 0.0017175}
+{"svc": "tinker", "in": 2429, "out": 420, "cost": 0.0018723600000000002}
+{"svc": "tinker", "in": 2433, "out": 420, "cost": 0.00187452}
+{"svc": "tinker", "in": 2455, "out": 307, "cost": 0.001735545}
+{"svc": "tinker", "in": 2429, "out": 103, "cost": 0.0014491649999999999}
+{"svc": "tinker", "in": 2436, "out": 420, "cost": 0.0018761399999999999}
+{"svc": "tinker", "in": 2436, "out": 420, "cost": 0.0018761399999999999}
+{"svc": "tinker", "in": 2433, "out": 420, "cost": 0.00187452}
+{"svc": "tinker", "in": 2429, "out": 420, "cost": 0.0018723600000000002}
+{"svc": "tinker", "in": 2455, "out": 420, "cost": 0.0018864}
+{"svc": "tinker", "in": 2433, "out": 119, "cost": 0.0014726850000000003}
+{"svc": "tinker", "in": 2429, "out": 313, "cost": 0.001729515}
+{"svc": "tinker", "in": 2433, "out": 420, "cost": 0.00187452}
+{"svc": "tinker", "in": 2455, "out": 420, "cost": 0.0018864}
+{"svc": "tinker", "in": 1853, "out": 40, "cost": 0.0010540200000000001}
+{"svc": "tinker", "in": 2436, "out": 348, "cost": 0.00178002}
+{"svc": "tinker", "in": 2436, "out": 319, "cost": 0.001741305}
+{"svc": "tinker", "in": 1853, "out": 40, "cost": 0.0010540200000000001}
+{"svc": "tinker", "in": 1842, "out": 40, "cost": 0.00104808}
+{"svc": "tinker", "in": 1853, "out": 40, "cost": 0.0010540200000000001}
+{"svc": "tinker", "in": 1842, "out": 40, "cost": 0.00104808}
+{"svc": "tinker", "in": 1853, "out": 40, "cost": 0.0010540200000000001}
+{"svc": "tinker", "in": 1842, "out": 40, "cost": 0.00104808}
+{"svc": "tinker", "in": 1842, "out": 40, "cost": 0.00104808}
+{"svc": "tinker", "in": 2429, "out": 420, "cost": 0.0018723600000000002}
+{"svc": "tinker", "in": 1857, "out": 40, "cost": 0.00105618}
+{"svc": "tinker", "in": 1857, "out": 40, "cost": 0.00105618}
+{"svc": "tinker", "in": 1831, "out": 40, "cost": 0.00104214}
+{"svc": "tinker", "in": 1857, "out": 40, "cost": 0.00105618}
+{"svc": "tinker", "in": 2436, "out": 420, "cost": 0.0018761399999999999}
+{"svc": "tinker", "in": 2455, "out": 420, "cost": 0.0018864}
+{"svc": "tinker", "in": 2436, "out": 420, "cost": 0.0018761399999999999}
+{"svc": "tinker", "in": 1831, "out": 40, "cost": 0.00104214}
+{"svc": "tinker", "in": 1857, "out": 40, "cost": 0.00105618}
+{"svc": "tinker", "in": 1819, "out": 40, "cost": 0.00103566}
+{"svc": "tinker", "in": 1831, "out": 40, "cost": 0.00104214}
+{"svc": "tinker", "in": 2436, "out": 93, "cost": 0.0014395950000000001}
+{"svc": "tinker", "in": 2429, "out": 420, "cost": 0.0018723600000000002}
+{"svc": "tinker", "in": 1819, "out": 40, "cost": 0.00103566}
+{"svc": "tinker", "in": 1831, "out": 40, "cost": 0.00104214}
+{"svc": "tinker", "in": 1819, "out": 40, "cost": 0.00103566}
+{"svc": "tinker", "in": 1852, "out": 40, "cost": 0.00105348}
+{"svc": "tinker", "in": 1852, "out": 40, "cost": 0.00105348}
+{"svc": "tinker", "in": 1819, "out": 40, "cost": 0.00103566}
+{"svc": "tinker", "in": 1852, "out": 40, "cost": 0.00105348}
+{"svc": "tinker", "in": 2429, "out": 420, "cost": 0.0018723600000000002}
+{"svc": "tinker", "in": 2429, "out": 152, "cost": 0.0015145800000000002}
+{"svc": "tinker", "in": 1852, "out": 40, "cost": 0.00105348}
+{"svc": "tinker", "in": 1857, "out": 40, "cost": 0.00105618}
+{"svc": "tinker", "in": 1857, "out": 40, "cost": 0.00105618}
+{"svc": "tinker", "in": 1857, "out": 40, "cost": 0.00105618}
+{"svc": "tinker", "in": 1855, "out": 420, "cost": 0.0015624}
+{"svc": "tinker", "in": 2436, "out": 405, "cost": 0.001856115}
+{"svc": "tinker", "in": 2436, "out": 420, "cost": 0.0018761399999999999}
+{"svc": "tinker", "in": 1857, "out": 40, "cost": 0.00105618}
+{"svc": "tinker", "in": 2429, "out": 233, "cost": 0.001622715}
+{"svc": "tinker", "in": 1855, "out": 420, "cost": 0.0015624}
+{"svc": "tinker", "in": 2436, "out": 420, "cost": 0.0018761399999999999}
+{"svc": "tinker", "in": 2436, "out": 420, "cost": 0.0018761399999999999}
+{"svc": "tinker", "in": 1855, "out": 420, "cost": 0.0015624}
+{"svc": "tinker", "in": 2436, "out": 420, "cost": 0.0018761399999999999}
+{"svc": "tinker", "in": 1855, "out": 420, "cost": 0.0015624}
+{"svc": "tinker", "in": 1855, "out": 420, "cost": 0.0015624}
+{"svc": "tinker", "in": 1855, "out": 420, "cost": 0.0015624}
+{"svc": "tinker", "in": 1855, "out": 307, "cost": 0.0014115450000000002}
+{"svc": "tinker", "in": 1855, "out": 420, "cost": 0.0015624}
+{"svc": "tinker", "in": 1855, "out": 420, "cost": 0.0015624}
+{"svc": "tinker", "in": 1855, "out": 318, "cost": 0.0014262300000000001}
+{"svc": "tinker", "in": 1855, "out": 420, "cost": 0.0015624}
+{"svc": "tinker", "in": 1855, "out": 420, "cost": 0.0015624}

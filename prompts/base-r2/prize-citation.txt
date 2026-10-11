@@ -1,8 +1,3 @@
-id: prize-citation
-title: R2 Translator's prize jury citation (prestige-anchored, slot)
-mode: slot
-notes: Round 2. Jury-citation voice that names the winning version.
-=====
 @@translation
 THE HAN RIVER TRANSLATION PRIZE - JURY CITATION (excerpt)
 

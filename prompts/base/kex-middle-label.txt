@@ -1,8 +1,3 @@
-id: kex-middle-label
-title: k-example, labels only (no reasoning), middle-winner examples
-mode: slot
-notes: Same two items as kex-middle-cot but with the notes and Why removed; ends at an open Keep: slot.
-=====
 @@translation
 EDITOR'S MARGIN NOTES - Fiction & Translation Desk
 House rule: read every version, write one short note on each, say why, then mark the one to keep. Items 1 and 2 are done; item 3 is open.

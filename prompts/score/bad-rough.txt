@@ -1,7 +1,3 @@
-id: bad-rough
-group: bad
-title: Scoring prefix - unreviewed rough draft
-=====
 @@translation
 UNREVIEWED ROUGH DRAFT (never published, not proofread)
 

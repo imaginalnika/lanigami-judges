@@ -1,8 +1,3 @@
-id: bare-better
-title: Bare "The better one is" prefix
-mode: slot
-notes: Minimal. No framing, no persona, no examples. The verdict is read from the next-token distribution over the labels.
-=====
 @@translation
 Korean original: {SOURCE}
 Where it appears: {CONTEXT}

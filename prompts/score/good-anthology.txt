@@ -1,7 +1,3 @@
-id: good-anthology
-group: good
-title: Scoring prefix - anthology of the best
-=====
 @@translation
 From THE BEST OF KOREAN WRITING IN ENGLISH (annual anthology of prize-winning translations)
 

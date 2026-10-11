@@ -1,0 +1,288 @@
+{
+ "prompts/base-r3/texture-primed.txt": {
+  "id": "texture-primed",
+  "title": "Editor persona primed toward ear / restraint (\"edits by ear\")",
+  "mode": "slot",
+  "notes": "Persona statement that states a taste (distrusts decoration, trusts rhythm and specificity). This deliberately injects the Lanigami hypothesis, to test whether a stated taste moves the verdict."
+ },
+ "prompts/base-r3/reading-group.txt": {
+  "id": "reading-group",
+  "title": "R2 Korean-to-English reading-group notes (slot)",
+  "mode": "slot",
+  "notes": "Round 2. Informal reading-group minutes; the group names a favorite."
+ },
+ "prompts/base-r3/kex-plain-cot.txt": {
+  "id": "kex-plain-cot",
+  "title": "k-example margin notes with reasoning (plain-winner examples)",
+  "mode": "sample",
+  "marker": "Keep:",
+  "notes": "2 worked items with per-candidate notes and a Why line, then an open item. In this variant both worked examples are won by the plainest candidate. The worked examples were written by the assistant (an instruct model), so they carry that taste; the three variants exist to measure how far the examples steer the verdict."
+ },
+ "prompts/base-r3/prize-citation.txt": {
+  "id": "prize-citation",
+  "title": "R2 Translator's prize jury citation (prestige-anchored, slot)",
+  "mode": "slot",
+  "notes": "Round 2. Jury-citation voice that names the winning version."
+ },
+ "prompts/base-r3/kex-ornate-cot.txt": {
+  "id": "kex-ornate-cot",
+  "title": "k-example margin notes with reasoning (ornate-winner examples)",
+  "mode": "sample",
+  "marker": "Keep:",
+  "notes": "2 worked items with per-candidate notes and a Why line, then an open item. In this variant both worked examples are won by the most ornate/longest candidate. The worked examples were written by the assistant (an instruct model), so they carry that taste; the three variants exist to measure how far the examples steer the verdict."
+ },
+ "prompts/base-r3/workshop.txt": {
+  "id": "workshop",
+  "title": "Workshop transcript (vote by hand)",
+  "mode": "slot",
+  "notes": "Translator workshop for translations, writers' workshop for myths. A participant speaks first and names a pick."
+ },
+ "prompts/base-r3/bare-better.txt": {
+  "id": "bare-better",
+  "title": "Bare \"The better one is\" prefix",
+  "mode": "slot",
+  "notes": "Minimal. No framing, no persona, no examples. The verdict is read from the next-token distribution over the labels."
+ },
+ "prompts/base-r3/preface.txt": {
+  "id": "preface",
+  "title": "R2 Literary anthology editor's preface (prestige-anchored, slot)",
+  "mode": "slot",
+  "notes": "Round 2. Anthology framing that says only one version earned its place. Letter read at the slot."
+ },
+ "prompts/base-r3/critic-persona.txt": {
+  "id": "critic-persona",
+  "title": "R2 Named-style critic persona (slot)",
+  "mode": "slot",
+  "notes": "Round 2. A fictional named critic with a stated style (dry, exact, unsentimental). The persona states a taste, like the round-1 primed personas."
+ },
+ "prompts/base-r3/forum.txt": {
+  "id": "forum",
+  "title": "Anonymous forum comparison thread",
+  "mode": "slot",
+  "notes": "Casual internet-comment voice; verdict from the top comment."
+ },
+ "prompts/base-r3/kex-middle-cot.txt": {
+  "id": "kex-middle-cot",
+  "title": "k-example margin notes with reasoning (middle-winner examples)",
+  "mode": "sample",
+  "marker": "Keep:",
+  "notes": "2 worked items with per-candidate notes and a Why line, then an open item. In this variant both worked examples are won by the middle candidate (concrete, natural, moderate). The worked examples were written by the assistant (an instruct model), so they carry that taste; the three variants exist to measure how far the examples steer the verdict."
+ },
+ "prompts/base-r3/editor-zero.txt": {
+  "id": "editor-zero",
+  "title": "Editor's margin notes, zero-shot (verdict slot only)",
+  "mode": "slot",
+  "notes": "Desk-header framing but no worked examples. Ends at \"Keep:\"."
+ },
+ "prompts/base-r3/lit-review.txt": {
+  "id": "lit-review",
+  "title": "Literary-quarterly review excerpt",
+  "mode": "slot",
+  "notes": "A published-review voice that compares unnamed versions. Ends at \"version\"."
+ },
+ "prompts/base-r3/kex-neutral-cot.txt": {
+  "id": "kex-neutral-cot",
+  "title": "R2 k-example margin notes, NEUTRAL worked examples (descriptive notes, no ornate-is-heavy language; one plain winner, one rich winner)",
+  "mode": "sample",
+  "marker": "Keep:",
+  "notes": "Round 2. Same layout as kex-*-cot. Notes only describe features (length, register, devices). One worked example is won by the plain candidate, the other by the rich one, so the examples do not point either way. Worked examples written by the assistant (an instruct model)."
+ },
+ "prompts/base-r3/kex-middle-label.txt": {
+  "id": "kex-middle-label",
+  "title": "k-example, labels only (no reasoning), middle-winner examples",
+  "mode": "slot",
+  "notes": "Same two items as kex-middle-cot but with the notes and Why removed; ends at an open Keep: slot."
+ },
+ "prompts/base-r3/ornate-primed.txt": {
+  "id": "ornate-primed",
+  "title": "Editor persona primed toward lushness (\"loves maximal prose\")",
+  "mode": "slot",
+  "notes": "Mirror of texture-primed: the persona states the opposite taste. Tests whether the verdict follows the stated taste."
+ },
+ "prompts/base-r3/two-critics-senior.txt": {
+  "id": "two-critics-senior",
+  "title": "R2 Two critics disagree, then the senior editor decides (sampled)",
+  "mode": "sample",
+  "marker": "Decision:",
+  "notes": "Round 2. No persona. The model writes both critics and the senior editor's ruling; the letter after \"Decision:\" is read from sampled text and from its logprobs."
+ },
+ "prompts/score/bad-rejected.txt": {
+  "id": "bad-rejected",
+  "group": "bad",
+  "title": "Scoring prefix - first draft rejected by the editor"
+ },
+ "prompts/score/good-anthology.txt": {
+  "id": "good-anthology",
+  "group": "good",
+  "title": "Scoring prefix - anthology of the best"
+ },
+ "prompts/score/good-editor-approved.txt": {
+  "id": "good-editor-approved",
+  "group": "good",
+  "title": "Scoring prefix - editor-approved final copy"
+ },
+ "prompts/score/good-prize.txt": {
+  "id": "good-prize",
+  "group": "good",
+  "title": "Scoring prefix - prize-winning entry"
+ },
+ "prompts/score/neutral.txt": {
+  "id": "neutral",
+  "group": "neutral",
+  "title": "Scoring prefix - neutral"
+ },
+ "prompts/score/good-published.txt": {
+  "id": "good-published",
+  "group": "good",
+  "title": "Scoring prefix - the published version"
+ },
+ "prompts/score/bad-rough.txt": {
+  "id": "bad-rough",
+  "group": "bad",
+  "title": "Scoring prefix - unreviewed rough draft"
+ },
+ "prompts/fold/instruct-fold.txt": {
+  "id": "instruct-fold",
+  "title": "R2 Folding, instruct models (Opus 5.5, GPT-6.1 Sol): plain request to combine",
+  "mode": "instruct"
+ },
+ "prompts/fold/fold-revision-session.txt": {
+  "id": "fold-revision-session",
+  "title": "R2 Folding: revision-session \"merged version the group agreed\"",
+  "mode": "generate",
+  "max_tokens_translation": "110",
+  "max_tokens_myth": "300"
+ },
+ "prompts/fold/fold-editor-final.txt": {
+  "id": "fold-editor-final",
+  "title": "R2 Folding: \"editor's final version, combining the best of the above\"",
+  "mode": "generate",
+  "max_tokens_translation": "110",
+  "max_tokens_myth": "300"
+ },
+ "prompts/instruct/i1-what-do-you-think.txt": {
+  "id": "i1-what-do-you-think",
+  "title": "Plain \"What do you think?\"",
+  "kind": "plain",
+  "notes": "Open reaction. A short format line is appended only so the preferred letter can be read off."
+ },
+ "prompts/instruct/i2-which-do-you-prefer.txt": {
+  "id": "i2-which-do-you-prefer",
+  "title": "Plain \"Which do you prefer?\"",
+  "kind": "plain",
+  "notes": "Forced choice with a brief reason."
+ },
+ "prompts/instruct/i3-texture-feel.txt": {
+  "id": "i3-texture-feel",
+  "title": "Texture / feel-aware \"Which reads as written, not assembled?\"",
+  "kind": "plain",
+  "notes": "Same forced choice, but the question names texture and feel instead of leaving the criterion open. Tests whether naming the criterion changes an instruct judge."
+ },
+ "prompts/base-r2/reading-group.txt": {
+  "id": "reading-group",
+  "title": "R2 Korean-to-English reading-group notes (slot)",
+  "mode": "slot",
+  "notes": "Round 2. Informal reading-group minutes; the group names a favorite."
+ },
+ "prompts/base-r2/prize-citation.txt": {
+  "id": "prize-citation",
+  "title": "R2 Translator's prize jury citation (prestige-anchored, slot)",
+  "mode": "slot",
+  "notes": "Round 2. Jury-citation voice that names the winning version."
+ },
+ "prompts/base-r2/preface.txt": {
+  "id": "preface",
+  "title": "R2 Literary anthology editor's preface (prestige-anchored, slot)",
+  "mode": "slot",
+  "notes": "Round 2. Anthology framing that says only one version earned its place. Letter read at the slot."
+ },
+ "prompts/base-r2/critic-persona.txt": {
+  "id": "critic-persona",
+  "title": "R2 Named-style critic persona (slot)",
+  "mode": "slot",
+  "notes": "Round 2. A fictional named critic with a stated style (dry, exact, unsentimental). The persona states a taste, like the round-1 primed personas."
+ },
+ "prompts/base-r2/kex-neutral-cot.txt": {
+  "id": "kex-neutral-cot",
+  "title": "R2 k-example margin notes, NEUTRAL worked examples (descriptive notes, no ornate-is-heavy language; one plain winner, one rich winner)",
+  "mode": "sample",
+  "marker": "Keep:",
+  "notes": "Round 2. Same layout as kex-*-cot. Notes only describe features (length, register, devices). One worked example is won by the plain candidate, the other by the rich one, so the examples do not point either way. Worked examples written by the assistant (an instruct model)."
+ },
+ "prompts/base-r2/two-critics-senior.txt": {
+  "id": "two-critics-senior",
+  "title": "R2 Two critics disagree, then the senior editor decides (sampled)",
+  "mode": "sample",
+  "marker": "Decision:",
+  "notes": "Round 2. No persona. The model writes both critics and the senior editor's ruling; the letter after \"Decision:\" is read from sampled text and from its logprobs."
+ },
+ "prompts/base/texture-primed.txt": {
+  "id": "texture-primed",
+  "title": "Editor persona primed toward ear / restraint (\"edits by ear\")",
+  "mode": "slot",
+  "notes": "Persona statement that states a taste (distrusts decoration, trusts rhythm and specificity). This deliberately injects the Lanigami hypothesis, to test whether a stated taste moves the verdict."
+ },
+ "prompts/base/kex-plain-cot.txt": {
+  "id": "kex-plain-cot",
+  "title": "k-example margin notes with reasoning (plain-winner examples)",
+  "mode": "sample",
+  "marker": "Keep:",
+  "notes": "2 worked items with per-candidate notes and a Why line, then an open item. In this variant both worked examples are won by the plainest candidate. The worked examples were written by the assistant (an instruct model), so they carry that taste; the three variants exist to measure how far the examples steer the verdict."
+ },
+ "prompts/base/kex-ornate-cot.txt": {
+  "id": "kex-ornate-cot",
+  "title": "k-example margin notes with reasoning (ornate-winner examples)",
+  "mode": "sample",
+  "marker": "Keep:",
+  "notes": "2 worked items with per-candidate notes and a Why line, then an open item. In this variant both worked examples are won by the most ornate/longest candidate. The worked examples were written by the assistant (an instruct model), so they carry that taste; the three variants exist to measure how far the examples steer the verdict."
+ },
+ "prompts/base/workshop.txt": {
+  "id": "workshop",
+  "title": "Workshop transcript (vote by hand)",
+  "mode": "slot",
+  "notes": "Translator workshop for translations, writers' workshop for myths. A participant speaks first and names a pick."
+ },
+ "prompts/base/bare-better.txt": {
+  "id": "bare-better",
+  "title": "Bare \"The better one is\" prefix",
+  "mode": "slot",
+  "notes": "Minimal. No framing, no persona, no examples. The verdict is read from the next-token distribution over the labels."
+ },
+ "prompts/base/forum.txt": {
+  "id": "forum",
+  "title": "Anonymous forum comparison thread",
+  "mode": "slot",
+  "notes": "Casual internet-comment voice; verdict from the top comment."
+ },
+ "prompts/base/kex-middle-cot.txt": {
+  "id": "kex-middle-cot",
+  "title": "k-example margin notes with reasoning (middle-winner examples)",
+  "mode": "sample",
+  "marker": "Keep:",
+  "notes": "2 worked items with per-candidate notes and a Why line, then an open item. In this variant both worked examples are won by the middle candidate (concrete, natural, moderate). The worked examples were written by the assistant (an instruct model), so they carry that taste; the three variants exist to measure how far the examples steer the verdict."
+ },
+ "prompts/base/editor-zero.txt": {
+  "id": "editor-zero",
+  "title": "Editor's margin notes, zero-shot (verdict slot only)",
+  "mode": "slot",
+  "notes": "Desk-header framing but no worked examples. Ends at \"Keep:\"."
+ },
+ "prompts/base/lit-review.txt": {
+  "id": "lit-review",
+  "title": "Literary-quarterly review excerpt",
+  "mode": "slot",
+  "notes": "A published-review voice that compares unnamed versions. Ends at \"version\"."
+ },
+ "prompts/base/kex-middle-label.txt": {
+  "id": "kex-middle-label",
+  "title": "k-example, labels only (no reasoning), middle-winner examples",
+  "mode": "slot",
+  "notes": "Same two items as kex-middle-cot but with the notes and Why removed; ends at an open Keep: slot."
+ },
+ "prompts/base/ornate-primed.txt": {
+  "id": "ornate-primed",
+  "title": "Editor persona primed toward lushness (\"loves maximal prose\")",
+  "mode": "slot",
+  "notes": "Mirror of texture-primed: the persona states the opposite taste. Tests whether the verdict follows the stated taste."
+ }
+}

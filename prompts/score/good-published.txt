@@ -1,7 +1,3 @@
-id: good-published
-group: good
-title: Scoring prefix - the published version
-=====
 @@translation
 THE PUBLISHED ENGLISH EDITION
 

@@ -9,20 +9,21 @@ async function route(){
   const h=(location.hash||'#overview').slice(1).split('/');
   document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('on',a.id==='n-'+h[0]));if(h[0]==='r2')document.querySelectorAll('nav a')[3].classList.add('on');
   if(h[0]==='r2'){await r2route(h);return}
+  if(h[0]==='r3'){await r3route(h);return}
   if(h[0]==='overview')overview();else if(h[0]==='tasks')await tasks(h[1]);else if(h[0]==='prompts')prompts();
 }
 window.addEventListener('hashchange',route);window.addEventListener('load',route);
 function prompts(){
-  let o=`<h2>Base-judge prefills (Qwen 3.5 35B-A3B Base, plain-text completion)</h2><p class="mut">One file per prefill in <code>prompts/base/</code>. Each file has a <code>@@translation</code> and a <code>@@myth</code> section. Placeholders: {SOURCE}, {CONTEXT}, {CANDS} (lettered candidates). The base model sees the rendered text only, no chat template. Raw files, exactly as used:</p>`;
-  for(const p of IDX.base_prefills)o+=`<details class="card"><summary><b>${esc(p.id)}</b> <span class="mut">(${p.mode}) ${esc(p.title)}</span></summary><pre>${esc(p.raw)}</pre></details>`;
+  let o=`<h2>Base-judge prefills (Qwen 3.5 35B-A3B Base, plain-text completion)</h2><p class="mut">One file per prefill in <code>prompts/base/</code>. Placeholders: {SOURCE}, {CONTEXT}, {CANDS} (lettered candidates). The base model sees the rendered text only, no chat template. Below: the exact text sent to the model for each task type (id/title/mode/notes shown separately as metadata).</p>`;
+  for(const p of IDX.base_prefills)o+=`<details class="card"><summary><b>${esc(p.id)}</b> <span class="mut">(${p.mode}) ${esc(p.title)}</span></summary>${pbox(p)}</details>`;
   o+=`<h2>Instruct-judge prompts (Opus 4.6, Opus 5.5, GPT-6.1 Sol, GPT-4o)</h2><p class="mut">Sent as one plain user message (no system prompt).</p>`;
-  for(const p of IDX.instruct_prefills)o+=`<details class="card"><summary><b>${esc(p.id)}</b> <span class="mut">${esc(p.title)}</span></summary><pre>${esc(p.raw)}</pre></details>`;
-  o+=`<h2>Myth generation prompt (instruct models)</h2><pre>${esc(IDX.myth_gen_prompt)}</pre><p class="mut">Qwen base got only the opener sentence as plain text.</p>`;
+  for(const p of IDX.instruct_prefills)o+=`<details class="card"><summary><b>${esc(p.id)}</b> <span class="mut">${esc(p.title)}</span></summary>${pbox(p)}</details>`;
+  o+=`<h2>Myth generation prompt (instruct models) — SUPERSEDED: invented openers; see Myths (Josh\x27s prompts) → Exact prompt text</h2><pre>${esc(IDX.myth_gen_prompt)}</pre><p class="mut">Qwen base got only the opener sentence as plain text.</p>`;
   $('#app').innerHTML=o;
 }
 function overview(){
   const S=IDX.summary;let o='';
-  o+=`<div class="warn"><b>No verdict here is marked right or wrong.</b> This page reports what each judge preferred and how that relates to length and a crude ornateness proxy. Judging taste is for you.</div>`;
+  o+=`<div class="warn" style="border-color:#d98a8a;background:#fdecec"><b>Myth results on this page are superseded.</b> The myth tasks here (and in Round 2) used openers the assistant invented, not Josh's. They were redone with his original prompts under <a href="#r3">Myths (Josh's prompts)</a>. Translation results are unaffected. The old myth numbers are kept below for reference only.</div><div class="warn"><b>No verdict here is marked right or wrong.</b> This page reports what each judge preferred and how that relates to length and a crude ornateness proxy. Judging taste is for you.</div>`;
   o+=`<div id="findings"></div>`;
   const rows=S.rows;
   function tbl(typ){
@@ -66,10 +67,10 @@ function overview(){
   fetch('findings.html').then(r=>r.ok?r.text():'').then(t=>{if(t)$('#findings').innerHTML=t});
 }
 async function tasks(id){
-  let o=`<select id="sel">`+IDX.tasks.map(t=>`<option value="${t.id}" ${t.id===id?'selected':''}>${t.id} · ${esc(t.title)}</option>`).join('')+`</select>`;
+  const opt=t=>`<option value="${t.id}" ${t.id===id?'selected':''}>${t.id} · ${esc(t.title)}</option>`;let o=`<select id="sel"><optgroup label="Translation (valid)">`+IDX.tasks.filter(t=>t.type==='translation').map(opt).join('')+`</optgroup><optgroup label="SUPERSEDED: invalid openers (assistant-invented myth openers)">`+IDX.tasks.filter(t=>t.type!=='translation').map(opt).join('')+`</optgroup></select><div class="mut">Creation-myth tasks redone with Josh's openers: <a href="#r3/task">Myths (Josh's prompts) → Per task</a></div>`;
   if(!id){$('#app').innerHTML=o+'<p class="mut">Pick a task.</p>';$('#sel').onchange=e=>location.hash='#tasks/'+e.target.value;return}
   const D=await J(`site-data/task/${id}.json`);const t=D.task;
-  o+=`<h2>${t.type==='translation'?'Translation':'Creation myth'}: ${t.id}</h2>`;
+  o+=`<h2>${t.type==='translation'?'Translation':'Creation myth (SUPERSEDED: invalid opener)'}: ${t.id}</h2>`;
   o+=`<div class="card"><b>${t.type==='translation'?'Korean source':'Opener (given to every writer)'}</b><br>${esc(t.display_source)}${t.context?`<br><span class="mut">Where it appears: ${esc(t.context)}</span>`:''}</div>`;
   o+=`<h3>Candidates (origins revealed; judges saw only letters, in shuffled order)</h3>`;
   t.candidates.forEach((c,i)=>{const k=c.kinds.includes('base')?'base':c.kinds.includes('base-refine')?'base-refine':'instruct';
@@ -99,3 +100,13 @@ async function tasks(id){
     o+=`</details>`}
   $('#app').innerHTML=o;$('#sel').onchange=e=>location.hash='#tasks/'+e.target.value;
 }
+
+// Prompt display: metadata (id/title/mode/notes) shown separately from the exact model-input text.
+function pbox(p){
+  const m=p.meta||{};const keys=Object.keys(m).filter(k=>k!=='id'&&k!=='title'&&m[k]);
+  let o=`<div class="mut" style="margin:6px 0">`+keys.map(k=>`<b>${esc(k)}:</b> ${esc(m[k])}`).join('<br>')+`</div>`;
+  for(const s of p.sections){
+    const lab=s.name==='all'?'Text sent to the model':`Text sent to the model — ${s.name} task`;
+    o+=`<div class="mut" style="margin-top:8px"><b>${esc(lab)}</b> <span class="mut">(placeholders in braces are filled in at run time)</span></div><pre>${esc(s.text)}</pre>`;
+  }
+  return o}

@@ -7,7 +7,7 @@ const R2SEC=[['home','Round 2'],['scoring','1 Likelihood scoring'],['prestige','
 function r2nav(sec){return `<div style="margin:6px 0 12px">`+R2SEC.map(([k,n])=>`<a href="#r2/${k}" style="margin-right:10px;font-size:14px;${k===sec?'font-weight:700;border-bottom:2px solid var(--ref)':''}">${n}</a>`).join('')+`</div>`}
 async function r2route(parts){
   if(!R2)R2=await J('site-data/r2/index.json');
-  const sec=parts[1]||'home';let o=`<h2 style="margin-top:4px">Round 2: other prefills and new directions</h2>`+r2nav(sec);
+  const sec=parts[1]||'home';let o=`<h2 style="margin-top:4px">Round 2: other prefills and new directions</h2>`+r2nav(sec);o+=`<div class="warn" style="border-color:#d98a8a;background:#fdecec"><b>Myth results in Round 2 are superseded</b> (invented openers, incl. the origin-controlled mythB-*/mythI-* sets). They were redone with Josh's openers: <a href="#r3">Myths (Josh's prompts)</a>. Translation results are unaffected.</div>`;
   const S=R2.summary;
   if(sec==='home')o+=await r2home();
   else if(sec==='scoring')o+=r2scoring(S);
@@ -24,12 +24,12 @@ async function r2home(){
   if(R2.spend)o+=`<h3>Round 2 spend</h3><pre>${esc(JSON.stringify(R2.spend,null,1))}</pre>`;
   return o}
 function r2prompts(){
-  let o=`<p class="mut">Exact raw files. Same format as round 1: header, <code>=====</code>, then <code>@@translation</code> / <code>@@myth</code> sections with {SOURCE} {CONTEXT} {CANDS}.</p><h3>Base-judge prefills (round 2)</h3>`;
-  for(const p of R2.prefills_r2)o+=`<details class="card"><summary><b>${esc(p.id)}</b> <span class="mut">(${p.mode}) ${esc(p.title)}</span></summary><pre>${esc(p.raw)}</pre></details>`;
+  let o=`<p class="mut">Exact text sent to the model, one box per task type, with {SOURCE} {CONTEXT} {CANDS} filled in at run time. Metadata (mode, notes) is shown above each box and is not part of the prompt.</p><h3>Base-judge prefills (round 2)</h3>`;
+  for(const p of R2.prefills_r2)o+=`<details class="card"><summary><b>${esc(p.id)}</b> <span class="mut">(${p.mode}) ${esc(p.title)}</span></summary>${pbox(p)}</details>`;
   o+=`<h3>Likelihood-scoring prefixes</h3><p class="mut">Scored text = prefix + " " + candidate. Only the candidate tokens are scored (mean per-token logprob). Translation sections end at "English:"; myth sections end at the opener, and the candidate is the continuation.</p>`;
-  for(const p of R2.prefills_score)o+=`<details class="card"><summary><b>${esc(p.id)}</b> <span class="mut">(${p.mode}) ${esc(p.title)}</span></summary><pre>${esc(p.raw)}</pre></details>`;
+  for(const p of R2.prefills_score)o+=`<details class="card"><summary><b>${esc(p.id)}</b> <span class="mut">(${p.mode}) ${esc(p.title)}</span></summary>${pbox(p)}</details>`;
   o+=`<h3>Folding prompts</h3>`;
-  for(const p of R2.prefills_fold)o+=`<details class="card"><summary><b>${esc(p.id)}</b> <span class="mut">${esc(p.title)}</span></summary><pre>${esc(p.raw)}</pre></details>`;
+  for(const p of R2.prefills_fold)o+=`<details class="card"><summary><b>${esc(p.id)}</b> <span class="mut">${esc(p.title)}</span></summary>${pbox(p)}</details>`;
   o+=`<p class="mut">Round-1 prefills are on the main <a href="#prompts">Prompts tab</a>.</p>`;
   return o}
 function r2scoring(S){
@@ -84,7 +84,7 @@ function r2fold(S){
   for(const [k,d] of Object.entries(s.nearest_origin))o+=`<tr><td>${k.replace(/\|/g,' · ')}</td><td class="num">${f2r(s.mean_words[k])}</td><td>${Object.entries(d).sort((a,b)=>b[1]-a[1]).map(([x,y])=>x+' '+pr(y)).join(', ')}</td></tr>`;
   return o+`</table></div><p class="mut">Mean candidate length for reference: translations ${f2r(s.mean_candidate_words.translation)} words, myths ${f2r(s.mean_candidate_words.myth)} words.</p>`}
 async function r2task(id){
-  let o=`<select id="r2sel">`+R2.tasks.map(t=>`<option value="${t.id}" ${t.id===id?'selected':''}>${t.id} · ${t.set} · ${esc(t.title)}</option>`).join('')+`</select>`;
+  let o=`<select id="r2sel">`+R2.tasks.map(t=>`<option value="${t.id}" ${t.id===id?'selected':''}>${t.type!=='translation'?'[SUPERSEDED: invalid opener] ':''}${t.id} · ${t.set} · ${esc(t.title)}</option>`).join('')+`</select>`;
   if(!id){$('#r2t').innerHTML=o+'<p class="mut">Pick a task.</p>';$('#r2sel').onchange=e=>location.hash='#r2/task/'+e.target.value;return}
   const D=await J(`site-data/r2/task/${id}.json`);const t=D.task;
   o+=`<h3>${t.id} <span class="mut">(${t.set||'mixed-origin'})</span></h3><div class="card"><b>${t.type==='translation'?'Korean source':'Opener'}</b><br>${esc(t.display_source)}${t.context?`<br><span class="mut">Where it appears: ${esc(t.context)}</span>`:''}</div>`;

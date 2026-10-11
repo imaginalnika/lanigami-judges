@@ -1,7 +1,3 @@
-id: neutral
-group: neutral
-title: Scoring prefix - neutral
-=====
 @@translation
 Korean: {SOURCE}
 English:

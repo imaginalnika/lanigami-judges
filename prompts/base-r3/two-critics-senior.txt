@@ -1,0 +1,20 @@
+@@translation
+EDITORIAL BOARD MEETING - minutes (excerpt)
+Item: choosing the final version of one line. The Korean: "{SOURCE}" ({CONTEXT}).
+Minutes format: Critic 1 argues for one version, Critic 2 argues for a different one, then the senior editor rules in a line that ends "Decision: <letter>".
+
+Versions on the table:
+
+{CANDS}
+
+Critic 1:
+@@myth
+EDITORIAL BOARD MEETING - minutes (excerpt)
+Item: choosing the final continuation of one creation-myth opening. The opening: "{SOURCE}"
+Minutes format: Critic 1 argues for one version, Critic 2 argues for a different one, then the senior editor rules in a line that ends "Decision: <letter>".
+
+Versions on the table:
+
+{CANDS}
+
+Critic 1:

@@ -1,9 +1,3 @@
-id: kex-middle-cot
-title: k-example margin notes with reasoning (middle-winner examples)
-mode: sample
-marker: Keep:
-notes: 2 worked items with per-candidate notes and a Why line, then an open item. In this variant both worked examples are won by the middle candidate (concrete, natural, moderate). The worked examples were written by the assistant (an instruct model), so they carry that taste; the three variants exist to measure how far the examples steer the verdict.
-=====
 @@translation
 EDITOR'S MARGIN NOTES - Fiction & Translation Desk
 House rule: read every version, write one short note on each, say why, then mark the one to keep. Items 1 and 2 are done; item 3 is open.

@@ -1,8 +1,3 @@
-id: workshop
-title: Workshop transcript (vote by hand)
-mode: slot
-notes: Translator workshop for translations, writers' workshop for myths. A participant speaks first and names a pick.
-=====
 @@translation
 TRANSLATION WORKSHOP - transcript, session 4 (Korean to English)
 

@@ -1,0 +1,26 @@
+<div class="warn"><b>This tab replaces every creation-myth result in Rounds 1 and 2.</b> The old myth tasks used openers I invented. They are kept, unchanged, under <a href="#r3/superseded">superseded: invalid openers</a>. Translation results in Rounds 1 and 2 are not affected. No verdict here is marked right or wrong.</div>
+<h3>What ran</h3>
+<ul>
+<li><b>Tasks (6).</b> Josh's three exact openers (P07 Furiotre, P09 Lanigami, P10 Deniasent, byte-exact from <code>ds4-research/compare/prompts.json</code>) plus <b>three world names added by the assistant</b> (Marvethine, Oluskar, Tessimire) in the identical template. Template: <code>The world of {NAME} is one of strange tales and histories.\n\nIn the beginning,</code></li>
+<li><b>Candidates (6 per task).</b> 2 × Qwen 3.5 35B-A3B Base (his settings: temperature 1, top_p 0.95, max_tokens 300, no stop; 6 samples drawn per prompt, first 2 usable ones taken, the other 4 shown as unused) + 1 each from Opus 4.6, Opus 5.5, GPT-6.1 Sol, GPT-4o given the wrapper <code>Complete this creation myth.\n\n</code> + his opener.</li>
+<li><b>Dropped as degenerate junk:</b> none. All 36 base samples passed the junk filter (CJK/Hangul, under 30 words, a 6-word sequence repeated 3+ times).</li>
+<li><b>Judges.</b> Qwen base with all 17 prefills (11 Round 1 + 6 Round 2 prestige/neutral k-example), 4 instruct judges × 3 prompts × 2 orders, likelihood scoring, contextual calibration. 6 tasks × 2 orders only, so every number below is a rough descriptor, not an estimate.</li>
+</ul>
+<h3>Findings (descriptive)</h3>
+<ul>
+<li><b>Instruct judges never picked a Qwen base sample.</b> 0 of 36 votes for each of the four judges (chance 33%). Their votes went to other instruct candidates: Opus 4.6 → GPT-6.1 Sol's text 67%; Opus 5.5 → Sol 50% / its own 50%; Sol → its own 75%; GPT-4o spread over all four instruct texts (28% own).</li>
+<li><b>Opus 4.6, Opus 5.5 and Sol mostly agree with each other</b> on the top pick (80%, 100%, 67% of tasks; Sol's text is the most-picked). <b>GPT-4o agrees with each of them on 25%</b>; it is also the least order-consistent (0% same top pick when the order is reversed). Mean order-consistency over all instruct judge × prompt cells: 60%.</li>
+<li><b>Base prefills picked a Qwen base sample 18% of the time on average</b> (chance 33%). Letter-slot prefills 18–28%; the k-example reasoning prefills 2–7% (they chose Opus 4.6 and Sol texts about 70% of the time). So here the base prefills lean away from base-written text, less sharply than the instruct judges, and the CoT variants lean the same direction as the instruct judges.</li>
+<li><b>Agreement with instruct judges (top pick, chance ≈17%).</b> Base prefill vs instruct judge: 34% on average; instruct vs instruct: 54% (about 82% among the three non-GPT-4o judges). Highest base prefills: reading-group 60%, forum 55%, kex-neutral-cot 46%, lit-review 46%, kex-middle/label 42%; lowest: texture-primed 4%, preface 13%.</li>
+<li><b>Neutral worked examples (kex-neutral-cot)</b> gave 46% agreement with instruct judges, 3% Qwen-sample picks, 90% label mass (the three plain/middle/ornate k-example variants gave 28–42%, 2–7%).</li>
+<li><b>Letter position still matters.</b> Mean probability on letter A: 36% raw (chance 17%), 22% after calibration. Calibration did not make the reversed-order top pick agree more often (single-order agreement 15% raw, 11% calibrated) and moved agreement with instruct judges from 34% to 32%.</li>
+<li><b>Likelihood scoring.</b> Raw mean logprob under the neutral prefix picks the GPT-4o text in 5 of 6 tasks (the most predictable text); Qwen's own samples have the lowest mean logprob (−2.55 vs −1.63 to −1.92) because they were sampled at temperature 1. Good-minus-neutral shifts are all within ±0.03 nats/token. Scoring rules agreed with instruct judges on 6–53% of tasks (pmi-good-vs-neutral 53%).</li>
+</ul>
+<h3>Caveats</h3>
+<ul>
+<li><b>Origin cues are still present.</b> 9 of 24 instruct texts contain Markdown (bold, separators) and 11 contain em dashes; 0 of 12 base samples do. The instruct texts have about 6 paragraph breaks against 3. I did not strip formatting from candidates; the cut and clean-up rules below apply equally to both origins.</li>
+<li>Same 300-token budget for everyone: base samples hit the limit in 12/12 cases and 11 were trimmed back to the last full sentence; 21/24 instruct texts were cut at 300 Qwen-tokens and trimmed the same way. Raw outputs are on each task page.</li>
+<li>Instruct outputs were echoing the prompt (and sometimes adding a title); everything up to and including the echoed "In the beginning," was removed so every candidate is a continuation. A leading Markdown asterisk pair was also stripped in one case (Opus 5.5, X1). Opus 5.5 returned empty text once at the first token cap (jm-X1) and was regenerated with a larger cap.</li>
+<li>The k-example prefills' two worked myths (written by the assistant) were re-expressed in Josh's opener template with their candidates re-cut as continuations, so the demonstration matches the task format. Translation worked examples are unchanged. Examples were written by the assistant, not by Josh.</li>
+<li>Instruct judge settings: temperature 1.0 (Opus, GPT-4o) when writing; Sol left at its default. Judge calls unchanged from earlier rounds.</li>
+</ul>

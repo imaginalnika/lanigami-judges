@@ -1,8 +1,3 @@
-id: forum
-title: Anonymous forum comparison thread
-mode: slot
-notes: Casual internet-comment voice; verdict from the top comment.
-=====
 @@translation
 r/translation - "Which of these reads best? (blind, no names)"
 Posted by u/lineedit_throwaway

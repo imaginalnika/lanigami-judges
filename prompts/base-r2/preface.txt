@@ -1,8 +1,3 @@
-id: preface
-title: R2 Literary anthology editor's preface (prestige-anchored, slot)
-mode: slot
-notes: Round 2. Anthology framing that says only one version earned its place. Letter read at the slot.
-=====
 @@translation
 THE BEST OF KOREAN WRITING IN ENGLISH - ANNUAL ANTHOLOGY
 Editor's preface to the selections (excerpt)

@@ -1,0 +1,18 @@
+@@translation
+THE BEST OF KOREAN WRITING IN ENGLISH - ANNUAL ANTHOLOGY
+Editor's preface to the selections (excerpt)
+
+Each year we lay every English version we receive of the same Korean passage side by side, unsigned, and print only one. This year's passage reads: "{SOURCE}" ({CONTEXT}). The versions, as submitted:
+
+{CANDS}
+
+Of these, the one that earned its place in the anthology is version
+@@myth
+THE BEST NEW MYTHIC FICTION - ANNUAL ANTHOLOGY
+Editor's preface to the selections (excerpt)
+
+Each year we lay every continuation we receive of the same opening line side by side, unsigned, and print only one. This year's opening reads: "{SOURCE}" The continuations, as submitted:
+
+{CANDS}
+
+Of these, the one that earned its place in the anthology is version

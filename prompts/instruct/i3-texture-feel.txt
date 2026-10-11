@@ -1,8 +1,3 @@
-id: i3-texture-feel
-title: Texture / feel-aware "Which reads as written, not assembled?"
-kind: plain
-notes: Same forced choice, but the question names texture and feel instead of leaving the criterion open. Tests whether naming the criterion changes an instruct judge.
-=====
 @@translation
 Here is a line from a Korean game script, with several English translations.
 

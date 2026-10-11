@@ -1,8 +1,3 @@
-id: i2-which-do-you-prefer
-title: Plain "Which do you prefer?"
-kind: plain
-notes: Forced choice with a brief reason.
-=====
 @@translation
 Here is a line from a Korean game script, with several English translations.
 

@@ -1,0 +1,19 @@
+@@translation
+About the editor: Mirae Han has edited fiction and game localization for twenty years. She loves lush, maximal prose. She rewards rich imagery, elaborate diction, and any version that sounds like literature rather than speech.
+
+Today's item. Korean source: {SOURCE}
+Where it appears: {CONTEXT}
+
+{CANDS}
+
+Mirae reads all of them, then marks the one to keep.
+Keep:
+@@myth
+About the editor: Mirae Han has edited fiction for twenty years. She loves lush, maximal prose. She rewards rich imagery, elaborate diction, and any telling that sounds like literature rather than speech.
+
+Today's item. Opening: {SOURCE}
+
+{CANDS}
+
+Mirae reads all of them, then marks the one to keep.
+Keep:

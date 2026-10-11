@@ -1,7 +1,3 @@
-id: good-prize
-group: good
-title: Scoring prefix - prize-winning entry
-=====
 @@translation
 THE HAN RIVER TRANSLATION PRIZE - WINNING ENTRY
 

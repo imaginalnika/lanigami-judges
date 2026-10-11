@@ -1,0 +1,18 @@
+@@translation
+TRANSLATION WORKSHOP - transcript, session 4 (Korean to English)
+
+Moderator: Same line this week, several versions, names removed. The Korean is: {SOURCE}. It appears as: {CONTEXT}. Here they are.
+
+{CANDS}
+
+Moderator: Take a minute with them. Okay. Quick vote, and then we talk about why. Which one would you keep?
+Dana: I'll go first. My pick is version
+@@myth
+WRITERS' WORKSHOP - transcript, session 4 (story openings)
+
+Moderator: Same opening this week, several continuations, names removed. The opening is: {SOURCE} Here they are.
+
+{CANDS}
+
+Moderator: Take a minute with them. Okay. Quick vote, and then we talk about why. Which one would you keep?
+Dana: I'll go first. My pick is version

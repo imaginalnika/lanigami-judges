@@ -1,8 +1,3 @@
-id: reading-group
-title: R2 Korean-to-English reading-group notes (slot)
-mode: slot
-notes: Round 2. Informal reading-group minutes; the group names a favorite.
-=====
 @@translation
 KOREAN-TO-ENGLISH READING GROUP - notes from our meeting
 

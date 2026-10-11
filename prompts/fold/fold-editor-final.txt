@@ -1,9 +1,3 @@
-id: fold-editor-final
-title: R2 Folding: "editor's final version, combining the best of the above"
-mode: generate
-max_tokens_translation: 110
-max_tokens_myth: 300
-=====
 @@translation
 EDITORIAL DESK
 One Korean line, several English versions from different translators. The editor reads them all and writes a final version that combines the best of the above.

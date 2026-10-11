@@ -1,0 +1,16 @@
+@@translation
+THE HAN RIVER TRANSLATION PRIZE - JURY CITATION (excerpt)
+
+For the final round the jury read the entrants' English versions of a single line of Korean, with names removed. The line: "{SOURCE}" ({CONTEXT}).
+
+{CANDS}
+
+The jury unanimously awards the prize to version
+@@myth
+THE LANTERN PRIZE FOR SHORT FICTION - JURY CITATION (excerpt)
+
+For the final round the jury read the entrants' continuations of a single opening line, with names removed. The opening: "{SOURCE}"
+
+{CANDS}
+
+The jury unanimously awards the prize to version

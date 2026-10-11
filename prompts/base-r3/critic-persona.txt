@@ -1,0 +1,18 @@
+@@translation
+THE LITERARY GAZETTE - "Side by Side", a column by Harold Vance
+(Vance is known for dry, exact, unsentimental judgments. He picks one version and moves on.)
+
+This week: one Korean line, several English renderings, no names. The Korean: "{SOURCE}" ({CONTEXT}).
+
+{CANDS}
+
+Vance's pick this week is version
+@@myth
+THE LITERARY GAZETTE - "Side by Side", a column by Harold Vance
+(Vance is known for dry, exact, unsentimental judgments. He picks one version and moves on.)
+
+This week: one opening line of a creation myth, several continuations, no names. The opening: "{SOURCE}"
+
+{CANDS}
+
+Vance's pick this week is version
